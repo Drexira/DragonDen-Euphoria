@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "interchange_idea_office",
+    "ZoneName": "interchange_idea_office",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "3.473359",
+      "Y": "29.57579",
+      "Z": "-299.9892",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.9999906",
+      "Z": "0",
+      "W": "-0.004341513"
+    },
+    "Scale": {
+      "X": "20.56331",
+      "Y": "5.062928",
+      "Z": "6.419374",
+      "W": "0"
+    }
+  }
+]

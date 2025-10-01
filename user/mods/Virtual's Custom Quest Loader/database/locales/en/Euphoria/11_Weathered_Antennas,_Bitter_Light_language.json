@@ -1,0 +1,14 @@
+{
+  "68cd5ef070de940c09afa839 name": "Weathered Antennas, Bitter Light",
+  "68cd5ef070de940c09afa839 description": "I need the ridge station mapped to our rhythm. Tag each antenna with GPS Beacons so I can track sweeps and dead zones.\nWhile you are there, bring me a pinch of Gunpowder Eagle. It primes my tests and tells me your pockets can carry heat without leaking.\nLeave the weather station boring and intact; we are stealing the sky's gossip, not starting a story.",
+  "68cd5ef070de940c09afa839 startedMessageText": "Tag the tongues that talk to the sky with GPS.\nPocket a clean spark.\nLeave no new rumors.",
+  "68cd5ef070de940c09afa839 successMessageText": "Antennas pinned and the spark on my desk.\nNow we can write our own forecast.",
+  "68cd5ef070de940c09afa839 acceptPlayerMessage": "Mark each ridge antenna.\nFind Gunpowder Eagle and hand it over.\nKeep the station intact.",
+  "68cd5ef070de940c09afa839 completePlayerMessage": "Good work.\nWe will tune their weather to our needs.",
+  "68cd5ef00cb4931ceb3365be": "Mark the Weather Station Antenna #1",
+  "68cd5ef02dec84d5e2667644": "Mark the Weather Station Antenna #2",
+  "68cd5ef0f913108b2de8730c": "Mark the Weather Station Antenna #3",
+  "68cd5ef0ef13a63694050692": "Mark the Weather Station Antenna #4",
+  "68cd5e71c640c1da11aad2d4": "Find Gunpowder Eagle in raid",
+  "68cd5e710ed832466026a2b6": "Hand over Gunpowder Eagle"
+}

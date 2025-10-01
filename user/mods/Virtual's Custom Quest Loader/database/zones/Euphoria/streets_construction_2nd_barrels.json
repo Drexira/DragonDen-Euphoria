@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "streets_construction_2nd_barrels",
+    "ZoneName": "streets_construction_2nd_barrels",
+    "ZoneLocation": "TarkovStreets",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "207.9191",
+      "Y": "7.948775",
+      "Z": "297.5867",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.6985713",
+      "Z": "0",
+      "W": "0.7155405"
+    },
+    "Scale": {
+      "X": "5.190239",
+      "Y": "2.293699",
+      "Z": "2.645114",
+      "W": "0"
+    }
+  }
+]

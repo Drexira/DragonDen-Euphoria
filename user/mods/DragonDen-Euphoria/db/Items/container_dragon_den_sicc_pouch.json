@@ -1,0 +1,97 @@
+{
+    "68c3e7aff838b9309ee7bbd8": {
+        "itemTplToClone": "5d235bb686f77443f4331278",
+        "parentId": "5795f317245977243854e041",
+        "handbookParentId": "GEAR_CASES",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "dragonden/container/dragons_pouch.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 1.1,
+            "Height": 1,
+            "Width": 2,
+            "sizeHeight": 5,
+            "sizeWidth": 5,
+            "StackMaxSize": 1,
+            "isSecured": false,
+            "SearchSound": "techno_box_looting_01",
+            "DiscardingBlock": true,
+            "BackgroundColor": "blue",
+            "Grids": [
+                {
+                    "_name": "main1",
+                    "_id": "68c3e7adb04af862f6295550",
+                    "_parent": "68c3e7aff838b9309ee7bbd8",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "59faff1d86f7746c51718c9c",
+                                    "5f745ee30acaeb0d490d8c5b",
+                                    "5c1267ee86f77416ec610f72",
+                                    "5d235a5986f77443f6329bc6",
+                                    "59f32bb586f774757e1e8442",
+                                    "59f32c3b86f77472a31742f0",
+                                    "590c621186f774138d11ea29",
+                                    "543be5e94bdc2df1348b4568",
+                                    "543be5dd4bdc2deb348b4569",
+                                    "6662e9aca7e0b43baa3d5f74",
+                                    "6662e9cda7e0b43baa3d5f76",
+                                    "6662e9f37fa79a6d83730fa0",
+                                    "6662ea05f6259762c56f3189",
+                                    "67449b6c89d5e1ddc603f504",
+                                    "6759673c76e93d8eb20b2080",
+                                    "675dc9d37ae1a8792107ca96",
+                                    "675dcb0545b1a2d108011b2b",
+                                    "6764207f2fa5e32733055c4a",
+                                    "6764202ae307804338014c1a",
+                                    "619cbf9e0a7c3a1a2731940a",
+                                    "5448ecbe4bdc2d60728b4568",
+                                    "567849dd4bdc2d150f8b456e",
+                                    "68c3e897ff767e15a714e286"
+                                ],
+                                "ExcludedFilter": []
+                            }
+                        ],
+                        "cellsH": 5,
+                        "cellsV": 5,
+                        "minCount": 0,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "isSortingTable": false
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ],
+            "Slots": []
+        },
+        "locales": {
+            "en": {
+                "name": "Dragon Den S I C C Pouch",
+                "shortName": "DD S I C C",
+                "description": "Dragon Den S I C C Pouch is the unholy fusion of paranoia and greed. Shoves cash, keys, maps, and contraband into a void where logic dies. If you lose this, you might as well eat your gun."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 485213,
+        "handbookPriceRoubles": 348752,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "StaticLootContainers": [],
+        "addtoHallOfFame": false
+    }
+}

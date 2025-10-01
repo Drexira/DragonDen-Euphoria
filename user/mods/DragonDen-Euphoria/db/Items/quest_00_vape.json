@@ -1,0 +1,54 @@
+{
+    "68c2b13e601977f2abb6d5e5": {
+        "itemTplToClone": "5939a00786f7742fe8132936",
+        "parentId": "57864e4c24597754843f8723",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "dragonden/quest/vape.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "BackgroundColor": "violet",
+            "Weight": 0.2,
+            "Height": 2,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "RarityPvE": "Not_exist",
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Vape (Quest)",
+                "shortName": "Vape",
+                "description": ""
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "addtoLootLocation": false,
+        "QuestLocation": [
+            {
+                "Map": ["Interchange"],
+                "Position": {"x":95.72457,"y":36.7537956,"z":66.45607},
+                "Rotation": {"x":0.0,"y":350.60965,"z":0.0}
+            },
+            {
+                "Map": ["Interchange"],
+                "Position": {"x":98.6419449,"y":36.77071,"z":51.0479774},
+                "Rotation": {"x":0.0,"y":262.8854,"z":0.0}
+            }
+        ],
+        "addLooseLoot": false
+    }
+}

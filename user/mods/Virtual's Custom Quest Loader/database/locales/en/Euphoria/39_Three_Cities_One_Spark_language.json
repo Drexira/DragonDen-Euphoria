@@ -1,0 +1,13 @@
+{
+  "68d353aa57fef7eb0c29af16 name": "Three Cities, One Spark",
+  "68d353aa57fef7eb0c29af16 description": "Split the lesson across boards. Reserve gives me a clever hand, Streets gives me a heavy breath, and Factory learns to remember both.\nLast intel: the electrical detonator sits in White King upstairs on a desk. The C4 block is behind the Diner in the alley with the purple fish.\nPlant the switch on the Factory pumping station table and tuck the block under the medical tent corner in the basement. Clean lifts, neat placements, clean exit.\nWe are measuring response to whisper and shout so I can route crates without paying panic tax.",
+  "68d353aa57fef7eb0c29af16 startedMessageText": "Two cities to lift from, one to teach.\nSwitch from White King, block from the Diner alley.\nSet both in Factory and leave like you were never there.",
+  "68d353aa57fef7eb0c29af16 successMessageText": "Factory is holding its breath in two places and neither calls you by name.\nThat is the shape I wanted.",
+  "68d353aa57fef7eb0c29af16 acceptPlayerMessage": "Reserve first for the detonator. Streets next for the block. Factory last for both placements.\nMove steady, move boring. Exit intact.",
+  "68d353aa57fef7eb0c29af16 completePlayerMessage": "You stitched three boards with one thread and did not leave a knot.",
+  "68d34ac2a7093aca81425772": "Find Detonator Electrical in raid",
+  "68d34ac3c4eebdd2e8ed56e5": "Hide Detonator Electrical",
+  "68d34ac54c8f099d8d90429e": "Find C4 Bomb in raid",
+  "68d34ac596987636be8e5b1b": "Hide C4 Bomb",
+  "68d34ac592fdca5d39a23fd2": "Survive and Extract"
+}

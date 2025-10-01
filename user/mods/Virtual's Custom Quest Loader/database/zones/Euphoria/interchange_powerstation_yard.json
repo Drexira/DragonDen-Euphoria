@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "interchange_powerstation_yard",
+    "ZoneName": "interchange_powerstation_yard",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-203.6185",
+      "Y": "29.88499",
+      "Z": "-386.0443",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.9999995",
+      "Z": "0",
+      "W": "-0.0009886462"
+    },
+    "Scale": {
+      "X": "107.034",
+      "Y": "17.38454",
+      "Z": "24.06353",
+      "W": "0"
+    }
+  }
+]

@@ -1,0 +1,62 @@
+{
+    "68dc7c3592fdca71ff93b80a": {
+        "itemTplToClone": "5d44069ca4b9361ebd26fc37",
+        "parentId": "55818a594bdc2db9688b456a",
+        "handbookParentId": "MOD_STOCK",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": false,
+            "Prefab": {
+                "path": "dragonden/weaponparts/buttstocks/battlelink_minimalist_stock_tan.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 0.164,
+            "Height": 1,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "RarityPvE": "Superrare",
+            "BackgroundColor": "blue",
+            "ConflictingItems": [
+                "5a33e75ac4a2826c6e06d759",
+                "5c0e2ff6d174af02a1659d4a",
+                "668672b8c99550c6fd0f0b29",
+                "669cf78806768ff39504fc1c"
+            ],
+            "Ergonomics": 4,
+            "Recoil": -24
+        },
+        "locales": {
+            "en": {
+                "name": "BattleLink Minimalist Stock (Tan)",
+                "shortName": "BattleLink",
+                "description": "The Battlelink Minimalist Stock is a drop-in mil-spec carbine buttstock built from reinforced polymer with a skeletonized body, an angled non-slip buttpad, QD sling point and sling slots, and a lightweight profile that improves handling and control."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_stock_000",
+            "mod_stock"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 47753,
+        "handbookPriceRoubles": 16952,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": true,
+        "addtoStaticLootContainers": false,
+        "StaticLootContainers": [],
+        "addtoLootLocation": false,
+        "LootLocation": [],
+        "addLooseLoot": true,
+        "addLooseLootProbability": 250,
+        "addToHallOfFameBig": false,
+        "addtoStatuetteSlots": false
+    }
+}

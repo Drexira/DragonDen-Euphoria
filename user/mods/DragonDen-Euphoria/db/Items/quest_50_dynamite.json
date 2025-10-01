@@ -1,0 +1,57 @@
+{
+    "68d5bcb3ffffb452380f025a": {
+        "itemTplToClone": "5939a00786f7742fe8132936",
+        "parentId": "57864e4c24597754843f8723",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "dragonden/quest/dynamite.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "BackgroundColor": "violet",
+            "Weight": 0.2,
+            "Height": 2,
+            "Width": 3,
+            "StackMaxSize": 1,
+            "RarityPvE": "Not_exist",
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Dynamite (Quest)",
+                "shortName": "Dynamite",
+                "description": ""
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "addtoLootLocation": false,
+        "QuestLocation": [
+            {
+                "Map": ["bigmap"],
+                "Position": {
+                    "x": -201.403839,
+                    "y": 7.25044,
+                    "z": -103.207977
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 90.61427,
+                    "z": 0.0
+                }
+            }
+        ],
+        "addLooseLoot": false
+    }
+}

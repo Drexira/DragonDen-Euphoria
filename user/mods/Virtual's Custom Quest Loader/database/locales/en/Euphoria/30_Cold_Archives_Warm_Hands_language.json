@@ -1,0 +1,12 @@
+{
+  "68d00d913564e1b567056591 name": "Cold Archives, Warm Hands",
+  "68d00d913564e1b567056591 description": "Good gear should be easy to buy, and good records should be easy to trust.\nI am rebuilding an archive that stays honest when the grid lies. CPU fans keep the air moving and PSUs keep the boards from praying to luck.\nBring both together so I can keep manifests straight and prices clean.",
+  "68d00d913564e1b567056591 startedMessageText": "Bring fans for breath and power that does not stutter.\nNo cracks, no bent pins.",
+  "68d00d913564e1b567056591 successMessageText": "The archive sighed and settled.\nYour hands remembered warmth.",
+  "68d00d913564e1b567056591 acceptPlayerMessage": "Collect clean CPU fans and patient power supplies.\nDeliver both together without drama.",
+  "68d00d913564e1b567056591 completePlayerMessage": "Good maintenance is quiet heroism.\nYou wore that well.",
+  "68d00cfec02e0f68d7e83c82": "Find CPU Fan in raid",
+  "68d00cfee2a51b60265e1090": "Hand over CPU Fan",
+  "68d00d00039f22415a103bb5": "Find Power Supply Unit in raid",
+  "68d00d00a5acdbcaf9b3dbc1": "Hand over Power Supply Unit"
+}

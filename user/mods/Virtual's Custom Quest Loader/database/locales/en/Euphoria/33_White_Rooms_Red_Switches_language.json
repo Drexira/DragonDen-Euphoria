@@ -1,0 +1,13 @@
+{
+  "68d0244acbd8a7b56646cc38 name": "White Rooms, Red Switches",
+  "68d0244acbd8a7b56646cc38 description": "Treat Labs like a patient. A shock to wake, a hush to sleep. I want the garage bay mapped to our rhythm without changing the story.\nLast intel says the detonator sits in a violet room and the charge in the Res Unit. Lift both clean. Plant them at the Eastern Bay office and the garage door, then leave the tiles bored.\nWe are testing response, not chasing alarms.",
+  "68d0244acbd8a7b56646cc38 startedMessageText": "Two parts, one lesson.\nCollect the brain and the breath, place both in the bay, and walk out like staff.",
+  "68d0244acbd8a7b56646cc38 successMessageText": "Placements read clean and the bay kept its manners.\nThat is good medicine.",
+  "68d0244acbd8a7b56646cc38 acceptPlayerMessage": "Lift a detonator and a charge.\nPlant both in the Garage Bay.\nExit alive.",
+  "68d0244acbd8a7b56646cc38 completePlayerMessage": "You charted nothing and achieved everything.\nWe will use those timings.",
+  "68d022e46a84dd2223792198": "Find Detonator Electrical in raid",
+  "68d022e40db32bd6156c34e8": "Hide Detonator Electrical",
+  "68d022e5422608bcba57ba25": "Find C4 Bomb in raid",
+  "68d022e574c228a96b281b6a": "Hide C4 Bomb",
+  "68d022e6674fce1ddefa7fba": "Survive and Extract"
+}

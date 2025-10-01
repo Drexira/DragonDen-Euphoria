@@ -1,0 +1,173 @@
+{
+  "68cbf83b0f74bdfa918376ed": {
+    "QuestName": "Red Breath for Cold Gears",
+    "_id": "68cbf83b0f74bdfa918376ed",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "PickUp",
+    "location": "56f40101d2720b2a4d8b45d6",
+    "image": "/files/quest/icon/3_Red_Breath_for_Cold_Gears.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68cbf83b0f74bdfa918376ed description",
+    "startedMessageText": "68cbf83b0f74bdfa918376ed startedMessageText",
+    "successMessageText": "68cbf83b0f74bdfa918376ed successMessageText",
+    "failMessageText": "68cbf83b0f74bdfa918376ed failMessageText",
+    "acceptPlayerMessage": "68cbf83b0f74bdfa918376ed acceptPlayerMessage",
+    "declinePlayerMessage": "68cbf83b0f74bdfa918376ed declinePlayerMessage",
+    "completePlayerMessage": "68cbf83b0f74bdfa918376ed completePlayerMessage",
+    "changeQuestMessageText": "68cbf83b0f74bdfa918376ed changeQuestMessageText",
+    "name": "68cbf83b0f74bdfa918376ed name",
+    "note": "68cbf83b0f74bdfa918376ed note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cbef6fe0a6825b1a1f733f",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68c2b14cce17ee9f5512f3b7"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "68cbef7c3e633132eb805638",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68c2b14cce17ee9f5512f3b7"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cbf83b3ffaeee169ef321e",
+              "target": "68cbef6fe0a6825b1a1f733f"
+            }
+          ],
+          "zoneId": "customs_big_red_barrel_stash",
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cbf83b347f80033f9de609",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68c9cea9ac9b0e8c3aba6238",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68cbf83b04ac4dbed21d3677",
+          "index": 0,
+          "type": "Experience",
+          "value": "4200",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cbf83b822eb63a2c8bc998",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.01",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cbf83b2d2c0617c06c9193",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68cbf83bb815b9a8a2c85c0b",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 22000
+              }
+            }
+          ],
+          "target": "68cbf83bb815b9a8a2c85c0b",
+          "type": "Item",
+          "value": "22000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cbfb1f2931f4666c712ef1",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68cbfb19ed3da0215407715f",
+              "_tpl": "5d1b371186f774253763a656",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68cbfb19ed3da0215407715f",
+          "type": "Item",
+          "value": "1",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cbf83b64d64b5a42e63ab0",
+          "index": 4,
+          "target": "Endurance",
+          "type": "Skill",
+          "unknown": true,
+          "value": "100"
+        }
+      ]
+    }
+  }
+}

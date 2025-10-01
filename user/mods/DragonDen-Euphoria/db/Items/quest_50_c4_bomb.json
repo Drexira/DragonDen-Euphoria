@@ -1,0 +1,49 @@
+{
+    "68d5be133dbd7bd65915f3e7": {
+        "itemTplToClone": "5939a00786f7742fe8132936",
+        "parentId": "57864e4c24597754843f8723",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "dragonden/quest/c4_bomb.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "BackgroundColor": "violet",
+            "Weight": 0.2,
+            "Height": 2,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "RarityPvE": "Not_exist",
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "C4 Bomb (Quest)",
+                "shortName": "C4",
+                "description": ""
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "addtoLootLocation": false,
+        "QuestLocation": [
+            {
+                "Map": ["RezervBase"],
+                "Position": {"x":-129.213165,"y":-5.60468435,"z":-18.07806},
+                "Rotation": {"x":0.0,"y":181.890808,"z":0.0}
+            }
+        ],
+        "addLooseLoot": false
+    }
+}

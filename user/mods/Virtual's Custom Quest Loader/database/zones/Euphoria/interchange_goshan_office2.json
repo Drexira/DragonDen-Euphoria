@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "interchange_goshan_office2",
+    "ZoneName": "interchange_goshan_office2",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-71.80972",
+      "Y": "27.08802",
+      "Z": "46.55033",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.001850993",
+      "Z": "0",
+      "W": "-0.9999983"
+    },
+    "Scale": {
+      "X": "16.29176",
+      "Y": "4.303546",
+      "Z": "14.79419",
+      "W": "0"
+    }
+  }
+]

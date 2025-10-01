@@ -1,0 +1,10 @@
+{
+  "68cece61aa6d1fe5bf2a0ca7 name": "Blue Tongue for the Pumps",
+  "68cece61aa6d1fe5bf2a0ca7 description": "Water Treatment keeps counting ghosts at night. I want the pumps drowsy so my crates move without a speech.\nLast intel says the long blue propane sits by the train warehouse. Lift it and hide it in the Water Treatment Pumping Station.\nIn and out. No signatures.",
+  "68cece61aa6d1fe5bf2a0ca7 startedMessageText": "Give the pumps a blue tongue.\nCarry quiet, place quiet, leave quieter.",
+  "68cece61aa6d1fe5bf2a0ca7 successMessageText": "The pumps are yawning and your route is still your secret.",
+  "68cece61aa6d1fe5bf2a0ca7 acceptPlayerMessage": "Lift the long blue from the train warehouse.\nPlant it in the Water Treatment Pumping Station.\nWalk out like fog.",
+  "68cece61aa6d1fe5bf2a0ca7 completePlayerMessage": "Good lullaby. Machines sleep better when you sing.",
+  "68cece2863dbae694913bd13": "Find Propane Tank Long Blue",
+  "68cece285e56fb39a0cebae1": "Hide Propane Tank Long Blue"
+}

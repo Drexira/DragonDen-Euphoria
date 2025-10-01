@@ -1,0 +1,261 @@
+{
+  "68c96f542cc57139c960a872": {
+    "QuestName": "Whispers Through Shattered Glass",
+    "_id": "68c96f542cc57139c960a872",
+    "traderId": "54cb57776803fa99248b456e",
+    "type": "Exploration",
+    "location": "653e6760052c01c1c805532f",
+    "image": "/files/quest/icon/0_Whispers_Through_Shattered_Glass.jpg",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68c96f542cc57139c960a872 description",
+    "startedMessageText": "68c96f542cc57139c960a872 startedMessageText",
+    "successMessageText": "68c96f542cc57139c960a872 successMessageText",
+    "failMessageText": "68c96f542cc57139c960a872 failMessageText",
+    "acceptPlayerMessage": "68c96f542cc57139c960a872 acceptPlayerMessage",
+    "declinePlayerMessage": "68c96f542cc57139c960a872 declinePlayerMessage",
+    "completePlayerMessage": "68c96f542cc57139c960a872 completePlayerMessage",
+    "changeQuestMessageText": "68c96f542cc57139c960a872 changeQuestMessageText",
+    "name": "68c96f542cc57139c960a872 name",
+    "note": "68c96f542cc57139c960a872 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68c92efdc65d5643919c1526",
+          "index": 0,
+          "isNecessary": true,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68c2b13c0a8ceb59831e2d58"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68c96f54a61d710b1d8e1006",
+          "index": 1,
+          "isNecessary": true,
+          "isResetOnConditionFailed": false,
+          "parentId": "",
+          "plantTime": 15,
+          "target": [
+            "5991b51486f77447b112d44f"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68c976988c85bfdf65e42ac7",
+              "target": "68c92efdc65d5643919c1526"
+            }
+          ],
+          "zoneId": "ground_zero_lavage_entrance"
+        },
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68c96f5433816ac29eabbc37",
+          "index": 2,
+          "isNecessary": true,
+          "isResetOnConditionFailed": false,
+          "parentId": "",
+          "plantTime": 15,
+          "target": [
+            "5991b51486f77447b112d44f"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68c97699f5de0b3648d49aea",
+              "target": "68c92efdc65d5643919c1526"
+            }
+        ],
+          "zoneId": "ground_zero_empire_safe"
+        },
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68c96f54e82fd71fb8b03fa1",
+          "index": 3,
+          "isNecessary": true,
+          "isResetOnConditionFailed": false,
+          "parentId": "",
+          "plantTime": 15,
+          "target": [
+            "5991b51486f77447b112d44f"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68c9769b7a4cd263f7975588",
+              "target": "68c92efdc65d5643919c1526"
+            }
+        ],
+          "zoneId": "ground_zero_credit_bank_truck"
+        },
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68c96f54b4e9c1d9c97976f9",
+          "index": 4,
+          "isNecessary": true,
+          "isResetOnConditionFailed": false,
+          "parentId": "",
+          "plantTime": 15,
+          "target": [
+            "5991b51486f77447b112d44f"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68c9769d4d9072681ac10074",
+              "target": "68c92efdc65d5643919c1526"
+            }
+        ],
+          "zoneId": "ground_zero_tarbank_elevator"
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68c99b3a7fecd3b9a6a5c56b",
+          "index": 5,
+          "isNecessary": true,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "68c99b2abc05c537feb35247",
+          "target": [
+            "68c2b13c0a8ceb59831e2d58"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68c99b178497a512182a2474",
+              "target": "68c92efdc65d5643919c1526"
+            },
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68c99b1729655a112cdb307e",
+              "target": "68c96f54a61d710b1d8e1006"
+            },
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68c99b15a39293d6a587f588",
+              "target": "68c96f5433816ac29eabbc37"
+            },
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68c99b15c9d63432c716fba2",
+              "target": "68c96f54b4e9c1d9c97976f9"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [
+        {
+          "findInRaid": true,
+          "id": "68c96f54bdffa3482f15514c",
+          "index": 0,
+          "items": [
+            {
+              "_id": "68c96f54f68f7ac86a4d6ec6",
+              "_tpl": "5991b51486f77447b112d44f",
+              "upd": {
+                "StackObjectsCount": 2
+              }
+            }
+          ],
+          "target": "68c96f54f68f7ac86a4d6ec6",
+          "type": "Item",
+          "value": "1"
+        }
+      ],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68c96f547ef5a39687ecbbd8",
+          "index": 0,
+          "type": "Experience",
+          "value": "2000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68c96f54b0043b79a2ea6cf8",
+          "index": 1,
+          "target": "54cb57776803fa99248b456e",
+          "type": "TraderStanding",
+          "value": "0.01",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68c96f5452c3f35bb2a974af",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68c96f545b5848a31c635ccc",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 15000
+              }
+            }
+          ],
+          "target": "68c96f545b5848a31c635ccc",
+          "type": "Item",
+          "value": "15000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68c970611e8166813cf739a6",
+          "index": 3,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderUnlock",
+          "unknown": false
+        }
+      ]
+    }
+  }
+}

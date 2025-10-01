@@ -1,0 +1,182 @@
+{
+  "68cd90475a68cc7fe2e2ac59": {
+    "QuestName": "Tracks that Lead Downward",
+    "_id": "68cd90475a68cc7fe2e2ac59",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "PickUp",
+    "location": "5704e5fad2720bc05b8b4567",
+    "image": "/files/quest/icon/14_Tracks_that_Lead_Downward.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68cd90475a68cc7fe2e2ac59 description",
+    "startedMessageText": "68cd90475a68cc7fe2e2ac59 startedMessageText",
+    "successMessageText": "68cd90475a68cc7fe2e2ac59 successMessageText",
+    "failMessageText": "68cd90475a68cc7fe2e2ac59 failMessageText",
+    "acceptPlayerMessage": "68cd90475a68cc7fe2e2ac59 acceptPlayerMessage",
+    "declinePlayerMessage": "68cd90475a68cc7fe2e2ac59 declinePlayerMessage",
+    "completePlayerMessage": "68cd90475a68cc7fe2e2ac59 completePlayerMessage",
+    "changeQuestMessageText": "68cd90475a68cc7fe2e2ac59 changeQuestMessageText",
+    "name": "68cd90475a68cc7fe2e2ac59 name",
+    "note": "68cd90475a68cc7fe2e2ac59 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cd8f548dd071fad19ae1ee",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68cd92c8aed61ae8d4172145"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cd8f5425edc42a96ad648d",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68cd92c8aed61ae8d4172145"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cd904701268f0b7914ea72",
+              "target": "68cd8f548dd071fad19ae1ee"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cd90473ca6664a7df9bbca",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68cd8d43623ef40b2d1c273f",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68cd9047f4e67de9b5259214",
+          "index": 0,
+          "type": "Experience",
+          "value": "8200",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cd904759e2f121bed8a08b",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.02",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cd904723d70d0a29f601c8",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68cd9047115d0fc0d0fa9966",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 48000
+              }
+            }
+          ],
+          "target": "68cd9047115d0fc0d0fa9966",
+          "type": "Item",
+          "value": "48000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cd904720083097d55e0838",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68cd904788673a37362ddaf5",
+              "_tpl": "65702652cfc010a0f5006a53",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68cd904788673a37362ddaf5",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cd9047511fe857b002adc4",
+          "index": 4,
+          "items": [
+            {
+              "_id": "68cd9047f44436ef72e0b85a",
+              "_tpl": "5c05308086f7746b2101e90b",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68cd9047f44436ef72e0b85a",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

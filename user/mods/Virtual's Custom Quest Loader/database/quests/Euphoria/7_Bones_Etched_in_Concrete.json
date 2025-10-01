@@ -1,0 +1,196 @@
+{
+  "68cc5f0fb08f28b70e138ac7": {
+    "QuestName": "Bones Etched in Concrete",
+    "_id": "68cc5f0fb08f28b70e138ac7",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Multi",
+    "location": "56f40101d2720b2a4d8b45d6",
+    "image": "/files/quest/icon/7_Bones_Etched_in_Concrete.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68cc5f0fb08f28b70e138ac7 description",
+    "startedMessageText": "68cc5f0fb08f28b70e138ac7 startedMessageText",
+    "successMessageText": "68cc5f0fb08f28b70e138ac7 successMessageText",
+    "failMessageText": "68cc5f0fb08f28b70e138ac7 failMessageText",
+    "acceptPlayerMessage": "68cc5f0fb08f28b70e138ac7 acceptPlayerMessage",
+    "declinePlayerMessage": "68cc5f0fb08f28b70e138ac7 declinePlayerMessage",
+    "completePlayerMessage": "68cc5f0fb08f28b70e138ac7 completePlayerMessage",
+    "changeQuestMessageText": "68cc5f0fb08f28b70e138ac7 changeQuestMessageText",
+    "name": "68cc5f0fb08f28b70e138ac7 name",
+    "note": "68cc5f0fb08f28b70e138ac7 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cc5f0f6e488aabafdf5d7f",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68d4942bbdad148f7a9769ac"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "customs_2storydorms_boilerroom"
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "68cc5d852fd7264ac716db4e",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsInclusive": [],
+                "weaponModsExclusive": [],
+                "equipmentInclusive": [],
+                "equipmentExclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68cc5f0f9d7b408316449814",
+                "target": [
+                  "bigmap"
+                ]
+              }
+            ],
+            "id": "68cc5f0f044de58cb11a58c0"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cc5f0f637dcd9ec4c41dba",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 12,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cc61a2fc5f87a237eeac3c",
+              "target": "68cc5f0f6e488aabafdf5d7f"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cc5f0f53fe085cd2f33368",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68cc1cc3cbd90097306b0f65",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68cc5f0f9673602c6834d1e6",
+          "index": 0,
+          "type": "Experience",
+          "value": "6400",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cc5f0fe408bd8221f8497e",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.02",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cc5f0fb81620b0e585b1d0",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68cc5f0f734bc0c6935e26d9",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 36000
+              }
+            }
+          ],
+          "target": "68cc5f0f734bc0c6935e26d9",
+          "type": "Item",
+          "value": "36000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cc5f0f22dadcc7df0224ef",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68cc5f0f662d0abfa63b908b",
+              "_tpl": "68c2f79a40ea61309736eb31",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68cc5f0f662d0abfa63b908b",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

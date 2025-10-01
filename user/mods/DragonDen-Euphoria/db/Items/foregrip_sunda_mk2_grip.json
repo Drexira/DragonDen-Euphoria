@@ -1,0 +1,59 @@
+{
+    "68d9fb11f3c519e70ba78e21": {
+        "itemTplToClone": "5c1bc5af2e221602b412949b",
+        "parentId": "55818af64bdc2d5b648b4570",
+        "handbookParentId": "MOD_FOREGRIP",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": false,
+            "Prefab": {
+                "path": "dragonden/weaponparts/foregrips/sunda_mk2_foregrip.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 0.081,
+            "Height": 1,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "RarityPvE": "Superrare",
+            "BackgroundColor": "blue",
+            "ConflictingItems": [
+                "62e7e7bbe6da9612f743f1e0"
+            ],
+            "Ergonomics": 7,
+            "Recoil": -3
+        },
+        "locales": {
+            "en": {
+                "name": "Sunda MK2 Grip",
+                "shortName": "Sunda",
+                "description": "The Sunda MK2 Grip is a lightweight, reinforced-polymer vertical foregrip with aggressive texturing and an ergonomic profile that boosts recoil control and handling for fast, precise shots."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_foregrip",
+            "mod_handguard"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 15233,
+        "handbookPriceRoubles": 11338,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": true,
+        "addtoStaticLootContainers": false,
+        "StaticLootContainers": [],
+        "addtoLootLocation": false,
+        "LootLocation": [],
+        "addLooseLoot": true,
+        "addLooseLootProbability": 250,
+        "addToHallOfFameBig": false,
+        "addtoStatuetteSlots": false
+    }
+}

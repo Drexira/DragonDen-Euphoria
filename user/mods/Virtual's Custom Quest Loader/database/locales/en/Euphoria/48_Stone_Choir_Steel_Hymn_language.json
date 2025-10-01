@@ -1,0 +1,12 @@
+{
+  "68d5a7ef02220c23ad389d46 name": "Stone Choir, Steel Hymn",
+  "68d5a7ef02220c23ad389d46 description": "Three boards, one rhythm.\nI am timing patrols and panic across Streets, Customs, and Reserve.\nClear the chatter on each without rushing so my runners can move crates at a steady pulse.\nMiss a beat and the street hears it.",
+  "68d5a7ef02220c23ad389d46 startedMessageText": "Three boards, one rhythm.\nKeep time and do not rush.",
+  "68d5a7ef02220c23ad389d46 successMessageText": "Your rhythm held from block to bunker.\nThat steadiness is rare.",
+  "68d5a7ef02220c23ad389d46 failMessageText": "You sped up, slowed down, or dropped the beat.\nFind your tempo and return.",
+  "68d5a7ef02220c23ad389d46 acceptPlayerMessage": "Streets, Customs, Reserve.\nWork steady and leave whole.",
+  "68d5a7ef02220c23ad389d46 completePlayerMessage": "Different rooms, same song.\nYou conducted it well.",
+  "68d5a754777d378aef58fd87": "Eliminate Scavs on Streets",
+  "68d5a75556d5a210682c9544": "Eliminate Scavs on Customs",
+  "68d5a755b315bc8a7285888d": "Eliminate Scavs on Reserve"
+}

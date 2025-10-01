@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "interchange_oli_logistics_office",
+    "ZoneName": "interchange_oli_logistics_office",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "87.51236",
+      "Y": "28.81605",
+      "Z": "101.2396",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.7091755",
+      "Z": "0",
+      "W": "0.7050321"
+    },
+    "Scale": {
+      "X": "5.489378",
+      "Y": "3.366092",
+      "Z": "8.092204",
+      "W": "0"
+    }
+  }
+]

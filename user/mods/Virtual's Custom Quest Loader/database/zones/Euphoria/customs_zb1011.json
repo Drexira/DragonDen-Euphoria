@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "customs_zb1011",
+    "ZoneName": "customs_zb1011",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "461.4547",
+      "Y": "-1.520209",
+      "Z": "-111.7036",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.657671",
+      "Z": "0",
+      "W": "-0.7533053"
+    },
+    "Scale": {
+      "X": "2.891799",
+      "Y": "2.553146",
+      "Z": "16.90681",
+      "W": "0"
+    }
+  }
+]

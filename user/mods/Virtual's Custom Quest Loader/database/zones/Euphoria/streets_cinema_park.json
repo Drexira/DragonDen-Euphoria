@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "streets_cinema_park",
+    "ZoneName": "streets_cinema_park",
+    "ZoneLocation": "TarkovStreets",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-77.78476",
+      "Y": "-0.0923562",
+      "Z": "400.972",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.999998",
+      "Z": "0",
+      "W": "0.001969293"
+    },
+    "Scale": {
+      "X": "55.46666",
+      "Y": "14.02784",
+      "Z": "22.77056",
+      "W": "0"
+    }
+  }
+]

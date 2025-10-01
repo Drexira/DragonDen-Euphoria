@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "interchange_power_station_transformers",
+    "ZoneName": "interchange_power_station_transformers",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-239.6026",
+      "Y": "23.89623",
+      "Z": "-318.749",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.7091357",
+      "Z": "0",
+      "W": "-0.7050729"
+    },
+    "Scale": {
+      "X": "20.68052",
+      "Y": "5.846869",
+      "Z": "12.35849",
+      "W": "0"
+    }
+  }
+]

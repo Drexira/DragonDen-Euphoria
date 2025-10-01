@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "shoreline_resort_admin_entrance",
+    "ZoneName": "shoreline_resort_admin_entrance",
+    "ZoneLocation": "Shoreline",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-251.8276",
+      "Y": "-2.643267",
+      "Z": "-130.6023",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.001017721",
+      "Z": "0",
+      "W": "-0.9999995"
+    },
+    "Scale": {
+      "X": "5.148184",
+      "Y": "3.315549",
+      "Z": "3.072234",
+      "W": "0"
+    }
+  }
+]

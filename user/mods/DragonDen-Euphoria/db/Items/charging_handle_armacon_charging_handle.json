@@ -1,0 +1,65 @@
+{
+    "68d87218c4785607ae0df815": {
+        "itemTplToClone": "6130ca3fd92c473c77020dbd",
+        "parentId": "55818a6f4bdc2db9688b456b",
+        "handbookParentId": "MOD_CHARGE",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": false,
+            "Prefab": {
+                "path": "dragonden/weaponparts/charging_handle/armacon_charging_handle.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 0.019,
+            "Height": 1,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "RarityPvE": "Rare",
+            "BackgroundColor": "blue",
+            "ConflictingItems": [],
+            "DurabilityBurnModificator": 1,
+            "Ergonomics": 3
+        },
+        "locales": {
+            "en": {
+                "name": "Armacon Кпорка",
+                "shortName": "Кпорка",
+                "description": "Armacon charging handle made from D16T2 aluminum. Non-slip finish grip on charging handle.\nWorks with most AK type rifles."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_charge"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 13750,
+        "handbookPriceRoubles": 6000,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": true,
+        "addtoStaticLootContainers": false,
+        "StaticLootContainers": [
+            { "ContainerName": "LOOTCONTAINER_DEAD_SCAV", "Probability": 120 },
+            { "ContainerName": "LOOTCONTAINER_AIRDROP_COMMON_SUPPLY_CRATE", "Probability": 120 },
+            { "ContainerName": "LOOTCONTAINER_BURIED_BARREL_CACHE", "Probability": 170 },
+            { "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH", "Probability": 75 },
+            { "ContainerName": "LOOTCONTAINER_DUFFLE_BAG", "Probability": 106 },
+            { "ContainerName": "LOOTCONTAINER_DUFFLE_BAG_ADV", "Probability": 123 },
+            { "ContainerName": "LOOTCONTAINER_GROUND_CACHE", "Probability": 96 },
+            { "ContainerName": "LOOTCONTAINER_RATION_SUPPLY_CRATE", "Probability": 127 }
+        ],
+        "addtoLootLocation": false,
+        "LootLocation": [],
+        "addLooseLoot": false,
+        "addLooseLootProbability": 250,
+        "addToHallOfFameBig": false,
+        "addtoStatuetteSlots": false
+    }
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "streets_pinewood_garage_ramp",
+    "ZoneName": "streets_pinewood_garage_ramp",
+    "ZoneLocation": "TarkovStreets",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-94.89915",
+      "Y": "-2.085346",
+      "Z": "175.0876",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.7622418",
+      "Z": "0",
+      "W": "0.6472925"
+    },
+    "Scale": {
+      "X": "11.67961",
+      "Y": "7.398287",
+      "Z": "16.51804",
+      "W": "0"
+    }
+  }
+]

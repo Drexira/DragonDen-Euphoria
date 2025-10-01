@@ -1,0 +1,12 @@
+{
+  "68d5b1e2f7cd41eb65d04667 name": "Sleep for the Pumps, Twice",
+  "68d5b1e2f7cd41eb65d04667 description": "Two plants, two lullabies.\nCustoms: pull a long grey propane from Warehouse 7 and bed it in the construction pump pit.\nWoods: lift a long blue propane from the USEC camp and tuck it in the sawmill warehouse.\nIf anyone asks you to explain yourself, you stayed too long.",
+  "68d5b1e2f7cd41eb65d04667 startedMessageText": "Two plants, two lullabies.\nLay and leave.",
+  "68d5b1e2f7cd41eb65d04667 successMessageText": "Both pumps yawned and rolled over.\nYou were already gone.",
+  "68d5b1e2f7cd41eb65d04667 acceptPlayerMessage": "Grey from warehouse, blue from camp.\nPit and shed. Out quiet.",
+  "68d5b1e2f7cd41eb65d04667 completePlayerMessage": "Twin hushes in different rooms.\nPerfect symmetry.",
+  "68d5ae3f7d7787b5cc9aaf7e": "Find Propane Tank Long Grey",
+  "68d5ae41867eabe636cb2d8b": "Hide Propane Tank Long Grey",
+  "68d5ae454bbe600bbe007e65": "Find Propane Tank Long Blue",
+  "68d5ae454cd0b182dbda5c16": "Hide Propane Tank Long Blue"
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "lighthouse_chalet_upper_study",
+    "ZoneName": "lighthouse_chalet_upper_study",
+    "ZoneLocation": "Lighthouse",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-116.0079",
+      "Y": "40.99092",
+      "Z": "94.98977",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.7087572",
+      "Z": "0",
+      "W": "0.7054525"
+    },
+    "Scale": {
+      "X": "6.524938",
+      "Y": "2.667249",
+      "Z": "8.969445",
+      "W": "0"
+    }
+  }
+]

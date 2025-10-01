@@ -1,0 +1,286 @@
+{
+  "68cecb1d1f236c62e1c0ea85": {
+    "QuestName": "Paper Doors, Salt Air",
+    "_id": "68cecb1d1f236c62e1c0ea85",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Exploration",
+    "location": "5704e4dad2720bb55b8b4567",
+    "image": "/files/quest/icon/25_Paper_Doors_Salt_Air.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68cecb1d1f236c62e1c0ea85 description",
+    "startedMessageText": "68cecb1d1f236c62e1c0ea85 startedMessageText",
+    "successMessageText": "68cecb1d1f236c62e1c0ea85 successMessageText",
+    "failMessageText": "68cecb1d1f236c62e1c0ea85 failMessageText",
+    "acceptPlayerMessage": "68cecb1d1f236c62e1c0ea85 acceptPlayerMessage",
+    "declinePlayerMessage": "68cecb1d1f236c62e1c0ea85 declinePlayerMessage",
+    "completePlayerMessage": "68cecb1d1f236c62e1c0ea85 completePlayerMessage",
+    "changeQuestMessageText": "68cecb1d1f236c62e1c0ea85 changeQuestMessageText",
+    "name": "68cecb1d1f236c62e1c0ea85 name",
+    "note": "68cecb1d1f236c62e1c0ea85 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "68cecb7e572db6d726829619",
+                "target": "lighthouse_southern_beach",
+                "value": 1
+              }
+            ],
+            "id": "68cecb7e75c0ce5e55d80be0"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68ceca532cdb3954b6274603",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "68cecb7bf4c703d121b50704",
+                "target": "lighthouse_northern_beach",
+                "value": 1
+              }
+            ],
+            "id": "68cecb7a2049e1eb3f096cfe"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68ceca539bf825400cd05350",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "68cecb787233fcfcdb32e388",
+                "target": "lighthouse_chalet_upper_study",
+                "value": 1
+              }
+            ],
+            "id": "68cecb78fbf20ba65d1adc80"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68ceca540af83ec248ea77c6",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "68cecb76361344430c013784",
+                "target": "lighthouse_village",
+                "value": 1
+              }
+            ],
+            "id": "68cecb7591eff15954d956c4"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68ceca5500ef1c5d6fa747bb",
+          "index": 3,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "68cecb1d3494645cb3b88d33",
+                "status": [
+                  "Survived"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68cecb1d8c8415b8d997b041",
+                "target": [
+                  "Lighthouse"
+                ]
+              }
+            ],
+            "id": "68cecb1d5a17844633562192"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68ceca556f072556bed81740",
+          "index": 4,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cecbb112a5d29eb9d9c614",
+              "target": "68ceca532cdb3954b6274603"
+            },
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cecbb069657c6932e99a36",
+              "target": "68ceca539bf825400cd05350"
+            },
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cecbb070e905ac4580782f",
+              "target": "68ceca540af83ec248ea77c6"
+            },
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cecbaf4f4344f611e228d3",
+              "target": "68ceca5500ef1c5d6fa747bb"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cecb1da7f730e028738348",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68cebead8776115326d67f72",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68cecb1d6b8e042642dccdc2",
+          "index": 0,
+          "type": "Experience",
+          "value": "13500",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cecb1d786b006799b04c2e",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.02",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cecb1d96264c34d20807e2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68cecb1ddfc5b84d64465047",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 55000
+              }
+            }
+          ],
+          "target": "68cecb1ddfc5b84d64465047",
+          "type": "Item",
+          "value": "55000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cecb1d2a6dc22fd21c83b3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68cecb1dabefea3f2d86b5f9",
+              "_tpl": "5c0e531d86f7747fa23f4d42",
+              "upd": {
+                "StackObjectsCount": 2
+              }
+            }
+          ],
+          "target": "68cecb1dabefea3f2d86b5f9",
+          "type": "Item",
+          "value": "2",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

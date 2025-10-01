@@ -1,0 +1,164 @@
+{
+  "68cebd7f607b39e04dad1bbd": {
+    "QuestName": "Green Breath Under Glass",
+    "_id": "68cebd7f607b39e04dad1bbd",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Multi",
+    "location": "5714dbc024597771384a510d",
+    "image": "/files/quest/icon/23_Green_Breath_Under_Glass.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68cebd7f607b39e04dad1bbd description",
+    "startedMessageText": "68cebd7f607b39e04dad1bbd startedMessageText",
+    "successMessageText": "68cebd7f607b39e04dad1bbd successMessageText",
+    "failMessageText": "68cebd7f607b39e04dad1bbd failMessageText",
+    "acceptPlayerMessage": "68cebd7f607b39e04dad1bbd acceptPlayerMessage",
+    "declinePlayerMessage": "68cebd7f607b39e04dad1bbd declinePlayerMessage",
+    "completePlayerMessage": "68cebd7f607b39e04dad1bbd completePlayerMessage",
+    "changeQuestMessageText": "68cebd7f607b39e04dad1bbd changeQuestMessageText",
+    "name": "68cebd7f607b39e04dad1bbd name",
+    "note": "68cebd7f607b39e04dad1bbd note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cebce5a095163a7cccd0bc",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68c2b14d1c6375cad2e97a2c"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "68cebce60623d77263d6740c",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68c2b14d1c6375cad2e97a2c"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cebd7fd34424e3a4380547",
+              "target": "68cebce5a095163a7cccd0bc"
+            }
+          ],
+          "zoneId": "interchange_goshan_underground_jeko_gen",
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cebd7f500499ba6ba27b4d",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68ceb12add024b9709fe9119",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68cebd7f0c5be43f8bdc2492",
+          "index": 0,
+          "type": "Experience",
+          "value": "13300",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cebd7fc8c008cb51debde0",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.02",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cebd7fd484db342feb0687",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68cebd7f3d37536268145056",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 60000
+              }
+            }
+          ],
+          "target": "68cebd7f3d37536268145056",
+          "type": "Item",
+          "value": "60000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cebd7f3cd060b8eea5cc65",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68cebd7f52ee6fe814cbf65d",
+              "_tpl": "68c3e28bef7dd20af800e211",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68cebd7f52ee6fe814cbf65d",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

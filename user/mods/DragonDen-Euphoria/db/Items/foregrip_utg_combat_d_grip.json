@@ -1,0 +1,59 @@
+{
+    "68d7452863a63e5be82941a9": {
+        "itemTplToClone": "5c1bc5af2e221602b412949b",
+        "parentId": "55818af64bdc2d5b648b4570",
+        "handbookParentId": "MOD_FOREGRIP",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": false,
+            "Prefab": {
+                "path": "dragonden/weaponparts/foregrips/utg_combat_d_grip.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 0.36,
+            "Height": 1,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "RarityPvE": "Superrare",
+            "BackgroundColor": "blue",
+            "ConflictingItems": [
+                "62e7e7bbe6da9612f743f1e0"
+            ],
+            "Ergonomics": -7,
+            "Recoil": -5
+        },
+        "locales": {
+            "en": {
+                "name": "UTG Combat D Grip",
+                "shortName": "UTG",
+                "description": "The UTG Combat D Grip is a durable, all-metal vertical foregrip with an integrated, quick-deployable bipod that transforms it into a stable shooting platform for long-range accuracy."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_foregrip",
+            "mod_handguard"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 19233,
+        "handbookPriceRoubles": 18338,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": true,
+        "addtoStaticLootContainers": false,
+        "StaticLootContainers": [],
+        "addtoLootLocation": false,
+        "LootLocation": [],
+        "addLooseLoot": true,
+        "addLooseLootProbability": 250,
+        "addToHallOfFameBig": false,
+        "addtoStatuetteSlots": false
+    }
+}

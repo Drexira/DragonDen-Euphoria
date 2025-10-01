@@ -1,0 +1,49 @@
+{
+    "68c2b15611bf64f302262a51": {
+        "itemTplToClone": "5939a00786f7742fe8132936",
+        "parentId": "57864e4c24597754843f8723",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "dragonden/quest/egg_2.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "BackgroundColor": "violet",
+            "Weight": 0.2,
+            "Height": 1,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "RarityPvE": "Not_exist",
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Egg (Quest)",
+                "shortName": "Egg",
+                "description": ""
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "addtoLootLocation": false,
+        "QuestLocation": [
+            {
+                "Map": ["RezervBase"],
+                "Position": {"x":193.490967,"y":-5.870773,"z":-226.5427},
+                "Rotation": {"x":0.0,"y":116.635849,"z":0.0}
+            }
+        ],
+        "addLooseLoot": false
+    }
+}

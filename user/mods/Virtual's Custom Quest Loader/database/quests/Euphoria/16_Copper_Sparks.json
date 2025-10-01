@@ -1,0 +1,229 @@
+{
+  "68cda588406adb0360eeec89": {
+    "QuestName": "Copper Sparks",
+    "_id": "68cda588406adb0360eeec89",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "PickUp",
+    "location": "any",
+    "image": "/files/quest/icon/16_Copper_Sparks.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68cda588406adb0360eeec89 description",
+    "startedMessageText": "68cda588406adb0360eeec89 startedMessageText",
+    "successMessageText": "68cda588406adb0360eeec89 successMessageText",
+    "failMessageText": "68cda588406adb0360eeec89 failMessageText",
+    "acceptPlayerMessage": "68cda588406adb0360eeec89 acceptPlayerMessage",
+    "declinePlayerMessage": "68cda588406adb0360eeec89 declinePlayerMessage",
+    "completePlayerMessage": "68cda588406adb0360eeec89 completePlayerMessage",
+    "changeQuestMessageText": "68cda588406adb0360eeec89 changeQuestMessageText",
+    "name": "68cda588406adb0360eeec89 name",
+    "note": "68cda588406adb0360eeec89 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cda4dc375b9d9ecf01979a",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5c06779c86f77426e00dd782"
+          ],
+          "value": 4,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cda4dc2e894ead74015d79",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5c06779c86f77426e00dd782"
+          ],
+          "value": 4,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cda588c58f4c132e7b8952",
+              "target": "68cda4dc375b9d9ecf01979a"
+            }
+          ]
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cda4dd43462a87e242761b",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5c06782b86f77426df5407d2"
+          ],
+          "value": 3,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cda4dda5046ec66bec85e7",
+          "index": 3,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5c06782b86f77426df5407d2"
+          ],
+          "value": 3,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cda5889ce307c12574c928",
+              "target": "68cda4dd43462a87e242761b"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cda588017f435096a874d4",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68cd9cc8ab9a667de34d24a1",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68cda5884624f88e60221ddb",
+          "index": 0,
+          "type": "Experience",
+          "value": "4600",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cda588e5e663fe5c750be2",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.01",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cda58875df7580c87277c9",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68cda588469c96209c10eb40",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 24000
+              }
+            }
+          ],
+          "target": "68cda588469c96209c10eb40",
+          "type": "Item",
+          "value": "24000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cda58882017a0eb0672724",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68cda588a382c719634d0fba",
+              "_tpl": "57347c77245977448d35f6e2",
+              "upd": {
+                "StackObjectsCount": 2
+              }
+            }
+          ],
+          "target": "68cda588a382c719634d0fba",
+          "type": "Item",
+          "value": "2",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cda58892c222bed0fb02dc",
+          "index": 4,
+          "items": [
+            {
+              "_id": "68cda588105a31e86b564311",
+              "_tpl": "57347c5b245977448d35f6e1",
+              "upd": {
+                "StackObjectsCount": 2
+              }
+            }
+          ],
+          "target": "68cda588105a31e86b564311",
+          "type": "Item",
+          "value": "2",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

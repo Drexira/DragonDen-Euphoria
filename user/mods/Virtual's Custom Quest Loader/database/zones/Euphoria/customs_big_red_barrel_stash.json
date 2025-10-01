@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "customs_big_red_barrel_stash",
+    "ZoneName": "customs_big_red_barrel_stash",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-202.4129",
+      "Y": "1.881912",
+      "Z": "-93.80964",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.00360642",
+      "Z": "0",
+      "W": "0.9999935"
+    },
+    "Scale": {
+      "X": "3.978925",
+      "Y": "2.93541",
+      "Z": "3.533458",
+      "W": "0"
+    }
+  }
+]

@@ -1,0 +1,249 @@
+{
+  "68cd5ef070de940c09afa839": {
+    "QuestName": "Weathered Antennas, Bitter Light",
+    "_id": "68cd5ef070de940c09afa839",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Multi",
+    "location": "5704e554d2720bac5b8b456e",
+    "image": "/files/quest/icon/11_Weathered_Antennas_Bitter_Light.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68cd5ef070de940c09afa839 description",
+    "startedMessageText": "68cd5ef070de940c09afa839 startedMessageText",
+    "successMessageText": "68cd5ef070de940c09afa839 successMessageText",
+    "failMessageText": "68cd5ef070de940c09afa839 failMessageText",
+    "acceptPlayerMessage": "68cd5ef070de940c09afa839 acceptPlayerMessage",
+    "declinePlayerMessage": "68cd5ef070de940c09afa839 declinePlayerMessage",
+    "completePlayerMessage": "68cd5ef070de940c09afa839 completePlayerMessage",
+    "changeQuestMessageText": "68cd5ef070de940c09afa839 changeQuestMessageText",
+    "name": "68cd5ef070de940c09afa839 name",
+    "note": "68cd5ef070de940c09afa839 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cd5ef00cb4931ceb3365be",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68d4942bbdad148f7a9769ac"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "shoreline_weatherstation_antenna1"
+        },
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cd5ef02dec84d5e2667644",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68d4942bbdad148f7a9769ac"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "shoreline_weatherstation_antenna2"
+        },
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cd5ef0f913108b2de8730c",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68d4942bbdad148f7a9769ac"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "shoreline_weatherstation_antenna3"
+        },
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cd5ef0ef13a63694050692",
+          "index": 3,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68d4942bbdad148f7a9769ac"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "shoreline_weatherstation_antenna4"
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cd5e71c640c1da11aad2d4",
+          "index": 4,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5d6fc78386f77449d825f9dc"
+          ],
+          "value": 2,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cd5e710ed832466026a2b6",
+          "index": 5,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5d6fc78386f77449d825f9dc"
+          ],
+          "value": 2,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cd5ef081fc5bdf2f06ecf7",
+              "target": "68cd5e71c640c1da11aad2d4"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cd5ef06e0c74cf6e9cbcf8",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68cca4d3f2e4b96038567be0",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [
+        {
+          "findInRaid": true,
+          "id": "68cd5ef0743df2568b814827",
+          "index": 0,
+          "items": [
+            {
+              "_id": "68cd5ef087329d8e40ec52df",
+              "_tpl": "68d4942bbdad148f7a9769ac",
+              "upd": {
+                "StackObjectsCount": 2
+              }
+            }
+          ],
+          "target": "68cd5ef087329d8e40ec52df",
+          "type": "Item",
+          "value": "1"
+        }
+      ],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68cd5ef0bbccc3e52e8bf86a",
+          "index": 0,
+          "type": "Experience",
+          "value": "7400",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cd5ef0e3b0674ecf11eed7",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.02",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cd5ef0165daca4e2541311",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68cd5ef0a29b34fca039021f",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 42000
+              }
+            }
+          ],
+          "target": "68cd5ef0a29b34fca039021f",
+          "type": "Item",
+          "value": "42000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cd5ef0caaf5941287baed2",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68cd5ef03a062771a11ee8ed",
+              "_tpl": "618ba27d9008e4636a67f61d",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68cd5ef03a062771a11ee8ed",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

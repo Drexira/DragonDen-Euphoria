@@ -1,0 +1,49 @@
+{
+    "68c2b14fad9fae912d1df8da": {
+        "itemTplToClone": "5939a00786f7742fe8132936",
+        "parentId": "57864e4c24597754843f8723",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "dragonden/quest/fuel_barrel_blue.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "BackgroundColor": "violet",
+            "Weight": 35,
+            "Height": 4,
+            "Width": 3,
+            "StackMaxSize": 1,
+            "RarityPvE": "Not_exist",
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Fuel Barrel Blue (Quest)",
+                "shortName": "Fuel Barrel",
+                "description": ""
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "addtoLootLocation": false,
+        "QuestLocation": [
+            {
+            "Map": ["TarkovStreets"],
+            "Position": {"x": 207.426575,"y": 7.27301073,"z": 306.228333},
+            "Rotation": {"x": 0.0,"y": 48.024086,"z": 0.0}
+            }
+        ],
+        "addLooseLoot": false
+    }
+}

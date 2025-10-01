@@ -1,0 +1,216 @@
+{
+  "68d00f5330507768121896c0": {
+    "QuestName": "The Eye Hates the Sun",
+    "_id": "68d00f5330507768121896c0",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Elimination",
+    "location": "5704e4dad2720bb55b8b4567",
+    "image": "/files/quest/icon/31_The_Eye_Hates_the_Sun.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68d00f5330507768121896c0 description",
+    "startedMessageText": "68d00f5330507768121896c0 startedMessageText",
+    "successMessageText": "68d00f5330507768121896c0 successMessageText",
+    "failMessageText": "68d00f5330507768121896c0 failMessageText",
+    "acceptPlayerMessage": "68d00f5330507768121896c0 acceptPlayerMessage",
+    "declinePlayerMessage": "68d00f5330507768121896c0 declinePlayerMessage",
+    "completePlayerMessage": "68d00f5330507768121896c0 completePlayerMessage",
+    "changeQuestMessageText": "68d00f5330507768121896c0 changeQuestMessageText",
+    "name": "68d00f5330507768121896c0 name",
+    "note": "68d00f5330507768121896c0 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 8,
+                  "to": 20
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "68d00eacea61b0c758582335",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "AnyPmc",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsInclusive": [],
+                "weaponModsExclusive": [],
+                "equipmentInclusive": [],
+                "equipmentExclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68d00f5316c55701fc905cb2",
+                "target": [
+                  "Lighthouse"
+                ]
+              }
+            ],
+            "id": "68d00f53665d87e5774fbd92"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d00f535b68b6a9c7ce6e71",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "68d00f53c8a72df041124e55",
+                "status": [
+                  "Survived"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68d00f53a4327b770c4e54b0",
+                "target": [
+                  "Lighthouse"
+                ]
+              }
+            ],
+            "id": "68d00f53358713e462fb13a0"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d00eb044f9baa2e24de835",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d00f530ee8df9a350ca048",
+              "target": "68d00f535b68b6a9c7ce6e71"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d00f5396e85251ef28df73",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68d00d913564e1b567056591",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68d00f535e1a3fc1407ee0b7",
+          "index": 0,
+          "type": "Experience",
+          "value": "14000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68d00f53d1a48476bbc27bff",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.04",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d00f5348de39df817e60c7",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68d00f53747aedfa39ce88b9",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 95000
+              }
+            }
+          ],
+          "target": "68d00f53747aedfa39ce88b9",
+          "type": "Item",
+          "value": "95000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d00f53d01f7ffa4eb0e0bc",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68d00f53de101826e81fa765",
+              "_tpl": "5ab8e79e86f7742d8b372e78",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68d00f53de101826e81fa765",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

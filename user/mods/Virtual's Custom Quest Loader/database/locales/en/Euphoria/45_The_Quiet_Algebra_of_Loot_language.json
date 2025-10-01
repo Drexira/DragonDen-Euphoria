@@ -1,0 +1,14 @@
+{
+  "68d48d323f89ef837364a757 name": "The Quiet Algebra of Loot",
+  "68d48d323f89ef837364a757 description": "I price risk with parts, not speeches. Bring me what calms rooms and keeps ledgers honest. Power cords tame hungry racks. T-Plugs make small rigs behave. Capacitors teach boards to wait their turn. Deliver the set together so I can keep benches honest and gear easy to buy.",
+  "68d48d323f89ef837364a757 startedMessageText": "I want restraint, not greed.\nBring the parts that make rooms mind their manners.",
+  "68d48d323f89ef837364a757 successMessageText": "The math checked itself when your bag opened.\nI approve.",
+  "68d48d323f89ef837364a757 acceptPlayerMessage": "Gather a power cord, a T-Plug, and a capacitor.\nNo cracked plastic, no bent legs.\nHand them over together.",
+  "68d48d323f89ef837364a757 completePlayerMessage": "You solved for useful.\nKeep showing your work.",
+  "68d48c3d049885531524ae3a": "Find Power Cord in raid",
+  "68d48c3d39e474fbcafdc25b": "Hand over Power Cord",
+  "68d48c3e88119a7091042fb2": "Find T-Plug in raid",
+  "68d48c3ebdd5ea1850603a78": "Hand over T-Plug",
+  "68d48c409fc7c8ee34376ee6": "Find Capacitor in raid",
+  "68d48c405da802fe01ffb5da": "Hand over Capacitor"
+}

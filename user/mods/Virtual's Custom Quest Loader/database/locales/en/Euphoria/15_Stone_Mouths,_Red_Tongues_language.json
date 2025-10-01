@@ -1,0 +1,10 @@
+{
+  "68cd9cc8ab9a667de34d24a1 name": "Stone Mouths, Red Tongues",
+  "68cd9cc8ab9a667de34d24a1 description": "Reserve's lower halls decide who leaves. I want the bunker to speak our syllables when we visit.\nLift a clean bite of C4 from near the power rooms and set it by the D2 service path. This is a pressure test: watchers, cameras, and nerves. Plant, hush, exit. If the air tastes like copper, you stayed too long.",
+  "68cd9cc8ab9a667de34d24a1 startedMessageText": "Give the bunker a tongue and teach it to whisper.\nLay the weight, keep the room boring, leave before questions start.",
+  "68cd9cc8ab9a667de34d24a1 successMessageText": "The mouth is taught and the room forgot your name.\nThat is how we keep secrets.",
+  "68cd9cc8ab9a667de34d24a1 acceptPlayerMessage": "Find a proper bite below near the power feeds.\nPlant it by the D2 extract corridor and drift out.",
+  "68cd9cc8ab9a667de34d24a1 completePlayerMessage": "Stone speaks in our accent now.\nGood timing, good exit.",
+  "68cd9a8d921a8951007df2b7": "Find C4 Explosive in Reserve",
+  "68cd9a8f699f2fed952c68ee": "Plant C4 Explosive"
+}

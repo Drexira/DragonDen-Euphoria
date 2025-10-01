@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "shoreline_pier_boathouse_shelves",
+    "ZoneName": "shoreline_pier_boathouse_shelves",
+    "ZoneLocation": "Shoreline",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-355.5352",
+      "Y": "-60.99825",
+      "Z": "528.4474",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.3570741",
+      "Z": "0",
+      "W": "0.9340761"
+    },
+    "Scale": {
+      "X": "3.608132",
+      "Y": "2.075224",
+      "Z": "1.50133",
+      "W": "0"
+    }
+  }
+]

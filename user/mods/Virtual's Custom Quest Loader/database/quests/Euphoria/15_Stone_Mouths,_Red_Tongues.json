@@ -1,0 +1,173 @@
+{
+  "68cd9cc8ab9a667de34d24a1": {
+    "QuestName": "Stone Mouths, Red Tongues",
+    "_id": "68cd9cc8ab9a667de34d24a1",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "PickUp",
+    "location": "5704e5fad2720bc05b8b4567",
+    "image": "/files/quest/icon/15_Stone_Mouths_Red_Tongues.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68cd9cc8ab9a667de34d24a1 description",
+    "startedMessageText": "68cd9cc8ab9a667de34d24a1 startedMessageText",
+    "successMessageText": "68cd9cc8ab9a667de34d24a1 successMessageText",
+    "failMessageText": "68cd9cc8ab9a667de34d24a1 failMessageText",
+    "acceptPlayerMessage": "68cd9cc8ab9a667de34d24a1 acceptPlayerMessage",
+    "declinePlayerMessage": "68cd9cc8ab9a667de34d24a1 declinePlayerMessage",
+    "completePlayerMessage": "68cd9cc8ab9a667de34d24a1 completePlayerMessage",
+    "changeQuestMessageText": "68cd9cc8ab9a667de34d24a1 changeQuestMessageText",
+    "name": "68cd9cc8ab9a667de34d24a1 name",
+    "note": "68cd9cc8ab9a667de34d24a1 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cd9a8d921a8951007df2b7",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68cd9a7a7f3394bfb37527ce"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "68cd9a8f699f2fed952c68ee",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 25,
+          "target": [
+            "68cd9a7a7f3394bfb37527ce"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cd9cc8c35c5dfb115b5b62",
+              "target": "68cd9a8d921a8951007df2b7"
+            }
+          ],
+          "zoneId": "reserve_d2_entrance",
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cd9cc80081f310c8e8bd2a",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68cd90475a68cc7fe2e2ac59",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68cd9cc8ebc73bf57816eca0",
+          "index": 0,
+          "type": "Experience",
+          "value": "8800",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cd9cc8f9a8dd881953c15c",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.03",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cd9cc85faec0023fefe6f2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68cd9cc8792ea2e1f98684a9",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 50000
+              }
+            }
+          ],
+          "target": "68cd9cc8792ea2e1f98684a9",
+          "type": "Item",
+          "value": "50000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cd9cc83b19928d4aaf797d",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68cd9cc8e3b1650b4119bcbf",
+              "_tpl": "68c31074a47f306e06b87152",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68cd9cc8e3b1650b4119bcbf",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cd9cc8cf317590972a15c2",
+          "index": 4,
+          "target": "CovertMovement",
+          "type": "Skill",
+          "unknown": true,
+          "value": "100"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "68cdc0013e10229b3bd532e4": {
+    "QuestName": "Neon Arithmetic",
+    "_id": "68cdc0013e10229b3bd532e4",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "PickUp",
+    "location": "any",
+    "image": "/files/quest/icon/19_Neon_Arithmetic.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68cdc0013e10229b3bd532e4 description",
+    "startedMessageText": "68cdc0013e10229b3bd532e4 startedMessageText",
+    "successMessageText": "68cdc0013e10229b3bd532e4 successMessageText",
+    "failMessageText": "68cdc0013e10229b3bd532e4 failMessageText",
+    "acceptPlayerMessage": "68cdc0013e10229b3bd532e4 acceptPlayerMessage",
+    "declinePlayerMessage": "68cdc0013e10229b3bd532e4 declinePlayerMessage",
+    "completePlayerMessage": "68cdc0013e10229b3bd532e4 completePlayerMessage",
+    "changeQuestMessageText": "68cdc0013e10229b3bd532e4 changeQuestMessageText",
+    "name": "68cdc0013e10229b3bd532e4 name",
+    "note": "68cdc0013e10229b3bd532e4 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cdbf054cebd25a1e4c0486",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "590c621186f774138d11ea29"
+          ],
+          "value": 3,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cdbf059adfcaf904dcbea6",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "590c621186f774138d11ea29"
+          ],
+          "value": 3,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cdc0017c3c42335472aad8",
+              "target": "68cdbf054cebd25a1e4c0486"
+            }
+          ]
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cdbf051a8b9f5840dd2228",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "62a0a16d0b9d3c46de5b6e97"
+          ],
+          "value": 3,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cdbf06d3f1dcd9e5e7e4f1",
+          "index": 3,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "62a0a16d0b9d3c46de5b6e97"
+          ],
+          "value": 3,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cdc0013aa11618833598ea",
+              "target": "68cdbf051a8b9f5840dd2228"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cdc00149ca772b9fcc2a23",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68cdb81d549d6d3c36fc32eb",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68cdc0016d922ebfac0f5ae0",
+          "index": 0,
+          "type": "Experience",
+          "value": "5000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cdc0014aeee8ea9bfc41ab",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.01",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cdc001d52dfe9a9ea53313",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68cdc0018bd4c206e445ff2b",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 30000
+              }
+            }
+          ],
+          "target": "68cdc0018bd4c206e445ff2b",
+          "type": "Item",
+          "value": "30000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cdc001221cf7b672507153",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68cdc001cd7b0c5edc044156",
+              "_tpl": "590c60fc86f77412b13fddcf",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68cdc001cd7b0c5edc044156",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

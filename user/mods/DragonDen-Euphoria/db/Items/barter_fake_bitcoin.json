@@ -1,0 +1,72 @@
+{
+    "68c5793d19dfb942f48eabb3": {
+        "itemTplToClone": "59faff1d86f7746c51718c9c",
+        "parentId": "57864a3d24597754843f8721",
+        "handbookParentId": "BARTER_VALUABLES",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": false,
+            "Prefab": {
+                "path": "dragonden/barter/fake_bitcoin.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 1.31,
+            "Height": 1,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "RarityPvE": "Superrare",
+            "BackgroundColor": "blue"
+        },
+        "locales": {
+            "en": {
+                "name": "Fake Bitcoin",
+                "shortName": "BTC",
+                "description": "Shiny coin that whispers promises of fortune but delivers only disappointment. Traders laugh, scavengers cry, and you are left holding a worthless reminder that greed is the quickest way to die broke."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 46780,
+        "handbookPriceRoubles": 37015,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": true,
+        "addtoStaticLootContainers": true,
+        "StaticLootContainers": [
+            { "ContainerName": "LOOTCONTAINER_DEAD_SCAV", "Probability": 135 },
+            { "ContainerName": "LOOTCONTAINER_AIRDROP_COMMON_SUPPLY_CRATE", "Probability": 124 },
+            { "ContainerName": "LOOTCONTAINER_BURIED_BARREL_CACHE", "Probability": 170 },
+            { "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH", "Probability": 108 },
+            { "ContainerName": "LOOTCONTAINER_DRAWER", "Probability": 132 },
+            { "ContainerName": "LOOTCONTAINER_DUFFLE_BAG", "Probability": 106 },
+            { "ContainerName": "LOOTCONTAINER_DUFFLE_BAG_ADV", "Probability": 123 },
+            { "ContainerName": "LOOTCONTAINER_GROUND_CACHE", "Probability": 96 },
+            { "ContainerName": "LOOTCONTAINER_JACKET", "Probability": 137 },
+            { "ContainerName": "LOOTCONTAINER_SAFE", "Probability": 75 },
+            { "ContainerName": "LOOTCONTAINER_RATION_SUPPLY_CRATE", "Probability": 127 }
+        ],
+        "addtoLootLocation": true,
+        "LootLocation": [
+            { "LootName": "jew", "Probability": 2 },
+            { "LootName": "household_jew", "Probability": 2 },
+            { "LootName": "jewerly", "Probability": 2 },
+            { "LootName": "jewerly_all", "Probability": 2 },
+            { "LootName": "jewel_figures", "Probability": 2 },
+            { "LootName": "loot_jeverly_statue", "Probability": 2 },
+            { "LootName": "loot_jeverly_statue_cat", "Probability": 2 },
+            { "LootName": "loot_jeverly_statue_lion", "Probability": 2 }
+        ],
+        "addLooseLoot": true,
+        "addLooseLootProbability": 250,
+        "addToHallOfFameSmall": true,
+        "addtoStatuetteSlots": true
+    }
+}

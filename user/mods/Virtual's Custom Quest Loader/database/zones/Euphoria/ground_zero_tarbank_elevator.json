@@ -1,0 +1,52 @@
+[
+  {
+    "ZoneId": "ground_zero_tarbank_elevator",
+    "ZoneName": "ground_zero_tarbank_elevator",
+    "ZoneLocation": "Sandbox_high",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "44.4283",
+      "Y": "23.82395",
+      "Z": "156.8501",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.6764544",
+      "Z": "0",
+      "W": "-0.7364845"
+    },
+    "Scale": {
+      "X": "4.486639",
+      "Y": "4.901131",
+      "Z": "3.208217",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "ground_zero_tarbank_elevator",
+    "ZoneName": "ground_zero_tarbank_elevator",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "44.4283",
+      "Y": "23.82395",
+      "Z": "156.8501",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.6764544",
+      "Z": "0",
+      "W": "-0.7364845"
+    },
+    "Scale": {
+      "X": "4.486639",
+      "Y": "4.901131",
+      "Z": "3.208217",
+      "W": "0"
+    }
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "customs_3story_locked_entrance",
+    "ZoneName": "customs_3story_locked_entrance",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "179.6726",
+      "Y": "6.879271",
+      "Z": "186.6852",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.7595478",
+      "Z": "0",
+      "W": "0.6504515"
+    },
+    "Scale": {
+      "X": "1.284513",
+      "Y": "2.218031",
+      "Z": "1.296145",
+      "W": "0"
+    }
+  }
+]

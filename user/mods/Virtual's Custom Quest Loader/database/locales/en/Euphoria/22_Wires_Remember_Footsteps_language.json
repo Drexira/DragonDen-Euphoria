@@ -1,0 +1,15 @@
+{
+  "68cebbb0fc0c2b28664a9063 name": "Wires Remember Footsteps",
+  "68cebbb0fc0c2b28664a9063 description": "Buildings keep diaries in copper. I want the mall's office brains and the station cage noted so I can hear which doors lie and which blink honest. Walk the rooms that set the lights, then bring me clean power cords. It feeds my test bench and tells me you respect insulation more than drama.",
+  "68cebbb0fc0c2b28664a9063 startedMessageText": "Read the diary without turning pages.\nOffice to office, cage to station.\nLeave the hum in our key.",
+  "68cebbb0fc0c2b28664a9063 successMessageText": "The tone shifted toward my pitch when you left.\nGood manners with wire and doorways.",
+  "68cebbb0fc0c2b28664a9063 acceptPlayerMessage": "Visit the rooms that boss shutters and registers.\nLift one cord that still bows when asked.\nHand it over and keep walking.",
+  "68cebbb0fc0c2b28664a9063 completePlayerMessage": "We will write in this diary later.\nYou brought the pen and the patience.",
+  "68ceba8fa2d06c140a4546b3": "Visit Oli Office",
+  "68ceba8fe3f81615ec518bc9": "Visit Goshan Office 1",
+  "68ceba906167099c5232969c": "Visit Goshan Office 2",
+  "68ceba909d87b877fbcd58af": "Idea Office",
+  "68ceba91239f6f2d7f32ce23": "Power Station Office",
+  "68ceba922375cd98f0f402b0": "Find Power Cord in raid",
+  "68ceba929bdc9bb084221b9a": "Hand over Power Cord"
+}

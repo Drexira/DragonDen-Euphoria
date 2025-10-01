@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "lighthouse_northern_beach",
+    "ZoneName": "lighthouse_northern_beach",
+    "ZoneLocation": "Lighthouse",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "117.0745",
+      "Y": "-0.1426446",
+      "Z": "-200.0603",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.009259545",
+      "Z": "0",
+      "W": "-0.9999571"
+    },
+    "Scale": {
+      "X": "106.2791",
+      "Y": "26.27302",
+      "Z": "248.1386",
+      "W": "0"
+    }
+  }
+]

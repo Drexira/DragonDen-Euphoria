@@ -1,0 +1,11 @@
+{
+  "68cbf83b0f74bdfa918376ed name": "Red Breath for Cold Gears",
+  "68cbf83b0f74bdfa918376ed description": "I am staging fuel for quiet power and for moving crates after dark. A full red barrel is attention you can hear from a block away, which makes it perfect bait and better insurance. Lift one from New Gas and bed it in Big Red where counters do not look.\nThis tests your route discipline under weight and gives me a pocket generator when the lights lie.",
+  "68cbf83b0f74bdfa918376ed startedMessageText": "Customs still coughs in the wrong places.\nCarry a red lung to a hidden corner and let it nap there.",
+  "68cbf83b0f74bdfa918376ed successMessageText": "The red breath is snoring where I asked.\nNo footprints worth reading.",
+  "68cbf83b0f74bdfa918376ed failMessageText": "Either the barrel talked or you did.\nTry again and keep both quiet.",
+  "68cbf83b0f74bdfa918376ed acceptPlayerMessage": "Pull the filled barrel from New Gas.\nStash it in Big Red where accountants never look.\nDo not teach anyone your route.",
+  "68cbf83b0f74bdfa918376ed completePlayerMessage": "Good hands. Patience suits you.\nEngines will remember who tucked them in.",
+  "68cbef6fe0a6825b1a1f733f": "Find Fuel Barrel Red in Customs New Gas",
+  "68cbef7c3e633132eb805638": "Hide Fuel Barrel Red in Big Red"
+}

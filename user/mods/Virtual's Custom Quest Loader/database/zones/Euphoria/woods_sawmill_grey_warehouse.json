@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "woods_sawmill_grey_warehouse",
+    "ZoneName": "woods_sawmill_grey_warehouse",
+    "ZoneLocation": "Woods",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "77.21149",
+      "Y": "-0.1674475",
+      "Z": "-48.20758",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.9999989",
+      "Z": "0",
+      "W": "-0.001500888"
+    },
+    "Scale": {
+      "X": "3.696404",
+      "Y": "3.382118",
+      "Z": "2.625217",
+      "W": "0"
+    }
+  }
+]

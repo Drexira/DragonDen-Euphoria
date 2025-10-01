@@ -1,0 +1,64 @@
+{
+    "68d03e45dfd67f59d44ad721": {
+        "itemTplToClone": "5939a00786f7742fe8132936",
+        "parentId": "57864e4c24597754843f8723",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "dragonden/quest/fuel_barrel_green.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "BackgroundColor": "violet",
+            "Weight": 35,
+            "Height": 4,
+            "Width": 3,
+            "StackMaxSize": 1,
+            "RarityPvE": "Not_exist",
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Fuel Barrel Green (Quest)",
+                "shortName": "Fuel Barrel",
+                "description": ""
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "addtoLootLocation": false,
+        "QuestLocation": [
+            {
+            "Map": ["TarkovStreets"],
+            "Position": {"x":-70.3427658,"y":2.21179914,"z":99.74317},
+            "Rotation": {"x":0.0,"y":74.31816,"z":0.0}
+            },
+            {
+            "Map": ["TarkovStreets"],
+            "Position": {"x":-77.16755,"y":1.843684,"z":109.631279},
+            "Rotation": {"x":0.0,"y":7.948924,"z":0.0}
+            },
+            {
+            "Map": ["TarkovStreets"],
+            "Position": {"x":-86.5695648,"y":1.35530221,"z":89.81748},
+            "Rotation": {"x":0.0,"y":196.948,"z":0.0}
+            },
+            {
+            "Map": ["TarkovStreets"],
+            "Position": {"x":-42.5566254,"y":1.35034823,"z":133.929047},
+            "Rotation": {"x":0.0,"y":33.5867348,"z":0.0}
+            }
+        ],
+        "addLooseLoot": false
+    }
+}

@@ -1,0 +1,220 @@
+{
+  "68cc1cc3cbd90097306b0f65": {
+    "QuestName": "Neon Lies and Cold Drives",
+    "_id": "68cc1cc3cbd90097306b0f65",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Multi",
+    "location": "56f40101d2720b2a4d8b45d6",
+    "image": "/files/quest/icon/6_Neon_Lies_and_Cold_Drives.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68cc1cc3cbd90097306b0f65 description",
+    "startedMessageText": "68cc1cc3cbd90097306b0f65 startedMessageText",
+    "successMessageText": "68cc1cc3cbd90097306b0f65 successMessageText",
+    "failMessageText": "68cc1cc3cbd90097306b0f65 failMessageText",
+    "acceptPlayerMessage": "68cc1cc3cbd90097306b0f65 acceptPlayerMessage",
+    "declinePlayerMessage": "68cc1cc3cbd90097306b0f65 declinePlayerMessage",
+    "completePlayerMessage": "68cc1cc3cbd90097306b0f65 completePlayerMessage",
+    "changeQuestMessageText": "68cc1cc3cbd90097306b0f65 changeQuestMessageText",
+    "name": "68cc1cc3cbd90097306b0f65 name",
+    "note": "68cc1cc3cbd90097306b0f65 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cc1c0325f6771a3bab9a26",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "590c621186f774138d11ea29"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cc1c3356dd23a56968322e",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "590c621186f774138d11ea29"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cc1cc3974c284ef0371005",
+              "target": "68cc1c0325f6771a3bab9a26"
+            }
+          ]
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "68cc1c34d7b18d1594a3508c",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "AnyPmc",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsInclusive": [],
+                "weaponModsExclusive": [],
+                "equipmentInclusive": [],
+                "equipmentExclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68cc1cc3b7d7a276f5098030",
+                "target": [
+                  "bigmap"
+                ]
+              }
+            ],
+            "id": "68cc1cc3f3e742270af73fa7"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cc1cc32c8af9c0c688dbf7",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 5,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cc1cc30fcb0950ae38a82f",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68cc0876a9bff210fbcb1208",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68cc1cc33edbc98caf1e183e",
+          "index": 0,
+          "type": "Experience",
+          "value": "5800",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cc1cc3ff6f12c4f96dcd19",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.02",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cc1cc36fe0c8375a080c8e",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68cc1cc33271f0baeb2c135e",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 32000
+              }
+            }
+          ],
+          "target": "68cc1cc33271f0baeb2c135e",
+          "type": "Item",
+          "value": "32000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cc1dd5282d7cec545c2127",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68cc1dd855b8b68ecbd43b0b",
+              "_tpl": "68c5793d19dfb942f48eabb3",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68cc1dd855b8b68ecbd43b0b",
+          "type": "Item",
+          "value": "1",
+          "unknown": false
+        }
+      ]
+    }
+  }
+}

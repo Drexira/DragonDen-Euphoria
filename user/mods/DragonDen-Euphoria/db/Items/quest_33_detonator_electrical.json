@@ -1,0 +1,59 @@
+{
+    "68d0234219c60b78a1c3d4b5": {
+        "itemTplToClone": "5939a00786f7742fe8132936",
+        "parentId": "57864e4c24597754843f8723",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "dragonden/quest/detonator_electrical.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "BackgroundColor": "violet",
+            "Weight": 0.2,
+            "Height": 2,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "RarityPvE": "Not_exist",
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Detonator Electrical (Quest)",
+                "shortName": "Detonator",
+                "description": ""
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "addtoLootLocation": false,
+        "QuestLocation": [
+            {
+            "Map": ["laboratory"],
+            "Position": {"x":-268.968262,"y":4.966727,"z":-322.3104},
+            "Rotation": {"x":0.0,"y":66.4543,"z":0.0}
+            },
+            {
+            "Map": ["laboratory"],
+            "Position": {"x":-269.015472,"y":4.966727,"z":-320.916962},
+            "Rotation": {"x":0.0,"y":66.4543,"z":0.0}
+            },
+            {
+            "Map": ["laboratory"],
+            "Position": {"x":-266.474762,"y":4.966727,"z":-316.492645},
+            "Rotation": {"x":0.0,"y":196.47287,"z":0.0}
+            }
+        ],
+        "addLooseLoot": false
+    }
+}

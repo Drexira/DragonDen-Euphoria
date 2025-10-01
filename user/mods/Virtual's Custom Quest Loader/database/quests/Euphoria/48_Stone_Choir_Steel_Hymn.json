@@ -1,0 +1,331 @@
+{
+  "68d5a7ef02220c23ad389d46": {
+    "QuestName": "Stone Choir, Steel Hymn",
+    "_id": "68d5a7ef02220c23ad389d46",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Elimination",
+    "location": "any",
+    "image": "/files/quest/icon/48_Stone_Choir_Steel_Hymn.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68d5a7ef02220c23ad389d46 description",
+    "startedMessageText": "68d5a7ef02220c23ad389d46 startedMessageText",
+    "successMessageText": "68d5a7ef02220c23ad389d46 successMessageText",
+    "failMessageText": "68d5a7ef02220c23ad389d46 failMessageText",
+    "acceptPlayerMessage": "68d5a7ef02220c23ad389d46 acceptPlayerMessage",
+    "declinePlayerMessage": "68d5a7ef02220c23ad389d46 declinePlayerMessage",
+    "completePlayerMessage": "68d5a7ef02220c23ad389d46 completePlayerMessage",
+    "changeQuestMessageText": "68d5a7ef02220c23ad389d46 changeQuestMessageText",
+    "name": "68d5a7ef02220c23ad389d46 name",
+    "note": "68d5a7ef02220c23ad389d46 note",
+    "restartable": true,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "68d5a7ef2f9b96114299a3f1",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Savage",
+                "value": 10,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68d5a7ef4eccc30b9e929a1d",
+                "target": [
+                  "TarkovStreets"
+                ]
+              }
+            ],
+            "id": "68d5a7efa884194af5863ad3"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d5a754777d378aef58fd87",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "68d5a7ef7702f52f948789d9",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Savage",
+                "value": 10,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68d5a7ef418343f8476dcaaa",
+                "target": [
+                  "bigmap"
+                ]
+              }
+            ],
+            "id": "68d5a7ef8e93a3d8762919d2"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d5a75556d5a210682c9544",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "68d5a7efb3c0d12b255a5485",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Savage",
+                "value": 10,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68d5a7ef3926093812b232b5",
+                "target": [
+                  "RezervBase"
+                ]
+              }
+            ],
+            "id": "68d5a7eff02fb6ebf142d316"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d5a755b315bc8a7285888d",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d5a7ef75c164b96399ff00",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68d56fbaf6cb747dbee143a9",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "68d5a7ef2969f48fd8085128",
+                "status": [
+                  "Killed",
+                  "Left",
+                  "MissingInAction",
+                  "Runner"
+                ]
+              }
+            ],
+            "id": "68d5a7efa4a58d119f57ffa4"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d5a7ef7810abc5e92b7db5",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68d5a7ef1c293f149d65966c",
+          "index": 0,
+          "type": "Experience",
+          "value": "16000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68d5a7ef7851f5783d7e4e9b",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.04",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d5a7ef0bd0303fb8eb11dc",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68d5a7ef405cc0e42d35a74e",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 130000
+              }
+            }
+          ],
+          "target": "68d5a7ef405cc0e42d35a74e",
+          "type": "Item",
+          "value": "130000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d5a7ef2aa81c0d690e39c1",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68d5a7efae44ec9915687112",
+              "_tpl": "5aafbde786f774389d0cbc0f",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68d5a7efae44ec9915687112",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d5a7ef0d90ef1df1c41de2",
+          "index": 4,
+          "items": [
+            {
+              "_id": "68d5a7ef77f61e53c22bc69d",
+              "_tpl": "64acea16c4eda9354b0226b0",
+              "upd": {
+                "StackObjectsCount": 8
+              }
+            }
+          ],
+          "target": "68d5a7ef77f61e53c22bc69d",
+          "type": "Item",
+          "value": "8",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

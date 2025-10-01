@@ -1,0 +1,221 @@
+{
+  "68c9cea9ac9b0e8c3aba6238": {
+    "QuestName": "Bound by Wires and Fire",
+    "_id": "68c9cea9ac9b0e8c3aba6238",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "PickUp",
+    "location": "653e6760052c01c1c805532f",
+    "image": "/files/quest/icon/2_Bound_by_Wires_and_Fire.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68c9cea9ac9b0e8c3aba6238 description",
+    "startedMessageText": "68c9cea9ac9b0e8c3aba6238 startedMessageText",
+    "successMessageText": "68c9cea9ac9b0e8c3aba6238 successMessageText",
+    "failMessageText": "68c9cea9ac9b0e8c3aba6238 failMessageText",
+    "acceptPlayerMessage": "68c9cea9ac9b0e8c3aba6238 acceptPlayerMessage",
+    "declinePlayerMessage": "68c9cea9ac9b0e8c3aba6238 declinePlayerMessage",
+    "completePlayerMessage": "68c9cea9ac9b0e8c3aba6238 completePlayerMessage",
+    "changeQuestMessageText": "68c9cea9ac9b0e8c3aba6238 changeQuestMessageText",
+    "name": "68c9cea9ac9b0e8c3aba6238 name",
+    "note": "68c9cea9ac9b0e8c3aba6238 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68c9d34c6b81fb7f8d5becd3",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68c2b139fe184873e60dd5c1"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "68c9c86ac8ee8ab215318e7e",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 10,
+          "target": [
+            "68c2b139fe184873e60dd5c1"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68c9d13866e8fca4cb06923a",
+              "target": "68c9d34c6b81fb7f8d5becd3"
+            }
+          ],
+          "zoneId": "ground_zero_nakatani_dumper",
+          "dynamicLocale": false
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68c9d358fadad7f3b25e15c8",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68c2b15ec777b5fb1c5530fa"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "68c9c86caadab2223f01f991",
+          "index": 3,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 20,
+          "target": [
+            "68c2b15ec777b5fb1c5530fa"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68c9d14b0938300fa0407f4b",
+              "target": "68c9d358fadad7f3b25e15c8"
+            }
+          ],
+          "zoneId": "ground_zero_nakatani_blockade",
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68c9cea9b4ba712abb0575c1",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68c9c37cc6c9982d680fbcef",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68c9cea920d18831a1c0d471",
+          "index": 0,
+          "type": "Experience",
+          "value": "5000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68c9cea952020c1f9d23e792",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.02",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68c9cea941f796162a7e77b2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68c9cea97128a50c3d8d436c",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 17500
+              }
+            }
+          ],
+          "target": "68c9cea97128a50c3d8d436c",
+          "type": "Item",
+          "value": "17500",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68c9cea964710861ca76212b",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68c9cea9062a79e4e0ab3e27",
+              "_tpl": "5d6fc78386f77449d825f9dc",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68c9cea9062a79e4e0ab3e27",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68c9d1839739222da349514c",
+          "index": 4,
+          "target": "StressResistance",
+          "type": "Skill",
+          "unknown": true,
+          "value": 100
+        }
+      ]
+    }
+  }
+}

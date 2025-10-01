@@ -1,0 +1,242 @@
+{
+  "68cf117168225f8b63b812f9": {
+    "QuestName": "Trees Gossip to the Wind",
+    "_id": "68cf117168225f8b63b812f9",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Multi",
+    "location": "5704e3c2d2720bac5b8b4567",
+    "image": "/files/quest/icon/28_Trees_Gossip_to_the_Wind.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68cf117168225f8b63b812f9 description",
+    "startedMessageText": "68cf117168225f8b63b812f9 startedMessageText",
+    "successMessageText": "68cf117168225f8b63b812f9 successMessageText",
+    "failMessageText": "68cf117168225f8b63b812f9 failMessageText",
+    "acceptPlayerMessage": "68cf117168225f8b63b812f9 acceptPlayerMessage",
+    "declinePlayerMessage": "68cf117168225f8b63b812f9 declinePlayerMessage",
+    "completePlayerMessage": "68cf117168225f8b63b812f9 completePlayerMessage",
+    "changeQuestMessageText": "68cf117168225f8b63b812f9 changeQuestMessageText",
+    "name": "68cf117168225f8b63b812f9 name",
+    "note": "68cf117168225f8b63b812f9 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "68cf10b6714b497a78903df9",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsInclusive": [],
+                "weaponModsExclusive": [],
+                "equipmentInclusive": [],
+                "equipmentExclusive": []
+              }
+            ],
+            "id": "68cf117167068fa6326d965a"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cf1171f87b3fe4ff3cb75c",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 12,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "68cf135df5c6f6ed8526f01a",
+                "target": "woods_bunker_entrance",
+                "value": 1
+              }
+            ],
+            "id": "68cf135eabf00e53bed2a75f"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cf10b683bbf95a7833b822",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cf1171d24860c58a2b4321",
+              "target": "68cf1171f87b3fe4ff3cb75c"
+            }
+          ]
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "68cf1171ad5f24ad059fbd3b",
+                "status": [
+                  "Survived"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68cf117118090c6fee43a1af",
+                "target": [
+                  "Woods"
+                ]
+              }
+            ],
+            "id": "68cf1171ea845f3ecb7aa849"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cf10b81f0796f4e6e6ed17",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cf11710852216d6b668c42",
+              "target": "68cf10b683bbf95a7833b822"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cf1171c9ac5007a5f3d919",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68cece61aa6d1fe5bf2a0ca7",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68cf1171392c3a471d0ed9f6",
+          "index": 0,
+          "type": "Experience",
+          "value": "13000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cf11710fe118fef05b5021",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.02",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cf11713f140acd3bc435fe",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68cf1171133044c7b66c4ab9",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 70000
+              }
+            }
+          ],
+          "target": "68cf1171133044c7b66c4ab9",
+          "type": "Item",
+          "value": "70000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cf1171f71de3bdc5e93486",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68cf11714283c928c30db40e",
+              "_tpl": "64acea16c4eda9354b0226b0",
+              "upd": {
+                "StackObjectsCount": 4
+              }
+            }
+          ],
+          "target": "68cf11714283c928c30db40e",
+          "type": "Item",
+          "value": "4",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

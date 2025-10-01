@@ -1,0 +1,13 @@
+{
+  "68d4bc9febad2d3e05889985 name": "The Four Doors Repeat",
+  "68d4bc9febad2d3e05889985 description": "Same hymn, different choir. I want four mouths marked again so my routes stay current. Use GPS Beacons.\nReserve: Black Knight workshop. Interchange: OLI logistics office. Streets: Pinewood reception. Shoreline: Resort admin entrance.\nMove brisk and boring. These marks refresh my timings and tell me which cameras forgot their jobs.",
+  "68d4bc9febad2d3e05889985 startedMessageText": "Mark law, hunger, vault, and clinic again.\nSame song, new verse.\nKeep the exit clean.",
+  "68d4bc9febad2d3e05889985 successMessageText": "All four mouths wear our lipstick.\nThey smile the way I like.",
+  "68d4bc9febad2d3e05889985 acceptPlayerMessage": "Place GPS Beacons at each door.\nDo not linger.\nExtract confirmed.",
+  "68d4bc9febad2d3e05889985 completePlayerMessage": "Repetition makes truth.\nYou repeated well.",
+  "68d4bc9f396083442ae3e368": "Mark Black Knight Workshop",
+  "68d4bc9f52ecf72a0deec579": "Mark OLI Logistics Office",
+  "68d4bc9f2b39e1936f75f84d": "Mark Pinewood Reception",
+  "68d4bc9f109c6df5c4dc396f": "Mark Resort Admin Entrance",
+  "68d4b3c8ea71acdfdcc6fd1a": "Survive and Extract"
+}

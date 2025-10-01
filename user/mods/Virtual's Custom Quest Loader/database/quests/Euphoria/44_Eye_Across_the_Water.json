@@ -1,0 +1,216 @@
+{
+  "68d4785fc02989c7217abb1e": {
+    "QuestName": "Eye Across the Water",
+    "_id": "68d4785fc02989c7217abb1e",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Multi",
+    "location": "any",
+    "image": "/files/quest/icon/44_Eye_Across_the_Water.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68d4785fc02989c7217abb1e description",
+    "startedMessageText": "68d4785fc02989c7217abb1e startedMessageText",
+    "successMessageText": "68d4785fc02989c7217abb1e successMessageText",
+    "failMessageText": "68d4785fc02989c7217abb1e failMessageText",
+    "acceptPlayerMessage": "68d4785fc02989c7217abb1e acceptPlayerMessage",
+    "declinePlayerMessage": "68d4785fc02989c7217abb1e declinePlayerMessage",
+    "completePlayerMessage": "68d4785fc02989c7217abb1e completePlayerMessage",
+    "changeQuestMessageText": "68d4785fc02989c7217abb1e changeQuestMessageText",
+    "name": "68d4785fc02989c7217abb1e name",
+    "note": "68d4785fc02989c7217abb1e note",
+    "restartable": true,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d4773d5134f9e026e9e679",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68d47747eaccbe89b8384e0c"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "68d4773e6aacfc101feb6c4c",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68d47747eaccbe89b8384e0c"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d4785f85d9ec6197254854",
+              "target": "68d4773d5134f9e026e9e679"
+            }
+          ],
+          "zoneId": "shoreline_pier_boathouse_shelves",
+          "dynamicLocale": false
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "68d4785f5775c2fe4810b3f1",
+                "status": [
+                  "Survived"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68d4785fc514db1af647e602",
+                "target": [
+                  "Shoreline"
+                ]
+              }
+            ],
+            "id": "68d4785f6a2a330bc539ea4f"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d477b37ca10d9121bb15b6",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d4785ff5025a175485aa70",
+              "target": "68d4773e6aacfc101feb6c4c"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d4785fb9561a56fdd3c6af",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68d4544f8a9a35065b341ab1",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68d4785f44d1d8ed7b792691",
+          "index": 0,
+          "type": "Experience",
+          "value": "18000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68d4785f32f0d607b7b47b32",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.04",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d4785fbc716c0d73cf52c3",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68d4785ffb37256023b66eda",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 75000
+              }
+            }
+          ],
+          "target": "68d4785ffb37256023b66eda",
+          "type": "Item",
+          "value": "75000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d4785f77aa3f413031bd48",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68d4785fcd1ebf9837460a2f",
+              "_tpl": "590c60fc86f77412b13fddcf",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68d4785fcd1ebf9837460a2f",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68d4785feffb93fc52b70850",
+          "index": 4,
+          "target": "Perception",
+          "type": "Skill",
+          "unknown": true,
+          "value": "100"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "68cdc14a057f2c432ba58e26 name": "Mall of Tooth and Glass",
+  "68cdc14a057f2c432ba58e26 description": "Interchange turns hunters into reflections. I need proof you can choose your shadows, not chase them. Work inside, take fights you meant to take, and leave while the glass still argues about your face. This clears lanes for moving gear that actually runs.",
+  "68cdc14a057f2c432ba58e26 startedMessageText": "The mall breeds reflections.\nMake your shadows on purpose and leave before the glass keeps your name.",
+  "68cdc14a057f2c432ba58e26 successMessageText": "The glass whispered but could not agree on your face.\nWell played.",
+  "68cdc14a057f2c432ba58e26 failMessageText": "You chased your own reflection and it bit back.\nReturn when your gaze is steadier.",
+  "68cdc14a057f2c432ba58e26 acceptPlayerMessage": "Pick indoor fights you choose.\nKeep your boots light and your exit lighter.\nNo crowd work.",
+  "68cdc14a057f2c432ba58e26 completePlayerMessage": "You hunted intention, not mirrors.\nThat is rare.",
+  "68cdc14ad642ee44d1b004c6": "Eliminate PMCs on Interchange"
+}

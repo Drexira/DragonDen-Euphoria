@@ -1,0 +1,89 @@
+{
+    "EXAMPLE": {
+        "addtoStaticLootContainers": true,
+        "StaticLootContainers": [
+            { "ContainerName": "LOOTCONTAINER_DEAD_SCAV", "Probability": 120 },
+            { "ContainerName": "LOOTCONTAINER_AIRDROP_COMMON_SUPPLY_CRATE", "Probability": 120 },
+            { "ContainerName": "LOOTCONTAINER_BURIED_BARREL_CACHE", "Probability": 170 },
+            { "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH", "Probability": 75 },
+            { "ContainerName": "LOOTCONTAINER_DRAWER", "Probability": 132 },
+            { "ContainerName": "LOOTCONTAINER_DUFFLE_BAG", "Probability": 106 },
+            { "ContainerName": "LOOTCONTAINER_DUFFLE_BAG_ADV", "Probability": 123 },
+            { "ContainerName": "LOOTCONTAINER_GROUND_CACHE", "Probability": 96 },
+            { "ContainerName": "LOOTCONTAINER_JACKET", "Probability": 137 },
+            { "ContainerName": "LOOTCONTAINER_SAFE", "Probability": 75 },
+            { "ContainerName": "LOOTCONTAINER_RATION_SUPPLY_CRATE", "Probability": 127 }
+        ],
+        "addtoLootLocation": true,
+        "LootLocation": [
+            { "LootName": "lootpoint", "Probability": 10 }
+        ],
+        "addToHallOfFameSmall": true,
+        "addToHallOfFameBig": true,
+        "addToHallOfFameDogtag": true,
+        "addtoPosterSlots": true,
+        "addPosterToMaps": true,
+        "addtoStatuetteSlots": true,
+        "addtoGenerator": true,
+        "compatibleGeneratorStages": [
+            1,
+            2,
+            3
+        ],
+        "Slots": [
+            {
+                "_id": "68bf1894187195e201e30eb7", // RND
+                "_mergeSlotWithChildren": true,
+                "_name": "Helmet_top",
+                "_parent": "68bf1006a12e5385e01c52c1",
+                "_props": {
+                    "filters": [
+                        {
+                            "Filter": [
+                                "68bf166b8bc8f85d2c467753" // Same ID as the armor slot item
+                            ],
+                            "Plate": "68bf166b8bc8f85d2c467753", // Same ID as the armor slot item
+                            "armorColliders": [
+                                "ParietalHead"
+                            ],
+                            "armorPlateColliders": [],
+                            "bluntDamageReduceFromSoftArmor": false,
+                            "locked": true
+                        }
+                    ]
+                },
+                "_proto": "64479fdf9731c8fadc0642c1", // No idea what this shit is
+                "_required": true
+            }
+        ],
+        "addweaponpreset": true, // This can be used to add armor slots to armor, and weapon slots to weapons, like sights, etc..
+        "weaponpresets": [
+            {
+                "_changeWeaponName": false,
+                "_encyclopedia": "68bf1006a12e5385e01c52c1", // Items ID
+                "_id": "68bf1838926a1ff52181416b", // RND
+                "_items": [ // These items must also be included in Assort if sold by trader
+                    {
+                        "_id": "68bf184526f6f902bf2c15a1", // RND
+                        "_tpl": "68bf1006a12e5385e01c52c1", // Same as _encyclopedia
+                        "upd": {
+                            "Repairable": {
+                                "MaxDurability": 20,
+                                "Durability": 20
+                            }
+                        }
+                    },
+                    {
+                        "_id": "68bf183bc3e13081fe0665ac", // RND
+                        "_tpl": "68bf166b8bc8f85d2c467753", // Same ID as the armor slot item
+                        "slotId": "Helmet_top", // Must match the name set in Slots
+                        "parentId": "68bf184526f6f902bf2c15a1" // Parent is the durability ID
+                    }
+                ],
+                "_name": "Item Name - Stock Preset", // Must be unique per item
+                "_parent": "68bf184526f6f902bf2c15a1",  // Parent is the durability ID
+                "_type": "Preset"
+            }
+        ]
+    }
+}

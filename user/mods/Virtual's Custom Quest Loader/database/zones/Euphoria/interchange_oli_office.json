@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "interchange_oli_office",
+    "ZoneName": "interchange_oli_office",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "80.87292",
+      "Y": "28.73656",
+      "Z": "117.9485",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.9999997",
+      "Z": "0",
+      "W": "0.0002045698"
+    },
+    "Scale": {
+      "X": "4.702348",
+      "Y": "3.345406",
+      "Z": "38.86961",
+      "W": "0"
+    }
+  }
+]

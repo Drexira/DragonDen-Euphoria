@@ -1,0 +1,76 @@
+{
+    "locationId": "(498.5496, 5.63900328, -141.5012)",
+    "probability": 0.3413190936643094,
+    "template": {
+        "Id": "loot_case_0013 [85934041-00cd-4ba8-a1db-5abb71148def]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+            "x": 498.5496,
+            "y": 5.63900328,
+            "z": -141.5012
+        },
+        "Rotation": {
+            "x": 90,
+            "y": 4.2915548E-05,
+            "z": 0
+        },
+        "IsGroupPosition": true,
+        "GroupPositions": [
+            {
+                "Name": "groupPoint[0]",
+                "Weight": 1,
+                "Position": {
+                    "x": 487.272583,
+                    "y": 5.64299059,
+                    "z": -138.6152
+                },
+                "Rotation": {
+                    "x": 90,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            {
+                "Name": "groupPoint[1]",
+                "Weight": 1,
+                "Position": {
+                    "x": 485.8996,
+                    "y": 5.639,
+                    "z": -140.5882
+                },
+                "Rotation": {
+                    "x": 90,
+                    "y": 4.2915548E-05,
+                    "z": 0
+                }
+            },
+            {
+                "Name": "groupPoint[2]",
+                "Weight": 1,
+                "Position": {
+                    "x": 498.5496,
+                    "y": 5.63900328,
+                    "z": -141.5012
+                },
+                "Rotation": {
+                    "x": 90,
+                    "y": 4.2915548E-05,
+                    "z": 0
+                }
+            }
+        ],
+        "IsAlwaysSpawn": false,
+        "Root": "665801358bc94c87f7091a1f",
+        "Items": [
+            {
+                "_id": "665801358bc94c87f7091a1f",
+                "_tpl": "5939e5a786f77461f11c0098",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ]
+    }
+}

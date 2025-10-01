@@ -1,0 +1,52 @@
+[
+  {
+    "ZoneId": "ground_zero_credit_bank_truck",
+    "ZoneName": "ground_zero_credit_bank_truck",
+    "ZoneLocation": "Sandbox_high",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "169.259",
+      "Y": "22.72002",
+      "Z": "-82.23817",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.7262117",
+      "Z": "0",
+      "W": "0.6874712"
+    },
+    "Scale": {
+      "X": "9.138604",
+      "Y": "7.824673",
+      "Z": "3.569158",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "ground_zero_credit_bank_truck",
+    "ZoneName": "ground_zero_credit_bank_truck",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "169.259",
+      "Y": "22.72002",
+      "Z": "-82.23817",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.7262117",
+      "Z": "0",
+      "W": "0.6874712"
+    },
+    "Scale": {
+      "X": "9.138604",
+      "Y": "7.824673",
+      "Z": "3.569158",
+      "W": "0"
+    }
+  }
+]

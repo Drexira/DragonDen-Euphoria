@@ -1,0 +1,89 @@
+{
+    "68c2b14d1c6375cad2e97a2c": {
+        "itemTplToClone": "5939a00786f7742fe8132936",
+        "parentId": "57864e4c24597754843f8723",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "dragonden/quest/fuel_barrel_green.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "BackgroundColor": "violet",
+            "Weight": 35,
+            "Height": 4,
+            "Width": 3,
+            "StackMaxSize": 1,
+            "RarityPvE": "Not_exist",
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Fuel Barrel Green (Quest)",
+                "shortName": "Fuel Barrel",
+                "description": ""
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "addtoLootLocation": false,
+        "QuestLocation": [
+            {
+                "Map": ["Interchange"],
+                "Position": {"x":-78.30756,"y":27.7660923,"z":192.377319},
+                "Rotation": {"x":0.0,"y":358.808746,"z":0.0}
+            },
+            {
+                "Map": ["Interchange"],
+                "Position": {"x":-96.52712,"y":27.7811985,"z":192.481049},
+                "Rotation": {"x":0.0,"y":319.7401,"z":0.0}
+            },
+            {
+                "Map": ["Interchange"],
+                "Position": {"x":-108.903015,"y":27.7739811,"z":174.131821},
+                "Rotation": {"x":0.0,"y":162.545151,"z":0.0}
+            },
+            {
+                "Map": ["Interchange"],
+                "Position": {"x":-119.582443,"y":27.6852779,"z":164.668808},
+                "Rotation": {"x":0.0,"y":219.814285,"z":0.0}
+            },
+            {
+                "Map": ["Interchange"],
+                "Position": {"x":-109.084465,"y":27.6876678,"z":164.906082},
+                "Rotation": {"x":0.0,"y":112.801231,"z":0.0}
+            },
+            {
+                "Map": ["Interchange"],
+                "Position": {"x":-109.008636,"y":27.7945042,"z":149.85759},
+                "Rotation": {"x":0.0,"y":161.975677,"z":0.0}
+            },
+            {
+                "Map": ["Interchange"],
+                "Position": {"x":-109.689209,"y":27.7773743,"z":121.683022},
+                "Rotation": {"x":0.0,"y":180.238846,"z":0.0}
+            },
+            {
+                "Map": ["Interchange"],
+                "Position": {"x":-113.716606,"y":27.512989,"z":103.772324},
+                "Rotation": {"x":0.0,"y":231.557465,"z":0.0}
+            },
+            {
+                "Map": ["Interchange"],
+                "Position": {"x":-129.312729,"y":27.6760845,"z":93.16101},
+                "Rotation": {"x":0.0,"y":294.601074,"z":0.0}
+            }
+        ],
+        "addLooseLoot": false
+    }
+}

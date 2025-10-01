@@ -1,0 +1,164 @@
+{
+  "68d03f2e8d0b4f2dcf5afe5f": {
+    "QuestName": "Green Breath Where It Hurts",
+    "_id": "68d03f2e8d0b4f2dcf5afe5f",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Multi",
+    "location": "5714dc692459777137212e12",
+    "image": "/files/quest/icon/36_Green_Breath_Where_It_Hurts.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68d03f2e8d0b4f2dcf5afe5f description",
+    "startedMessageText": "68d03f2e8d0b4f2dcf5afe5f startedMessageText",
+    "successMessageText": "68d03f2e8d0b4f2dcf5afe5f successMessageText",
+    "failMessageText": "68d03f2e8d0b4f2dcf5afe5f failMessageText",
+    "acceptPlayerMessage": "68d03f2e8d0b4f2dcf5afe5f acceptPlayerMessage",
+    "declinePlayerMessage": "68d03f2e8d0b4f2dcf5afe5f declinePlayerMessage",
+    "completePlayerMessage": "68d03f2e8d0b4f2dcf5afe5f completePlayerMessage",
+    "changeQuestMessageText": "68d03f2e8d0b4f2dcf5afe5f changeQuestMessageText",
+    "name": "68d03f2e8d0b4f2dcf5afe5f name",
+    "note": "68d03f2e8d0b4f2dcf5afe5f note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d03e4acd605e5433d620cf",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68d03e45dfd67f59d44ad721"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "68d03e4bc7ec48ac03aa35f0",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68d03e45dfd67f59d44ad721"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d03f2e165c53ca205f1549",
+              "target": "68d03e4acd605e5433d620cf"
+            }
+          ],
+          "zoneId": "streets_lexos_garage",
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d03f2ee05bfd7c2bcfee19",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68d025bec6d3a483b102533a",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68d03f2e403cfbdff25cf874",
+          "index": 0,
+          "type": "Experience",
+          "value": "14000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68d03f2e14c95aba260134b5",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.04",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d03f2ec912a7716662e13e",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68d03f2ec57ba6be78702a7d",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 70000
+              }
+            }
+          ],
+          "target": "68d03f2ec57ba6be78702a7d",
+          "type": "Item",
+          "value": "70000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d03f2ec2d9569c9f20b3f1",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68d03f2e87e9749a4aa54923",
+              "_tpl": "68c3e2b83edf169c04c68bf9",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68d03f2e87e9749a4aa54923",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

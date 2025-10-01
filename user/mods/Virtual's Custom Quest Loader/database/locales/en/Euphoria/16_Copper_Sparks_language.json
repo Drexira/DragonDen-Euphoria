@@ -1,0 +1,12 @@
+{
+  "68cda588406adb0360eeec89 name": "Copper Sparks",
+  "68cda588406adb0360eeec89 description": "Before we ask doors to behave, we feed the little boards that boss them around. Wires carry manners and capacitors teach patience. Bring both together so I can rebuild control boxes that do not lie when the grid flickers.",
+  "68cda588406adb0360eeec89 startedMessageText": "Small lightning first, miracles later.\nBring simple teeth and wire so the boards remember obedience.",
+  "68cda588406adb0360eeec89 successMessageText": "The bench purred when your parts arrived.\nThat is the right sound.",
+  "68cda588406adb0360eeec89 acceptPlayerMessage": "Deliver clean coils and healthy capacitors together.\nNo cracked legs, no bent songs.",
+  "68cda588406adb0360eeec89 completePlayerMessage": "Order returns in little pieces.\nYou brought enough.",
+  "68cda4dc375b9d9ecf01979a": "Find Wires in raid",
+  "68cda4dc2e894ead74015d79": "Hand over Wires",
+  "68cda4dd43462a87e242761b": "Find Capacitors in raid",
+  "68cda4dda5046ec66bec85e7": "Hand over Capacitors"
+}

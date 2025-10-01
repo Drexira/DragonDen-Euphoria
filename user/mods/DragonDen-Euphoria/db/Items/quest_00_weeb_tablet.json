@@ -1,0 +1,70 @@
+{
+    "68c2b13c0a8ceb59831e2d58": {
+        "itemTplToClone": "5939a00786f7742fe8132936",
+        "parentId": "57864e4c24597754843f8723",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "dragonden/quest/weeb_tablet.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "BackgroundColor": "violet",
+            "Weight": 0.2,
+            "Height": 1,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "RarityPvE": "Not_exist",
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Weeb Tablet (Quest)",
+                "shortName": "Weeb Tablet",
+                "description": ""
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "addtoLootLocation": false,
+        "QuestLocation": [
+            {
+                "Map": ["Sandbox_high"],
+                "Position": {
+                    "x": -12.9487543,
+                    "y": 30.5627975,
+                    "z": 67.5284958
+                },
+                "Rotation": {
+                    "x": 180.0,
+                    "y": 269.52594,
+                    "z": 0.0
+                }
+            },
+            {
+                "Map": ["Sandbox"],
+                "Position": {
+                    "x": -12.9487543,
+                    "y": 30.5627975,
+                    "z": 67.5284958
+                },
+                "Rotation": {
+                    "x": 180.0,
+                    "y": 269.52594,
+                    "z": 0.0
+                }
+            }
+        ],
+        "addLooseLoot": false
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "68cebd7f607b39e04dad1bbd name": "Green Breath Under Glass",
+  "68cebd7f607b39e04dad1bbd description": "I am caching fuel where wheels complain and cameras blink slow. A green barrel under the mall buys time when shutters sulk and lets me move gear without begging the grid.\nLift it from OLI's loading side and hide it in the Goshan underground by the Jeko generator. Quiet, neat, forgettable.",
+  "68cebd7f607b39e04dad1bbd startedMessageText": "Patient breath for patient rooms.\nCarry it quiet, stash it where carts squeal, and leave the map guessing.",
+  "68cebd7f607b39e04dad1bbd successMessageText": "Green is tucked where I pointed.\nNo squeaks, no gossip.",
+  "68cebd7f607b39e04dad1bbd acceptPlayerMessage": "Pick the green lung from OLI's back.\nStash it in the Goshan underground by the Jeko generator.\nWalk out like you were never there.",
+  "68cebd7f607b39e04dad1bbd completePlayerMessage": "You delivered patience without spectacle.\nUseful habit.",
+  "68cebce5a095163a7cccd0bc": "Find Fuel Barrel Green in OLI Loading",
+  "68cebce60623d77263d6740c": "Hide Fuel Barrel Green in Goshan underground"
+}

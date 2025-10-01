@@ -1,0 +1,81 @@
+{
+    "68c2f79a40ea61309736eb31": {
+        "itemTplToClone": "5c093db286f7740a1b2617e3",
+        "parentId": "5795f317245977243854e041",
+        "handbookParentId": "GEAR_CASES",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "dragonden/container/dragon_den_cooler.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 2.48,
+            "Height": 3,
+            "Width": 2,
+            "sizeHeight": 5,
+            "sizeWidth": 5,
+            "StackMaxSize": 1,
+            "isSecured": false,
+            "SearchSound": "techno_box_looting_01",
+            "DiscardingBlock": true,
+            "BackgroundColor": "blue",
+            "Grids": [
+                {
+                    "_name": "main1",
+                    "_id": "68c2f79ea3b32a9ec59b641b",
+                    "_parent": "68c2f79a40ea61309736eb31",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5af0484c86f7740f02001f7f",
+                                    "5e54f6af86f7742199090bf3",
+                                    "5bc9be8fd4351e00334cae6e",
+                                    "543be6674bdc2df1348b4569",
+                                    "6389c6463485cf0eeb260715",
+                                    "67586af7036d7f3da60c3612",
+                                    "67586b7e49c2fa592e0d8ed9"
+                                ],
+                                "ExcludedFilter": []
+                            }
+                        ],
+                        "cellsH": 5,
+                        "cellsV": 5,
+                        "minCount": 0,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "isSortingTable": false
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ],
+            "Slots": []
+        },
+        "locales": {
+            "en": {
+                "name": "Dragon Den Cooler",
+                "shortName": "Cooler",
+                "description": "A rugged thermal-electric cooler straight from the Dragon Den. Built to keep your loot ice-cold and safe, even in the hottest firefights. If it fits inside, it stays chill."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 119423,
+        "handbookPriceRoubles": 87500,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "StaticLootContainers": [],
+        "addtoHallOfFame": false
+    }
+}

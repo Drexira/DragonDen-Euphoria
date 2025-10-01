@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "factory_medical_basement_corner",
+    "ZoneName": "factory_medical_basement_corner",
+    "ZoneLocation": "factory4_day",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-15.31726",
+      "Y": "-2.973032",
+      "Z": "-34.09498",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.9999914",
+      "Z": "0",
+      "W": "0.004138533"
+    },
+    "Scale": {
+      "X": "4.341034",
+      "Y": "2.505234",
+      "Z": "3.419195",
+      "W": "0"
+    }
+  }
+]

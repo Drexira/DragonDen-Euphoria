@@ -1,0 +1,10 @@
+{
+  "68c9c37cc6c9982d680fbcef name": "Echoes Behind Broken Doors",
+  "68c9c37cc6c9982d680fbcef description": "You woke the right rooms. Now I need quiet lanes for crates and clients. Ground Zero is full of jumpy scav crews that turn simple errands into noise.\nThin them on purpose so I can move gear through the black door without paying panic tax. Pick clean fights, make the floor honest, and leave before the walls remember you.",
+  "68c9c37cc6c9982d680fbcef startedMessageText": "We need safe passes to the rail shack.\nCut the loud ones and keep walking.",
+  "68c9c37cc6c9982d680fbcef successMessageText": "Routes read quieter. My runners can breathe.",
+  "68c9c37cc6c9982d680fbcef failMessageText": "Noise got fed instead of starved.\nTry again with intent.",
+  "68c9c37cc6c9982d680fbcef acceptPlayerMessage": "Work Ground Zero with a timer in your head.\nChoose fights, finish them fast, and leave alive.\nNo trophies.",
+  "68c9c37cc6c9982d680fbcef completePlayerMessage": "You made a mess smaller, not bigger.\nThat is the kind of math I hire.",
+  "68c9c37cd3a9aa9cace1c36d": "Eliminate Scavs on Ground Zero"
+}

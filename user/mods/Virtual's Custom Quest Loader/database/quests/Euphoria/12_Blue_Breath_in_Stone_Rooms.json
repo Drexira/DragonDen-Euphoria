@@ -1,0 +1,173 @@
+{
+  "68cd70908db2d8aef1fdadce": {
+    "QuestName": "Blue Breath in Stone Rooms",
+    "_id": "68cd70908db2d8aef1fdadce",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "PickUp",
+    "location": "5714dc692459777137212e12",
+    "image": "/files/quest/icon/12_Blue_Breath_in_Stone_Rooms.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68cd70908db2d8aef1fdadce description",
+    "startedMessageText": "68cd70908db2d8aef1fdadce startedMessageText",
+    "successMessageText": "68cd70908db2d8aef1fdadce successMessageText",
+    "failMessageText": "68cd70908db2d8aef1fdadce failMessageText",
+    "acceptPlayerMessage": "68cd70908db2d8aef1fdadce acceptPlayerMessage",
+    "declinePlayerMessage": "68cd70908db2d8aef1fdadce declinePlayerMessage",
+    "completePlayerMessage": "68cd70908db2d8aef1fdadce completePlayerMessage",
+    "changeQuestMessageText": "68cd70908db2d8aef1fdadce changeQuestMessageText",
+    "name": "68cd70908db2d8aef1fdadce name",
+    "note": "68cd70908db2d8aef1fdadce note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cd642d1f8834935f5dc9f6",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68c2b14fad9fae912d1df8da"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "68cd642e3c3674d1f81e8712",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68c2b14fad9fae912d1df8da"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cd7090df855b98f8bea62a",
+              "target": "68cd642d1f8834935f5dc9f6"
+            }
+          ],
+          "zoneId": "streets_academy_crate",
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cd7090ef1bbdcbc4b063df",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68cd5ef070de940c09afa839",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68cd709045bd116123b540f9",
+          "index": 0,
+          "type": "Experience",
+          "value": "7800",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cd709060d8f9551b7fbcfa",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.02",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cd70909a2b0a806a43284d",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68cd7090d557a278088c0c8a",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 44000
+              }
+            }
+          ],
+          "target": "68cd7090d557a278088c0c8a",
+          "type": "Item",
+          "value": "44000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cd7090ccf8b22b2eadc6fc",
+          "index": 3,
+          "target": "Endurance",
+          "type": "Skill",
+          "unknown": true,
+          "value": "100"
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cd7090e7b92a9bf8527e39",
+          "index": 4,
+          "items": [
+            {
+              "_id": "68cd70908d9cd35cf8e2939e",
+              "_tpl": "5c052fb986f7746b2101e909",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68cd70908d9cd35cf8e2939e",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

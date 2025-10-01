@@ -1,0 +1,276 @@
+{
+  "68d48d323f89ef837364a757": {
+    "QuestName": "The Quiet Algebra of Loot",
+    "_id": "68d48d323f89ef837364a757",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "PickUp",
+    "location": "any",
+    "image": "/files/quest/icon/45_The_Quiet_Algebra_of_Loot.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68d48d323f89ef837364a757 description",
+    "startedMessageText": "68d48d323f89ef837364a757 startedMessageText",
+    "successMessageText": "68d48d323f89ef837364a757 successMessageText",
+    "failMessageText": "68d48d323f89ef837364a757 failMessageText",
+    "acceptPlayerMessage": "68d48d323f89ef837364a757 acceptPlayerMessage",
+    "declinePlayerMessage": "68d48d323f89ef837364a757 declinePlayerMessage",
+    "completePlayerMessage": "68d48d323f89ef837364a757 completePlayerMessage",
+    "changeQuestMessageText": "68d48d323f89ef837364a757 changeQuestMessageText",
+    "name": "68d48d323f89ef837364a757 name",
+    "note": "68d48d323f89ef837364a757 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d48c3d049885531524ae3a",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "59e36c6f86f774176c10a2a7"
+          ],
+          "value": 4,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d48c3d39e474fbcafdc25b",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "59e36c6f86f774176c10a2a7"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d48d322e7070824e8ca187",
+              "target": "68d48c3d049885531524ae3a"
+            }
+          ]
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d48c3e88119a7091042fb2",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "57347cd0245977445a2d6ff1"
+          ],
+          "value": 4,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d48c3ebdd5ea1850603a78",
+          "index": 3,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "57347cd0245977445a2d6ff1"
+          ],
+          "value": 4,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d48d3262855809097ec104",
+              "target": "68d48c3e88119a7091042fb2"
+            }
+          ]
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d48c409fc7c8ee34376ee6",
+          "index": 4,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5c06782b86f77426df5407d2"
+          ],
+          "value": 4,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d48c405da802fe01ffb5da",
+          "index": 5,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5c06782b86f77426df5407d2"
+          ],
+          "value": 4,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d48d326fd617015de9d29c",
+              "target": "68d48c409fc7c8ee34376ee6"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d48d32b286f7cfa28f2dcf",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68d4785fc02989c7217abb1e",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68d48d329e28f8d9e8ba2ea8",
+          "index": 0,
+          "type": "Experience",
+          "value": "13500",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68d48d3240cbc43c51042617",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.02",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d48d3244a1ee631a5578bc",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68d48d32586f7102a3dc55f8",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 80000
+              }
+            }
+          ],
+          "target": "68d48d32586f7102a3dc55f8",
+          "type": "Item",
+          "value": "80000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d48d32c8915cbbb9b1de10",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68d48d3241e7069056728c69",
+              "_tpl": "590c2e1186f77425357b6124",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68d48d3241e7069056728c69",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d48d328964d8695aa571d2",
+          "index": 4,
+          "items": [
+            {
+              "_id": "68d48d3205ce6a57099134f2",
+              "_tpl": "590a3b0486f7743954552bdb",
+              "upd": {
+                "StackObjectsCount": 3
+              }
+            }
+          ],
+          "target": "68d48d3205ce6a57099134f2",
+          "type": "Item",
+          "value": "3",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

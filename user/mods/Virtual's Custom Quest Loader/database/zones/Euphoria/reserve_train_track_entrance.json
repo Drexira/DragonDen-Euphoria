@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "reserve_train_track_entrance",
+    "ZoneName": "reserve_train_track_entrance",
+    "ZoneLocation": "RezervBase",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "226.4562",
+      "Y": "-5.002299",
+      "Z": "-169.1398",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.7962945",
+      "Z": "0",
+      "W": "0.6049092"
+    },
+    "Scale": {
+      "X": "1.447465",
+      "Y": "3.725667",
+      "Z": "5.438332",
+      "W": "0"
+    }
+  }
+]

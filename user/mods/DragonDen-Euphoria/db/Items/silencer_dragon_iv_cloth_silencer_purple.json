@@ -1,0 +1,70 @@
+{
+    "68dc9820b87cd797701f7225": {
+        "itemTplToClone": "5fbe7618d6fa9c00c571bb6c",
+        "parentId": "550aa4cd4bdc2dd8348b456c",
+        "handbookParentId": "MOD_MUZZLE",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": false,
+            "Prefab": {
+                "path": "dragonden/weaponparts/silencers/dragon_iv_cloth_silencer_purple.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 0.46,
+            "Height": 1,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "RarityPvE": "Superrare",
+            "BackgroundColor": "blue",
+            "ConflictingItems": [],
+            "DurabilityBurnModificator": 1.1,
+            "Ergonomics": -16,
+            "Recoil": -9,
+            "Loudness": -40,
+            "CoolFactor": 1,
+            "HeatFactor": 1.14,
+            "Velocity": 0.8
+        },
+        "locales": {
+            "en": {
+                "name": "Dragon IV Silencer (Purple)",
+                "shortName": "IV Supp",
+                "description": "The Dragon IV Silencer is a multi-baffle suppressor wrapped in heat resistant cloth that cuts sound and flash while reducing heat mirage and protecting the support hand. The wrap improves grip and signature control but adds bulk and holds grime, so maintenance takes longer."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_muzzle"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 42750,
+        "handbookPriceRoubles": 20350,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": true,
+        "addtoStaticLootContainers": false,
+        "StaticLootContainers": [
+            { "ContainerName": "LOOTCONTAINER_DEAD_SCAV", "Probability": 120 },
+            { "ContainerName": "LOOTCONTAINER_AIRDROP_COMMON_SUPPLY_CRATE", "Probability": 120 },
+            { "ContainerName": "LOOTCONTAINER_BURIED_BARREL_CACHE", "Probability": 170 },
+            { "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH", "Probability": 75 },
+            { "ContainerName": "LOOTCONTAINER_DUFFLE_BAG", "Probability": 106 },
+            { "ContainerName": "LOOTCONTAINER_DUFFLE_BAG_ADV", "Probability": 123 },
+            { "ContainerName": "LOOTCONTAINER_GROUND_CACHE", "Probability": 96 },
+            { "ContainerName": "LOOTCONTAINER_RATION_SUPPLY_CRATE", "Probability": 127 }
+        ],
+        "addtoLootLocation": false,
+        "LootLocation": [],
+        "addLooseLoot": true,
+        "addLooseLootProbability": 250,
+        "addToHallOfFameBig": false,
+        "addtoStatuetteSlots": false
+    }
+}

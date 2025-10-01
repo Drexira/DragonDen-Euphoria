@@ -1,0 +1,1404 @@
+{
+  "68d5f28b5251fe6725ab97f2": {
+    "QuestName": "Rite of the Hollow Crown",
+    "_id": "68d5f28b5251fe6725ab97f2",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Multi",
+    "location": "any",
+    "image": "/files/quest/icon/50_Rite_of_the_Hollow_Crown.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68d5f28b5251fe6725ab97f2 description",
+    "startedMessageText": "68d5f28b5251fe6725ab97f2 startedMessageText",
+    "successMessageText": "68d5f28b5251fe6725ab97f2 successMessageText",
+    "failMessageText": "68d5f28b5251fe6725ab97f2 failMessageText",
+    "acceptPlayerMessage": "68d5f28b5251fe6725ab97f2 acceptPlayerMessage",
+    "declinePlayerMessage": "68d5f28b5251fe6725ab97f2 declinePlayerMessage",
+    "completePlayerMessage": "68d5f28b5251fe6725ab97f2 completePlayerMessage",
+    "changeQuestMessageText": "68d5f28b5251fe6725ab97f2 changeQuestMessageText",
+    "name": "68d5f28b5251fe6725ab97f2 name",
+    "note": "68d5f28b5251fe6725ab97f2 note",
+    "restartable": true,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d5bc7289a182b91feaf49b",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68d4942bbdad148f7a9769ac"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "customs_3story_locked_entrance"
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d5bc842008878bf3a4af0a",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": true,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68d5bcb3ffffb452380f025a"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "68d5c00af2d21e1a4eae1e63",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Savage",
+                "value": 0,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68d5c00a40b0face12b7e338",
+                "target": [
+                  "bigmap"
+                ]
+              },
+              {
+                "IncludeNotEquippedItems": false,
+                "conditionType": "Equipment",
+                "dynamicLocale": false,
+                "equipmentExclusive": [
+                  [
+                    "545cdb794bdc2d3a198b456a"
+                  ],
+                  [
+                    "5ab8e79e86f7742d8b372e78"
+                  ],
+                  [
+                    "5ab8e4ed86f7742d8e50c7fa"
+                  ],
+                  [
+                    "5c0e53c886f7747fa54205c7"
+                  ],
+                  [
+                    "5c0e51be86f774598e797894"
+                  ],
+                  [
+                    "5c0e541586f7747fa54205c9"
+                  ],
+                  [
+                    "5c0e5bab86f77461f55ed1f3"
+                  ],
+                  [
+                    "5c0e57ba86f7747fa141986d"
+                  ],
+                  [
+                    "5b44cd8b86f774503d30cba2"
+                  ],
+                  [
+                    "5b44cf1486f77431723e3d05"
+                  ],
+                  [
+                    "5b44d0de86f774503d30cba8"
+                  ],
+                  [
+                    "5b44d22286f774172b0c9de8"
+                  ],
+                  [
+                    "5ca2151486f774244a3b8d30"
+                  ],
+                  [
+                    "5ca21c6986f77479963115a7"
+                  ],
+                  [
+                    "5c0e655586f774045612eeb2"
+                  ],
+                  [
+                    "5c0e5edb86f77461f55ed1f7"
+                  ],
+                  [
+                    "5c0e625a86f7742d77340f62"
+                  ],
+                  [
+                    "59e7635f86f7742cbf2c1095"
+                  ],
+                  [
+                    "5648a7494bdc2d9d488b4583"
+                  ],
+                  [
+                    "5ab8dced86f774646209ec87"
+                  ],
+                  [
+                    "5c0e446786f7742013381639"
+                  ],
+                  [
+                    "5c0e3eb886f7742015526062"
+                  ],
+                  [
+                    "5b44cad286f77402a54ae7e5"
+                  ],
+                  [
+                    "5c0e746986f7741453628fe5"
+                  ],
+                  [
+                    "544a5caa4bdc2d1a388b4568"
+                  ],
+                  [
+                    "5d5d646386f7742797261fd9"
+                  ],
+                  [
+                    "5e9dacf986f774054d6b89f4"
+                  ],
+                  [
+                    "5e4ac41886f77406a511c9a8"
+                  ],
+                  [
+                    "5e4abb5086f77406975c9342"
+                  ],
+                  [
+                    "5fd4c474dd870108a754b241"
+                  ],
+                  [
+                    "5f5f41476bdad616ad46d631"
+                  ],
+                  [
+                    "5df8a2ca86f7740bfe6df777"
+                  ],
+                  [
+                    "5c0e722886f7740458316a57"
+                  ],
+                  [
+                    "6038b4ca92ec1c3103795a0d"
+                  ],
+                  [
+                    "6038b4b292ec1c3103795a0b"
+                  ],
+                  [
+                    "60a3c70cde5f453f634816a3"
+                  ],
+                  [
+                    "60a3c68c37ea821725773ef5"
+                  ],
+                  [
+                    "60a283193cb70855c43a381d"
+                  ],
+                  [
+                    "609e860ebd219504d8507525"
+                  ],
+                  [
+                    "609e8540d5c319764c2bc2e9"
+                  ],
+                  [
+                    "61bc85697113f767765c7fe7"
+                  ],
+                  [
+                    "61bcc89aef0f505f0c6cd0fc"
+                  ],
+                  [
+                    "62a09d79de7ac81993580530"
+                  ],
+                  [
+                    "628b9784bcf6e2659e09b8a2"
+                  ],
+                  [
+                    "628b9c7d45122232a872358f"
+                  ],
+                  [
+                    "628cd624459354321c4b7fa2"
+                  ],
+                  [
+                    "628d0618d1ba6e4fa07ce5a4"
+                  ],
+                  [
+                    "628dc750b910320f4c27a732"
+                  ],
+                  [
+                    "5d5d87f786f77427997cfaef"
+                  ],
+                  [
+                    "639343fce101f4caa40a4ef3"
+                  ],
+                  [
+                    "63737f448b28897f2802b874"
+                  ],
+                  [
+                    "64be79c487d1510151095552"
+                  ],
+                  [
+                    "64be79e2bf8412471d0d9bcc"
+                  ],
+                  [
+                    "64abd93857958b4249003418"
+                  ],
+                  [
+                    "64a5366719bab53bd203bf33"
+                  ],
+                  [
+                    "64a536392d2c4e6e970f4121"
+                  ],
+                  [
+                    "66b6296d7994640992013b17"
+                  ],
+                  [
+                    "66b6295a8ca68c6461709efa"
+                  ],
+                  [
+                    "66b6295178bbc0200425f995"
+                  ],
+                  [
+                    "674d91ce6e862d5a95059ed6"
+                  ]
+                ],
+                "equipmentInclusive": [],
+                "id": "68d5dee8937adc0b0ff06175"
+              }
+            ],
+            "id": "68d5c00a22333a3096135def"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d5bc856e3e2259868b889e",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 12,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "68d5c00a97e17ada1c8914d5",
+                "status": [
+                  "Survived"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68d5c00a76f5063ed9f3d0bd",
+                "target": [
+                  "bigmap"
+                ]
+              }
+            ],
+            "id": "68d5c00a596456ce058b420f"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d5bc85c39ebab75c3a6227",
+          "index": 3,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "68d5bd059901d6b10e023ebf",
+          "index": 4,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68d5bcb3ffffb452380f025a"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "interchange_power_station_transformers",
+          "dynamicLocale": false
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "68d5c00a5c3256ddc81b3e47",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "AnyPmc",
+                "value": 0,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68d5c00af27e2a93a90b8387",
+                "target": [
+                  "Interchange"
+                ]
+              },
+              {
+                "IncludeNotEquippedItems": false,
+                "conditionType": "Equipment",
+                "dynamicLocale": false,
+                "equipmentExclusive": [
+                  [
+                    "545cdb794bdc2d3a198b456a"
+                  ],
+                  [
+                    "5ab8e79e86f7742d8b372e78"
+                  ],
+                  [
+                    "5ab8e4ed86f7742d8e50c7fa"
+                  ],
+                  [
+                    "5c0e53c886f7747fa54205c7"
+                  ],
+                  [
+                    "5c0e51be86f774598e797894"
+                  ],
+                  [
+                    "5c0e541586f7747fa54205c9"
+                  ],
+                  [
+                    "5c0e5bab86f77461f55ed1f3"
+                  ],
+                  [
+                    "5c0e57ba86f7747fa141986d"
+                  ],
+                  [
+                    "5b44cd8b86f774503d30cba2"
+                  ],
+                  [
+                    "5b44cf1486f77431723e3d05"
+                  ],
+                  [
+                    "5b44d0de86f774503d30cba8"
+                  ],
+                  [
+                    "5b44d22286f774172b0c9de8"
+                  ],
+                  [
+                    "5ca2151486f774244a3b8d30"
+                  ],
+                  [
+                    "5ca21c6986f77479963115a7"
+                  ],
+                  [
+                    "5c0e655586f774045612eeb2"
+                  ],
+                  [
+                    "5c0e5edb86f77461f55ed1f7"
+                  ],
+                  [
+                    "5c0e625a86f7742d77340f62"
+                  ],
+                  [
+                    "59e7635f86f7742cbf2c1095"
+                  ],
+                  [
+                    "5648a7494bdc2d9d488b4583"
+                  ],
+                  [
+                    "5ab8dced86f774646209ec87"
+                  ],
+                  [
+                    "5c0e446786f7742013381639"
+                  ],
+                  [
+                    "5c0e3eb886f7742015526062"
+                  ],
+                  [
+                    "5b44cad286f77402a54ae7e5"
+                  ],
+                  [
+                    "5c0e746986f7741453628fe5"
+                  ],
+                  [
+                    "544a5caa4bdc2d1a388b4568"
+                  ],
+                  [
+                    "5d5d646386f7742797261fd9"
+                  ],
+                  [
+                    "5e9dacf986f774054d6b89f4"
+                  ],
+                  [
+                    "5e4ac41886f77406a511c9a8"
+                  ],
+                  [
+                    "5e4abb5086f77406975c9342"
+                  ],
+                  [
+                    "5fd4c474dd870108a754b241"
+                  ],
+                  [
+                    "5f5f41476bdad616ad46d631"
+                  ],
+                  [
+                    "5df8a2ca86f7740bfe6df777"
+                  ],
+                  [
+                    "5c0e722886f7740458316a57"
+                  ],
+                  [
+                    "6038b4ca92ec1c3103795a0d"
+                  ],
+                  [
+                    "6038b4b292ec1c3103795a0b"
+                  ],
+                  [
+                    "60a3c70cde5f453f634816a3"
+                  ],
+                  [
+                    "60a3c68c37ea821725773ef5"
+                  ],
+                  [
+                    "60a283193cb70855c43a381d"
+                  ],
+                  [
+                    "609e860ebd219504d8507525"
+                  ],
+                  [
+                    "609e8540d5c319764c2bc2e9"
+                  ],
+                  [
+                    "61bc85697113f767765c7fe7"
+                  ],
+                  [
+                    "61bcc89aef0f505f0c6cd0fc"
+                  ],
+                  [
+                    "62a09d79de7ac81993580530"
+                  ],
+                  [
+                    "628b9784bcf6e2659e09b8a2"
+                  ],
+                  [
+                    "628b9c7d45122232a872358f"
+                  ],
+                  [
+                    "628cd624459354321c4b7fa2"
+                  ],
+                  [
+                    "628d0618d1ba6e4fa07ce5a4"
+                  ],
+                  [
+                    "628dc750b910320f4c27a732"
+                  ],
+                  [
+                    "5d5d87f786f77427997cfaef"
+                  ],
+                  [
+                    "639343fce101f4caa40a4ef3"
+                  ],
+                  [
+                    "63737f448b28897f2802b874"
+                  ],
+                  [
+                    "64be79c487d1510151095552"
+                  ],
+                  [
+                    "64be79e2bf8412471d0d9bcc"
+                  ],
+                  [
+                    "64abd93857958b4249003418"
+                  ],
+                  [
+                    "64a5366719bab53bd203bf33"
+                  ],
+                  [
+                    "64a536392d2c4e6e970f4121"
+                  ],
+                  [
+                    "66b6296d7994640992013b17"
+                  ],
+                  [
+                    "66b6295a8ca68c6461709efa"
+                  ],
+                  [
+                    "66b6295178bbc0200425f995"
+                  ],
+                  [
+                    "674d91ce6e862d5a95059ed6"
+                  ]
+                ],
+                "equipmentInclusive": [],
+                "id": "68d5dee2ff50973a89a075f1"
+              }
+            ],
+            "id": "68d5c00a82b56f4568651f6f"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d5bd065532a53793f445c3",
+          "index": 5,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 8,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "68d5c00a5f50f34ac70009bc",
+                "status": [
+                  "Survived"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68d5c00ada5d09099b925434",
+                "target": [
+                  "Interchange"
+                ]
+              }
+            ],
+            "id": "68d5c00ad89b07d756e8f1b6"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d5bd0762ffacbd8ecb7239",
+          "index": 6,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d5bd091da9a8bd5352ec8c",
+          "index": 7,
+          "isNecessary": false,
+          "isResetOnConditionFailed": true,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68d5be133dbd7bd65915f3e7"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "68d5c00ab30a6170bb6180d8",
+                "resetOnSessionEnd": false,
+                "savageRole": [
+                  "pmcBot"
+                ],
+                "target": "Savage",
+                "value": 0,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68d5c00ad4db79dd60dc0d5c",
+                "target": [
+                  "RezervBase"
+                ]
+              },
+              {
+                "IncludeNotEquippedItems": false,
+                "conditionType": "Equipment",
+                "dynamicLocale": false,
+                "equipmentExclusive": [
+                  [
+                    "545cdb794bdc2d3a198b456a"
+                  ],
+                  [
+                    "5ab8e79e86f7742d8b372e78"
+                  ],
+                  [
+                    "5ab8e4ed86f7742d8e50c7fa"
+                  ],
+                  [
+                    "5c0e53c886f7747fa54205c7"
+                  ],
+                  [
+                    "5c0e51be86f774598e797894"
+                  ],
+                  [
+                    "5c0e541586f7747fa54205c9"
+                  ],
+                  [
+                    "5c0e5bab86f77461f55ed1f3"
+                  ],
+                  [
+                    "5c0e57ba86f7747fa141986d"
+                  ],
+                  [
+                    "5b44cd8b86f774503d30cba2"
+                  ],
+                  [
+                    "5b44cf1486f77431723e3d05"
+                  ],
+                  [
+                    "5b44d0de86f774503d30cba8"
+                  ],
+                  [
+                    "5b44d22286f774172b0c9de8"
+                  ],
+                  [
+                    "5ca2151486f774244a3b8d30"
+                  ],
+                  [
+                    "5ca21c6986f77479963115a7"
+                  ],
+                  [
+                    "5c0e655586f774045612eeb2"
+                  ],
+                  [
+                    "5c0e5edb86f77461f55ed1f7"
+                  ],
+                  [
+                    "5c0e625a86f7742d77340f62"
+                  ],
+                  [
+                    "59e7635f86f7742cbf2c1095"
+                  ],
+                  [
+                    "5648a7494bdc2d9d488b4583"
+                  ],
+                  [
+                    "5ab8dced86f774646209ec87"
+                  ],
+                  [
+                    "5c0e446786f7742013381639"
+                  ],
+                  [
+                    "5c0e3eb886f7742015526062"
+                  ],
+                  [
+                    "5b44cad286f77402a54ae7e5"
+                  ],
+                  [
+                    "5c0e746986f7741453628fe5"
+                  ],
+                  [
+                    "544a5caa4bdc2d1a388b4568"
+                  ],
+                  [
+                    "5d5d646386f7742797261fd9"
+                  ],
+                  [
+                    "5e9dacf986f774054d6b89f4"
+                  ],
+                  [
+                    "5e4ac41886f77406a511c9a8"
+                  ],
+                  [
+                    "5e4abb5086f77406975c9342"
+                  ],
+                  [
+                    "5fd4c474dd870108a754b241"
+                  ],
+                  [
+                    "5f5f41476bdad616ad46d631"
+                  ],
+                  [
+                    "5df8a2ca86f7740bfe6df777"
+                  ],
+                  [
+                    "5c0e722886f7740458316a57"
+                  ],
+                  [
+                    "6038b4ca92ec1c3103795a0d"
+                  ],
+                  [
+                    "6038b4b292ec1c3103795a0b"
+                  ],
+                  [
+                    "60a3c70cde5f453f634816a3"
+                  ],
+                  [
+                    "60a3c68c37ea821725773ef5"
+                  ],
+                  [
+                    "60a283193cb70855c43a381d"
+                  ],
+                  [
+                    "609e860ebd219504d8507525"
+                  ],
+                  [
+                    "609e8540d5c319764c2bc2e9"
+                  ],
+                  [
+                    "61bc85697113f767765c7fe7"
+                  ],
+                  [
+                    "61bcc89aef0f505f0c6cd0fc"
+                  ],
+                  [
+                    "62a09d79de7ac81993580530"
+                  ],
+                  [
+                    "628b9784bcf6e2659e09b8a2"
+                  ],
+                  [
+                    "628b9c7d45122232a872358f"
+                  ],
+                  [
+                    "628cd624459354321c4b7fa2"
+                  ],
+                  [
+                    "628d0618d1ba6e4fa07ce5a4"
+                  ],
+                  [
+                    "628dc750b910320f4c27a732"
+                  ],
+                  [
+                    "5d5d87f786f77427997cfaef"
+                  ],
+                  [
+                    "639343fce101f4caa40a4ef3"
+                  ],
+                  [
+                    "63737f448b28897f2802b874"
+                  ],
+                  [
+                    "64be79c487d1510151095552"
+                  ],
+                  [
+                    "64be79e2bf8412471d0d9bcc"
+                  ],
+                  [
+                    "64abd93857958b4249003418"
+                  ],
+                  [
+                    "64a5366719bab53bd203bf33"
+                  ],
+                  [
+                    "64a536392d2c4e6e970f4121"
+                  ],
+                  [
+                    "66b6296d7994640992013b17"
+                  ],
+                  [
+                    "66b6295a8ca68c6461709efa"
+                  ],
+                  [
+                    "66b6295178bbc0200425f995"
+                  ],
+                  [
+                    "674d91ce6e862d5a95059ed6"
+                  ]
+                ],
+                "equipmentInclusive": [],
+                "id": "68d5dee4182cb4871692d09f"
+              }
+            ],
+            "id": "68d5c00a010189439afeede3"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d5bd09db394e8a62e5d10a",
+          "index": 8,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 6,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "68d5c00a64284d051a79ee41",
+                "status": [
+                  "Survived"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68d5c00a30a929122e70c268",
+                "target": [
+                  "RezervBase"
+                ]
+              }
+            ],
+            "id": "68d5c00a0d44e6553c0191dd"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d5bd0a417351675b7df4cc",
+          "index": 9,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d5bd0b82e83b592a51d455",
+          "index": 10,
+          "isNecessary": false,
+          "isResetOnConditionFailed": true,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68d5be65c27e9814f4b4fd1b"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "68d5bd0c81ebb91ab6e3319f",
+          "index": 11,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68d5be133dbd7bd65915f3e7"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "labs_test_room",
+          "dynamicLocale": false
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "68d5c00a1f8c95ab1907c2af",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "AnyPmc",
+                "value": 0,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68d5c00a34defab32e729421",
+                "target": [
+                  "laboratory"
+                ]
+              },
+              {
+                "IncludeNotEquippedItems": false,
+                "conditionType": "Equipment",
+                "dynamicLocale": false,
+                "equipmentExclusive": [
+                  [
+                    "545cdb794bdc2d3a198b456a"
+                  ],
+                  [
+                    "5ab8e79e86f7742d8b372e78"
+                  ],
+                  [
+                    "5ab8e4ed86f7742d8e50c7fa"
+                  ],
+                  [
+                    "5c0e53c886f7747fa54205c7"
+                  ],
+                  [
+                    "5c0e51be86f774598e797894"
+                  ],
+                  [
+                    "5c0e541586f7747fa54205c9"
+                  ],
+                  [
+                    "5c0e5bab86f77461f55ed1f3"
+                  ],
+                  [
+                    "5c0e57ba86f7747fa141986d"
+                  ],
+                  [
+                    "5b44cd8b86f774503d30cba2"
+                  ],
+                  [
+                    "5b44cf1486f77431723e3d05"
+                  ],
+                  [
+                    "5b44d0de86f774503d30cba8"
+                  ],
+                  [
+                    "5b44d22286f774172b0c9de8"
+                  ],
+                  [
+                    "5ca2151486f774244a3b8d30"
+                  ],
+                  [
+                    "5ca21c6986f77479963115a7"
+                  ],
+                  [
+                    "5c0e655586f774045612eeb2"
+                  ],
+                  [
+                    "5c0e5edb86f77461f55ed1f7"
+                  ],
+                  [
+                    "5c0e625a86f7742d77340f62"
+                  ],
+                  [
+                    "59e7635f86f7742cbf2c1095"
+                  ],
+                  [
+                    "5648a7494bdc2d9d488b4583"
+                  ],
+                  [
+                    "5ab8dced86f774646209ec87"
+                  ],
+                  [
+                    "5c0e446786f7742013381639"
+                  ],
+                  [
+                    "5c0e3eb886f7742015526062"
+                  ],
+                  [
+                    "5b44cad286f77402a54ae7e5"
+                  ],
+                  [
+                    "5c0e746986f7741453628fe5"
+                  ],
+                  [
+                    "544a5caa4bdc2d1a388b4568"
+                  ],
+                  [
+                    "5d5d646386f7742797261fd9"
+                  ],
+                  [
+                    "5e9dacf986f774054d6b89f4"
+                  ],
+                  [
+                    "5e4ac41886f77406a511c9a8"
+                  ],
+                  [
+                    "5e4abb5086f77406975c9342"
+                  ],
+                  [
+                    "5fd4c474dd870108a754b241"
+                  ],
+                  [
+                    "5f5f41476bdad616ad46d631"
+                  ],
+                  [
+                    "5df8a2ca86f7740bfe6df777"
+                  ],
+                  [
+                    "5c0e722886f7740458316a57"
+                  ],
+                  [
+                    "6038b4ca92ec1c3103795a0d"
+                  ],
+                  [
+                    "6038b4b292ec1c3103795a0b"
+                  ],
+                  [
+                    "60a3c70cde5f453f634816a3"
+                  ],
+                  [
+                    "60a3c68c37ea821725773ef5"
+                  ],
+                  [
+                    "60a283193cb70855c43a381d"
+                  ],
+                  [
+                    "609e860ebd219504d8507525"
+                  ],
+                  [
+                    "609e8540d5c319764c2bc2e9"
+                  ],
+                  [
+                    "61bc85697113f767765c7fe7"
+                  ],
+                  [
+                    "61bcc89aef0f505f0c6cd0fc"
+                  ],
+                  [
+                    "62a09d79de7ac81993580530"
+                  ],
+                  [
+                    "628b9784bcf6e2659e09b8a2"
+                  ],
+                  [
+                    "628b9c7d45122232a872358f"
+                  ],
+                  [
+                    "628cd624459354321c4b7fa2"
+                  ],
+                  [
+                    "628d0618d1ba6e4fa07ce5a4"
+                  ],
+                  [
+                    "628dc750b910320f4c27a732"
+                  ],
+                  [
+                    "5d5d87f786f77427997cfaef"
+                  ],
+                  [
+                    "639343fce101f4caa40a4ef3"
+                  ],
+                  [
+                    "63737f448b28897f2802b874"
+                  ],
+                  [
+                    "64be79c487d1510151095552"
+                  ],
+                  [
+                    "64be79e2bf8412471d0d9bcc"
+                  ],
+                  [
+                    "64abd93857958b4249003418"
+                  ],
+                  [
+                    "64a5366719bab53bd203bf33"
+                  ],
+                  [
+                    "64a536392d2c4e6e970f4121"
+                  ],
+                  [
+                    "66b6296d7994640992013b17"
+                  ],
+                  [
+                    "66b6295a8ca68c6461709efa"
+                  ],
+                  [
+                    "66b6295178bbc0200425f995"
+                  ],
+                  [
+                    "674d91ce6e862d5a95059ed6"
+                  ]
+                ],
+                "equipmentInclusive": [],
+                "id": "68d5dee6c1b118eae4217e07"
+              }
+            ],
+            "id": "68d5c00acbe1152fd2b23f97"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d5bd0d651f1e43b7f3c049",
+          "index": 12,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 6,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "68d5c00ad6f632c43968dbc5",
+                "status": [
+                  "Survived"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68d5c00a65e2c31a0b3ad300",
+                "target": [
+                  "laboratory"
+                ]
+              }
+            ],
+            "id": "68d5c00a697bdee6749e4ed6"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d5bd0ec84c8dbead7a755f",
+          "index": 13,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d5c00a5fd0d888c755b6be",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68d5b1e2f7cd41eb65d04667",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "68d5c00a1cf53b100cf040e9",
+                "status": [
+                  "Killed",
+                  "Left",
+                  "MissingInAction",
+                  "Runner"
+                ]
+              }
+            ],
+            "id": "68d5c00afa4085147cfc6a6d"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d5c00a635f4cef20547ea3",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68d5c00a16a8253ddf3fcd8a",
+          "index": 0,
+          "type": "Experience",
+          "value": "180000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68d5c00a7d7d51f4024717c9",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.15",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d5c00a285fdcbdff9dc577",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68d5c00a1e0268d338e08e3d",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 500000
+              }
+            }
+          ],
+          "target": "68d5c00a1e0268d338e08e3d",
+          "type": "Item",
+          "value": "500000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d5c00a53364a4a342e5371",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68d5c00a88930f3898ad9e63",
+              "_tpl": "68c2f420a385f83c0c7511fb",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68d5c00a88930f3898ad9e63",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68d5c00ada20987b2ad0a333",
+          "index": 4,
+          "target": "MagDrills",
+          "type": "Skill",
+          "unknown": true,
+          "value": "300"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "interchange_techlight_register",
+    "ZoneName": "interchange_techlight_register",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "92.76443",
+      "Y": "37.66341",
+      "Z": "33.50653",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.9999995",
+      "Z": "0",
+      "W": "0.0008744724"
+    },
+    "Scale": {
+      "X": "5.141657",
+      "Y": "2.205428",
+      "Z": "2.173262",
+      "W": "0"
+    }
+  }
+]

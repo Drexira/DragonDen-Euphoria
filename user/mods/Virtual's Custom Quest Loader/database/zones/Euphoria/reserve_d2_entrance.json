@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "reserve_d2_entrance",
+    "ZoneName": "reserve_d2_entrance",
+    "ZoneLocation": "RezervBase",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-117.7291",
+      "Y": "-16.62999",
+      "Z": "170.4807",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.5093171",
+      "Z": "0",
+      "W": "-0.8605789"
+    },
+    "Scale": {
+      "X": "4.391267",
+      "Y": "3.333474",
+      "Z": "1.884295",
+      "W": "0"
+    }
+  }
+]

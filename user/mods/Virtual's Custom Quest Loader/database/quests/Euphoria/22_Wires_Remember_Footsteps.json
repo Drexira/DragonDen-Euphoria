@@ -1,0 +1,322 @@
+{
+  "68cebbb0fc0c2b28664a9063": {
+    "QuestName": "Wires Remember Footsteps",
+    "_id": "68cebbb0fc0c2b28664a9063",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Exploration",
+    "location": "5714dbc024597771384a510d",
+    "image": "/files/quest/icon/22_Wires_Remember_Footsteps.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68cebbb0fc0c2b28664a9063 description",
+    "startedMessageText": "68cebbb0fc0c2b28664a9063 startedMessageText",
+    "successMessageText": "68cebbb0fc0c2b28664a9063 successMessageText",
+    "failMessageText": "68cebbb0fc0c2b28664a9063 failMessageText",
+    "acceptPlayerMessage": "68cebbb0fc0c2b28664a9063 acceptPlayerMessage",
+    "declinePlayerMessage": "68cebbb0fc0c2b28664a9063 declinePlayerMessage",
+    "completePlayerMessage": "68cebbb0fc0c2b28664a9063 completePlayerMessage",
+    "changeQuestMessageText": "68cebbb0fc0c2b28664a9063 changeQuestMessageText",
+    "name": "68cebbb0fc0c2b28664a9063 name",
+    "note": "68cebbb0fc0c2b28664a9063 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "68cec041e7ad7a60ee936ba0",
+                "target": "interchange_oli_office",
+                "value": 1
+              }
+            ],
+            "id": "68cebbe0869c727fd7e20398"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68ceba8fa2d06c140a4546b3",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "68cec044152a32af8448cca1",
+                "target": "interchange_goshan_office1",
+                "value": 1
+              }
+            ],
+            "id": "68cebbe578ce31753ee6f851"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68ceba8fe3f81615ec518bc9",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "68cec0477cd926090addddc5",
+                "target": "interchange_goshan_office2",
+                "value": 1
+              }
+            ],
+            "id": "68cebbea7dfc8dd421bd5be2"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68ceba906167099c5232969c",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "68cec04ae2cd458414f177ca",
+                "target": "interchange_idea_office",
+                "value": 1
+              }
+            ],
+            "id": "68cebbee245c33e09e9cfd1d"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68ceba909d87b877fbcd58af",
+          "index": 3,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "68cec04fcf183b2356dd9600",
+                "target": "interchange_power_station_office",
+                "value": 1
+              }
+            ],
+            "id": "68cebbf05809ed68be70e44b"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68ceba91239f6f2d7f32ce23",
+          "index": 4,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68ceba922375cd98f0f402b0",
+          "index": 5,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "59e36c6f86f774176c10a2a7"
+          ],
+          "value": 4,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68ceba929bdc9bb084221b9a",
+          "index": 6,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "59e36c6f86f774176c10a2a7"
+          ],
+          "value": 4,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cebbb0494bac447dd31a8f",
+              "target": "68ceba922375cd98f0f402b0"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cebbb0137494c27a646c5c",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68ceb12add024b9709fe9119",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68cebbb06551c230d4210d0e",
+          "index": 0,
+          "type": "Experience",
+          "value": "12500",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cebbb071a726b75bdc897b",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.02",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cebbb00966a565752c14bd",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68cebbb0393874129fc59d24",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 55000
+              }
+            }
+          ],
+          "target": "68cebbb0393874129fc59d24",
+          "type": "Item",
+          "value": "55000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cebbb03a73c2f77c484d53",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68cebbb0c4c245d430c9e770",
+              "_tpl": "590a3b0486f7743954552bdb",
+              "upd": {
+                "StackObjectsCount": 2
+              }
+            }
+          ],
+          "target": "68cebbb0c4c245d430c9e770",
+          "type": "Item",
+          "value": "2",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cebbb00d42865b2e474803",
+          "index": 4,
+          "items": [
+            {
+              "_id": "68cebbb0989a0f2ba71d27f5",
+              "_tpl": "5af0561e86f7745f5f3ad6ac",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68cebbb0989a0f2ba71d27f5",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

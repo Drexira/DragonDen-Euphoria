@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "interchange_power_station_office",
+    "ZoneName": "interchange_power_station_office",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-209.4408",
+      "Y": "22.78378",
+      "Z": "-361.07",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.708634",
+      "Z": "0",
+      "W": "-0.7055762"
+    },
+    "Scale": {
+      "X": "3.537951",
+      "Y": "3.017082",
+      "Z": "15.74129",
+      "W": "0"
+    }
+  }
+]

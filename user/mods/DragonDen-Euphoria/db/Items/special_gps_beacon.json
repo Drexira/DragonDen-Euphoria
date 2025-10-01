@@ -1,0 +1,52 @@
+{
+    "68d4942bbdad148f7a9769ac": {
+        "itemTplToClone": "5991b51486f77447b112d44f",
+        "parentId": "5447e0e74bdc2d3c308b4567",
+        "handbookParentId": "SPEC",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "dragonden/special/gps_beacon.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 0.15,
+            "Height": 1,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "RarityPvE": "Not_exist",
+            "BackgroundColor": "orange"
+        },
+        "locales": {
+            "en": {
+                "name": "GPS Beacon",
+                "shortName": "Beacon",
+                "description": "A compact GPS tracking beacon used for navigation and recovery. Sends periodic GNSS coordinates to compatible receivers at a fixed interval. Always on, no user controls, sealed and weather-resistant for field use."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 24856,
+        "handbookPriceRoubles": 18224,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "StaticLootContainers": [],
+        "addtoLootLocation": false,
+        "LootLocation": [],
+        "addLooseLoot": false,
+        "addLooseLootProbability": 0,
+        "addToHallOfFameSmall": false,
+        "addtoStatuetteSlots": false,
+        "addtoSpecialSlots": true
+    }
+}

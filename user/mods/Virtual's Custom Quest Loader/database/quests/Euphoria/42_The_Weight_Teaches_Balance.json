@@ -1,0 +1,153 @@
+{
+  "68d44350045ea43249a827f2": {
+    "QuestName": "The Weight Teaches Balance",
+    "_id": "68d44350045ea43249a827f2",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Skill",
+    "location": "any",
+    "image": "/files/quest/icon/42_The_Weight_Teaches_Balance.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68d44350045ea43249a827f2 description",
+    "startedMessageText": "68d44350045ea43249a827f2 startedMessageText",
+    "successMessageText": "68d44350045ea43249a827f2 successMessageText",
+    "failMessageText": "68d44350045ea43249a827f2 failMessageText",
+    "acceptPlayerMessage": "68d44350045ea43249a827f2 acceptPlayerMessage",
+    "declinePlayerMessage": "68d44350045ea43249a827f2 declinePlayerMessage",
+    "completePlayerMessage": "68d44350045ea43249a827f2 completePlayerMessage",
+    "changeQuestMessageText": "68d44350045ea43249a827f2 changeQuestMessageText",
+    "name": "68d44350045ea43249a827f2 name",
+    "note": "68d44350045ea43249a827f2 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "compareMethod": "Skill",
+          "conditionType": "Skill",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d44291a48f30bb21889bf6",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "parentId": "",
+          "target": "Endurance",
+          "value": 30,
+          "visibilityConditions": []
+        },
+        {
+          "compareMethod": "Skill",
+          "conditionType": "Skill",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d44291282232dca760d105",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "parentId": "",
+          "target": "Strength",
+          "value": 30,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d443502fc04a0a96438e62",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68d421ab6b28b66e20a9e902",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68d44350b0664e8ac3f80e0e",
+          "index": 0,
+          "type": "Experience",
+          "value": "15000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68d4435035c5f1bfe85fc161",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.02",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d44350ed6f90ef9d24d1e5",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68d4435058e1a1e17ac2b599",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 90000
+              }
+            }
+          ],
+          "target": "68d4435058e1a1e17ac2b599",
+          "type": "Item",
+          "value": "90000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d4435096fc2fcf4bb54f07",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68d443504eb5350d8d099cb8",
+              "_tpl": "67458730df3c1da90b0b052b",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68d443504eb5350d8d099cb8",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68d44350843436753a6089d9",
+          "index": 4,
+          "target": "CovertMovement",
+          "type": "Skill",
+          "unknown": true,
+          "value": "100"
+        }
+      ]
+    }
+  }
+}

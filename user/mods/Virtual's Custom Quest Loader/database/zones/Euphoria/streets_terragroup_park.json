@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "streets_terragroup_park",
+    "ZoneName": "streets_terragroup_park",
+    "ZoneLocation": "TarkovStreets",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "133.7348",
+      "Y": "1.94336",
+      "Z": "-116.1689",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.7129375",
+      "Z": "0",
+      "W": "0.7012277"
+    },
+    "Scale": {
+      "X": "19.79761",
+      "Y": "14.02784",
+      "Z": "19.45796",
+      "W": "0"
+    }
+  }
+]

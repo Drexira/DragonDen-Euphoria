@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "lighthouse_village",
+    "ZoneName": "lighthouse_village",
+    "ZoneLocation": "Lighthouse",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-178.0587",
+      "Y": "27.95034",
+      "Z": "-219.9621",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.9853957",
+      "Z": "0",
+      "W": "-0.1702801"
+    },
+    "Scale": {
+      "X": "192.53",
+      "Y": "39.46257",
+      "Z": "73.83815",
+      "W": "0"
+    }
+  }
+]

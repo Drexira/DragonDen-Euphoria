@@ -1,0 +1,260 @@
+{
+  "68d0244acbd8a7b56646cc38": {
+    "QuestName": "White Rooms, Red Switches",
+    "_id": "68d0244acbd8a7b56646cc38",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Multi",
+    "location": "5b0fc42d86f7744a585f9105",
+    "image": "/files/quest/icon/33_White_Rooms_Red_Switches.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68d0244acbd8a7b56646cc38 description",
+    "startedMessageText": "68d0244acbd8a7b56646cc38 startedMessageText",
+    "successMessageText": "68d0244acbd8a7b56646cc38 successMessageText",
+    "failMessageText": "68d0244acbd8a7b56646cc38 failMessageText",
+    "acceptPlayerMessage": "68d0244acbd8a7b56646cc38 acceptPlayerMessage",
+    "declinePlayerMessage": "68d0244acbd8a7b56646cc38 declinePlayerMessage",
+    "completePlayerMessage": "68d0244acbd8a7b56646cc38 completePlayerMessage",
+    "changeQuestMessageText": "68d0244acbd8a7b56646cc38 changeQuestMessageText",
+    "name": "68d0244acbd8a7b56646cc38 name",
+    "note": "68d0244acbd8a7b56646cc38 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d022e46a84dd2223792198",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68d0234219c60b78a1c3d4b5"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "68d022e40db32bd6156c34e8",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68d0234219c60b78a1c3d4b5"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d0244a49e2e6e12466f793",
+              "target": "68d022e46a84dd2223792198"
+            }
+          ],
+          "zoneId": "labs_eastern_bay_door_office",
+          "dynamicLocale": false
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d022e5422608bcba57ba25",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68d023539a69336803f294e4"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "68d022e574c228a96b281b6a",
+          "index": 3,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68d023539a69336803f294e4"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d0244a1751ab16b30fbe7a",
+              "target": "68d022e5422608bcba57ba25"
+            }
+          ],
+          "zoneId": "labs_eastern_bay_door",
+          "dynamicLocale": false
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "68d0244a532dbfe92d1503c2",
+                "status": [
+                  "Survived"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68d0244a8e6ff8bf730feaef",
+                "target": [
+                  "laboratory"
+                ]
+              }
+            ],
+            "id": "68d0244a41d5416ca0b05dd4"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d022e6674fce1ddefa7fba",
+          "index": 4,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d0244aba35cf73f6c189cc",
+              "target": "68d022e40db32bd6156c34e8"
+            },
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d0246e33e071e381df67d6",
+              "target": "68d022e574c228a96b281b6a"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d0244adc5d24946062cbe5",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68d012fb947f860b12802076",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68d0244aebddeffcc85b40af",
+          "index": 0,
+          "type": "Experience",
+          "value": "15000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68d0244a9da7cf682c0d29e9",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.03",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d0244a5e1dc386fc1fc084",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68d0244af4f0da5d5498198d",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 120000
+              }
+            }
+          ],
+          "target": "68d0244af4f0da5d5498198d",
+          "type": "Item",
+          "value": "120000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d0244ae2e3a78b95c33bf3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68d0244a22b80a65e942cd17",
+              "_tpl": "5c94bbff86f7747ee735c08f",
+              "upd": {
+                "StackObjectsCount": 3
+              }
+            }
+          ],
+          "target": "68d0244a22b80a65e942cd17",
+          "type": "Item",
+          "value": "3",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

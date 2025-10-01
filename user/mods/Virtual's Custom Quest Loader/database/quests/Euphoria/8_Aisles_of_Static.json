@@ -1,0 +1,273 @@
+{
+  "68cc7f4d7e7490d1192db2f3": {
+    "QuestName": "Aisles of Static",
+    "_id": "68cc7f4d7e7490d1192db2f3",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Exploration",
+    "location": "5714dbc024597771384a510d",
+    "image": "/files/quest/icon/8_Aisles_of_Static.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68cc7f4d7e7490d1192db2f3 description",
+    "startedMessageText": "68cc7f4d7e7490d1192db2f3 startedMessageText",
+    "successMessageText": "68cc7f4d7e7490d1192db2f3 successMessageText",
+    "failMessageText": "68cc7f4d7e7490d1192db2f3 failMessageText",
+    "acceptPlayerMessage": "68cc7f4d7e7490d1192db2f3 acceptPlayerMessage",
+    "declinePlayerMessage": "68cc7f4d7e7490d1192db2f3 declinePlayerMessage",
+    "completePlayerMessage": "68cc7f4d7e7490d1192db2f3 completePlayerMessage",
+    "changeQuestMessageText": "68cc7f4d7e7490d1192db2f3 changeQuestMessageText",
+    "name": "68cc7f4d7e7490d1192db2f3 name",
+    "note": "68cc7f4d7e7490d1192db2f3 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "68cc7e34e1e54a0c743ad6bd",
+                "target": "interchange_oli_ramps"
+              }
+            ],
+            "id": "68cc826264a8436aff8de7a7"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cc7e34e1e54a0c743ad6bd",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "68cc7e464c7c5a47b4f7635f",
+                "target": "interchange_oli_container_yard"
+              }
+            ],
+            "id": "68cc7e464c7c5a47b4f7635f_counter"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cc7e464c7c5a47b4f7635f",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "68cc7e46e984223657eb33b8",
+                "target": "interchange_powerstation_yard"
+              }
+            ],
+            "id": "68cc7e46e984223657eb33b8_counter"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cc7e46e984223657eb33b8",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "68cc7e4679319b6f5919555c",
+                "target": "interchange_techlight_register"
+              }
+            ],
+            "id": "68cc7e4679319b6f5919555c_counter"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cc7e4679319b6f5919555c",
+          "index": 3,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "68cc7f4d830b6aec9d8a8788",
+                "status": [
+                  "Survived"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68cc7f4d19e7c9e6600f473f",
+                "target": [
+                  "Interchange"
+                ]
+              }
+            ],
+            "id": "68cc7f4ddb2a67f3163f65c1"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cc7f316615859736fccf50",
+          "index": 4,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cc7ff98c88da0e5af4c72f",
+              "target": "68cc7e34e1e54a0c743ad6bd"
+            },
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cc7ffad5fe4fa3dc46cdc4",
+              "target": "68cc7e464c7c5a47b4f7635f"
+            },
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cc7ffcf3ba33dd570b6326",
+              "target": "68cc7e46e984223657eb33b8"
+            },
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cc7ffd9c0c3d045ce3e142",
+              "target": "68cc7e4679319b6f5919555c"
+            }
+          
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cc7f4d8149b559ed395393",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68cc5f0fb08f28b70e138ac7",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68cc7f4dc031ee8d4d58e39d",
+          "index": 0,
+          "type": "Experience",
+          "value": "7200",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cc7f4d5363c30226dc0975",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.02",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cc7f4d38780081686d8dbc",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68cc7f4d01ae0b9d82ac878f",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 40000
+              }
+            }
+          ],
+          "target": "68cc7f4d01ae0b9d82ac878f",
+          "type": "Item",
+          "value": "40000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cc7f4de34743cdbba6aa97",
+          "index": 3,
+          "target": "Attention",
+          "type": "Skill",
+          "unknown": true,
+          "value": "100"
+        }
+      ]
+    }
+  }
+}

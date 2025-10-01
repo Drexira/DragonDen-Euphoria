@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "streets_terragroup_security_post",
+    "ZoneName": "streets_terragroup_security_post",
+    "ZoneLocation": "TarkovStreets",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "62.81744",
+      "Y": "1.0582",
+      "Z": "-78.13539",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.0007016294",
+      "Z": "0",
+      "W": "0.9999998"
+    },
+    "Scale": {
+      "X": "3.658116",
+      "Y": "4.371793",
+      "Z": "5.996763",
+      "W": "0"
+    }
+  }
+]

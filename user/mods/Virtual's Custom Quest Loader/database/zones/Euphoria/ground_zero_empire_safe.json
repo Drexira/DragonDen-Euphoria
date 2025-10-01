@@ -1,0 +1,52 @@
+[
+  {
+    "ZoneId": "ground_zero_empire_safe",
+    "ZoneName": "ground_zero_empire_safe",
+    "ZoneLocation": "Sandbox_high",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "9.13467",
+      "Y": "23.76584",
+      "Z": "160.5327",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.4569148",
+      "Z": "0",
+      "W": "-0.8895104"
+    },
+    "Scale": {
+      "X": "1.544472",
+      "Y": "1.2312192",
+      "Z": "1.528087",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "ground_zero_empire_safe",
+    "ZoneName": "ground_zero_empire_safe",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "9.13467",
+      "Y": "23.76584",
+      "Z": "160.5327",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.4569148",
+      "Z": "0",
+      "W": "-0.8895104"
+    },
+    "Scale": {
+      "X": "1.544472",
+      "Y": "1.2312192",
+      "Z": "1.528087",
+      "W": "0"
+    }
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "68cdb81d549d6d3c36fc32eb name": "Long Shadows, Thick Smoke",
+  "68cdb81d549d6d3c36fc32eb description": "Big rooms breathe slow and make bad gear look brave. I want a heavy can staged where eyes get lazy so I can pull power or attention on my schedule.\nLast intel: a big gray propane sits near the boiler rooms, move it to the Dome catwalks among the other cans. Plant quiet, leave quieter. We are measuring watchers, not writing headlines.",
+  "68cdb81d549d6d3c36fc32eb startedMessageText": "Lift the can from the generator belly.\nSet it high where cameras blink and boots echo.\nExit before the story learns your name.",
+  "68cdb81d549d6d3c36fc32eb successMessageText": "The bay carries a sleepy cough now.\nYour smoke did not stain the scene.",
+  "68cdb81d549d6d3c36fc32eb acceptPlayerMessage": "Fetch a big gray from the boiler level.\nPlant it at the Dome on the catwalk by the other tanks.\nWalk out looking bored.",
+  "68cdb81d549d6d3c36fc32eb completePlayerMessage": "Placement clean, room calmer, watchers yawning.\nThat buys me options.",
+  "68cdb629d95bbd1326e29fbe": "Find Propane Tank Big Grey",
+  "68cdb629d18f1cfc989891b0": "Hide Propane Tank Big Grey at Dome"
+}

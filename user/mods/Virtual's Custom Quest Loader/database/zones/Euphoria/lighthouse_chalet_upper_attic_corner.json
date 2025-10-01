@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "lighthouse_chalet_upper_attic_corner",
+    "ZoneName": "lighthouse_chalet_upper_attic_corner",
+    "ZoneLocation": "Lighthouse",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-123.5131",
+      "Y": "43.82709",
+      "Z": "82.81782",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.9999984",
+      "Z": "0",
+      "W": "-0.001805229"
+    },
+    "Scale": {
+      "X": "1.132492",
+      "Y": "1.797083",
+      "Z": "1.207607",
+      "W": "0"
+    }
+  }
+]

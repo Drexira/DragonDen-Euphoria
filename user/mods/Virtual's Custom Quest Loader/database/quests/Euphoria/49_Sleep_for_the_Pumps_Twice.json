@@ -1,0 +1,231 @@
+{
+  "68d5b1e2f7cd41eb65d04667": {
+    "QuestName": "Sleep for the Pumps, Twice",
+    "_id": "68d5b1e2f7cd41eb65d04667",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Multi",
+    "location": "any",
+    "image": "/files/quest/icon/49_Sleep_for_the_Pumps_Twice.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68d5b1e2f7cd41eb65d04667 description",
+    "startedMessageText": "68d5b1e2f7cd41eb65d04667 startedMessageText",
+    "successMessageText": "68d5b1e2f7cd41eb65d04667 successMessageText",
+    "failMessageText": "68d5b1e2f7cd41eb65d04667 failMessageText",
+    "acceptPlayerMessage": "68d5b1e2f7cd41eb65d04667 acceptPlayerMessage",
+    "declinePlayerMessage": "68d5b1e2f7cd41eb65d04667 declinePlayerMessage",
+    "completePlayerMessage": "68d5b1e2f7cd41eb65d04667 completePlayerMessage",
+    "changeQuestMessageText": "68d5b1e2f7cd41eb65d04667 changeQuestMessageText",
+    "name": "68d5b1e2f7cd41eb65d04667 name",
+    "note": "68d5b1e2f7cd41eb65d04667 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d5ae3f7d7787b5cc9aaf7e",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68d5ac6fafc7424ab3f92b4a"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "68d5ae41867eabe636cb2d8b",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68d5ac6fafc7424ab3f92b4a"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d5b1e260ddaa85d0688a1f",
+              "target": "68d5ae3f7d7787b5cc9aaf7e"
+            }
+          ],
+          "zoneId": "customs_construction_pump_pit",
+          "dynamicLocale": false
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d5ae454bbe600bbe007e65",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68d5ae7e54005f3273b47808"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "68d5ae454cd0b182dbda5c16",
+          "index": 3,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68d5ae7e54005f3273b47808"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d5b1e21174c0aa61e68351",
+              "target": "68d5ae454bbe600bbe007e65"
+            }
+          ],
+          "zoneId": "woods_sawmill_grey_warehouse",
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d5b1e2ffdd0596cb117f9f",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68d5a7ef02220c23ad389d46",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68d5b1e21c4d017c528ad648",
+          "index": 0,
+          "type": "Experience",
+          "value": "17500",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68d5b1e275a647198b3a14e7",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.04",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d5b1e21649ede30524a740",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68d5b1e257638c3c23cc4656",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 145000
+              }
+            }
+          ],
+          "target": "68d5b1e257638c3c23cc4656",
+          "type": "Item",
+          "value": "145000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d5b1e20dd41a1f9676f6c4",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68d5b1e27bddcb871deadc52",
+              "_tpl": "5c0e531d86f7747fa23f4d42",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68d5b1e27bddcb871deadc52",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d5b1e26446ec160ef633f3",
+          "index": 4,
+          "items": [
+            {
+              "_id": "68d5b1e284133e8131795aaf",
+              "_tpl": "5c0e530286f7747fa1419862",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68d5b1e284133e8131795aaf",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

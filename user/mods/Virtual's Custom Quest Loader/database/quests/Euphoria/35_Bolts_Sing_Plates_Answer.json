@@ -1,0 +1,219 @@
+{
+  "68d02f1521c05081520c05ae": {
+    "QuestName": "Bolts Sing, Plates Answer",
+    "_id": "68d02f1521c05081520c05ae",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "PickUp",
+    "location": "any",
+    "image": "/files/quest/icon/35_Bolts_Sing_Plates_Answer.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68d02f1521c05081520c05ae description",
+    "startedMessageText": "68d02f1521c05081520c05ae startedMessageText",
+    "successMessageText": "68d02f1521c05081520c05ae successMessageText",
+    "failMessageText": "68d02f1521c05081520c05ae failMessageText",
+    "acceptPlayerMessage": "68d02f1521c05081520c05ae acceptPlayerMessage",
+    "declinePlayerMessage": "68d02f1521c05081520c05ae declinePlayerMessage",
+    "completePlayerMessage": "68d02f1521c05081520c05ae completePlayerMessage",
+    "changeQuestMessageText": "68d02f1521c05081520c05ae changeQuestMessageText",
+    "name": "68d02f1521c05081520c05ae name",
+    "note": "68d02f1521c05081520c05ae note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d02ead94f89167c4e0608e",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "57347c5b245977448d35f6e1"
+          ],
+          "value": 10,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d02eae6cdd28d72fd385ee",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "57347c5b245977448d35f6e1"
+          ],
+          "value": 10,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d02f15b4e80c2257cebc81",
+              "target": "68d02ead94f89167c4e0608e"
+            }
+          ]
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d02eaf6890724715e59a28",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "57347c77245977448d35f6e2"
+          ],
+          "value": 10,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d02eaf287465ab192df024",
+          "index": 3,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "57347c77245977448d35f6e2"
+          ],
+          "value": 10,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d02f159d68e0d24af97181",
+              "target": "68d02eaf6890724715e59a28"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d02f15a8b9c189b4b4f9fb",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68d025bec6d3a483b102533a",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68d02f15b29022ba67a93e0d",
+          "index": 0,
+          "type": "Experience",
+          "value": "14500",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68d02f15ee40305a2ba1a497",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.02",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d02f1551ffadade8ac9a94",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68d02f15f6832484d2177793",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 60000
+              }
+            }
+          ],
+          "target": "68d02f15f6832484d2177793",
+          "type": "Item",
+          "value": "60000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d02f15f3154f76e219c9dd",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68d02f15b0b7634da3716eed",
+              "_tpl": "5d1b385e86f774252167b98a",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68d02f15b0b7634da3716eed",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68d02f1568a8b50075478357",
+          "index": 4,
+          "target": "Intellect",
+          "type": "Skill",
+          "unknown": true,
+          "value": "100"
+        }
+      ]
+    }
+  }
+}

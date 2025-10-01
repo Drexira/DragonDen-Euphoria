@@ -1,0 +1,57 @@
+{
+    "68c2b14cce17ee9f5512f3b7": {
+        "itemTplToClone": "5939a00786f7742fe8132936",
+        "parentId": "57864e4c24597754843f8723",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "dragonden/quest/fuel_barrel_red.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "BackgroundColor": "violet",
+            "Weight": 35,
+            "Height": 4,
+            "Width": 3,
+            "StackMaxSize": 1,
+            "RarityPvE": "Not_exist",
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Fuel Barrel Red (Quest)",
+                "shortName": "Fuel Barrel",
+                "description": ""
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "addtoLootLocation": false,
+        "QuestLocation": [
+            {
+                "Map": ["bigmap"],
+                "Position": {
+                    "x": 428.57605,
+                    "y": 1.3832,
+                    "z": 36.4145241
+                },
+                "Rotation": {
+                    "x": 0.0  ,
+                    "y": 183.904022,
+                    "z": 0.0
+                }
+            }
+        ],
+        "addLooseLoot": false
+    }
+}

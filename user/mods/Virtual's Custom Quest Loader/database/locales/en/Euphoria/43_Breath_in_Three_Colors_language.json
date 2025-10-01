@@ -1,0 +1,15 @@
+{
+  "68d4544f8a9a35065b341ab1 name": "Breath in Three Colors",
+  "68d4544f8a9a35065b341ab1 description": "I am planting fuel where accidents do not happen. Red for anger where traffic stalls, blue for patience where echoes stack, green for lies under polished floors.\nCustoms: lift a red barrel at Old Gas and hide it inside ZB-1011.\nStreets: lift a blue barrel at the old factory and hide it on Construction 2nd floor.\nInterchange: lift a green barrel in OLI and hide it under the Generic ramp.\nCarry quiet, place quiet, leave quieter.",
+  "68d4544f8a9a35065b341ab1 startedMessageText": "Three lungs, three rooms.\nWork first, breathing later.",
+  "68d4544f8a9a35065b341ab1 successMessageText": "All three are dreaming in separate rooms.\nNone of them know your name.",
+  "68d4544f8a9a35065b341ab1 failMessageText": "You spilled paint or painted yourself.\nWash up and try again.",
+  "68d4544f8a9a35065b341ab1 acceptPlayerMessage": "Lift red at Old Gas, tuck it in ZB-1011.\nLift blue at the old factory, hide it on Construction 2nd.\nLift green in OLI, slide it under Generic.\nKeep the maps guessing.",
+  "68d4544f8a9a35065b341ab1 completePlayerMessage": "Good colors, better silence.\nWe will mix later.",
+  "68d4444198e37dc6a6ea119c": "Find Fuel Barrel Red",
+  "68d4444132e7813e8957d445": "Hide Fuel Barrel Red",
+  "68d4444210ff9ead04ba8500": "Find Fuel Barrel Blue",
+  "68d444426034f8af385407ae": "Hide Fuel Barrel Blue",
+  "68d444436042e624c0f3238b": "Find Fuel Barrel Green",
+  "68d4444302ee0bc461d2a7c1": "Hide Fuel Barrel Green"
+}

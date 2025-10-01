@@ -1,0 +1,10 @@
+{
+  "68cecd2a6edb7e8fd1447214 name": "Don't Wake the Watchmen",
+  "68cecd2a6edb7e8fd1447214 description": "Some men turn catwalks into crowns and sell fear from above. I want those lanes quiet before I send people across the water. Work Lighthouse on purpose, pick your targets, and leave without rattling the rails. This tells me your kit actually runs when the wind pushes back.",
+  "68cecd2a6edb7e8fd1447214 startedMessageText": "Crowns on catwalks do not impress me.\nTake the breath they guard and keep the rails from complaining.",
+  "68cecd2a6edb7e8fd1447214 successMessageText": "Rails did not rattle and the crowns rolled alone.\nGood poise.",
+  "68cecd2a6edb7e8fd1447214 acceptPlayerMessage": "Choose your shots on Lighthouse.\nFinish them clean and leave the echo small.",
+  "68cecd2a6edb7e8fd1447214 completePlayerMessage": "Noise is for losers.\nYou did not lose.",
+  "68cecd2aac9d6c1b9862428c": "Eliminate PMCs on Lighthouse",
+  "68ceccb3f638a52d1501b94f": "Survive and Extract"
+}

@@ -1,0 +1,164 @@
+{
+  "68cdb81d549d6d3c36fc32eb": {
+    "QuestName": "Long Shadows, Thick Smoke",
+    "_id": "68cdb81d549d6d3c36fc32eb",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Multi",
+    "location": "5704e5fad2720bc05b8b4567",
+    "image": "/files/quest/icon/18_Long_Shadows_Thick_Smoke.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68cdb81d549d6d3c36fc32eb description",
+    "startedMessageText": "68cdb81d549d6d3c36fc32eb startedMessageText",
+    "successMessageText": "68cdb81d549d6d3c36fc32eb successMessageText",
+    "failMessageText": "68cdb81d549d6d3c36fc32eb failMessageText",
+    "acceptPlayerMessage": "68cdb81d549d6d3c36fc32eb acceptPlayerMessage",
+    "declinePlayerMessage": "68cdb81d549d6d3c36fc32eb declinePlayerMessage",
+    "completePlayerMessage": "68cdb81d549d6d3c36fc32eb completePlayerMessage",
+    "changeQuestMessageText": "68cdb81d549d6d3c36fc32eb changeQuestMessageText",
+    "name": "68cdb81d549d6d3c36fc32eb name",
+    "note": "68cdb81d549d6d3c36fc32eb note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cdb629d95bbd1326e29fbe",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68c2b1427c6c6c626b21448e"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "68cdb629d18f1cfc989891b0",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 35,
+          "target": [
+            "68c2b1427c6c6c626b21448e"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cdb81d3d118781a542d8b5",
+              "target": "68cdb629d95bbd1326e29fbe"
+            }
+          ],
+          "zoneId": "reserve_dome_propanetankstop",
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cdb81d3cf0d96657b0d4db",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68cda98e96cbf5a70a6136fa",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68cdb81df2656112f2fe9309",
+          "index": 0,
+          "type": "Experience",
+          "value": "5000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cdb81da16ead798e39d826",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.03",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cdb81dab2f4a4c066c7d42",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68cdb81da88011195f167235",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68cdb81da88011195f167235",
+          "type": "Item",
+          "value": "1",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cdb81dea2401b478189053",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68cdb81d27e913840dd8ff3b",
+              "_tpl": "57372c89245977685d4159b1",
+              "upd": {
+                "StackObjectsCount": 6
+              }
+            }
+          ],
+          "target": "68cdb81d27e913840dd8ff3b",
+          "type": "Item",
+          "value": "6",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "factory_pumping_station_table",
+    "ZoneName": "factory_pumping_station_table",
+    "ZoneLocation": "factory4_day",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "39.80033",
+      "Y": "1.215952",
+      "Z": "-14.96384",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.9998103",
+      "Z": "0",
+      "W": "-0.01947964"
+    },
+    "Scale": {
+      "X": "2.045698",
+      "Y": "2.434589",
+      "Z": "1.528522",
+      "W": "0"
+    }
+  }
+]

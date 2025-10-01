@@ -1,0 +1,165 @@
+{
+  "68c9c37cc6c9982d680fbcef": {
+    "QuestName": "Echoes Behind Broken Doors",
+    "_id": "68c9c37cc6c9982d680fbcef",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Elimination",
+    "location": "653e6760052c01c1c805532f",
+    "image": "/files/quest/icon/1_Echoes_Behind_Broken_Doors.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68c9c37cc6c9982d680fbcef description",
+    "startedMessageText": "68c9c37cc6c9982d680fbcef startedMessageText",
+    "successMessageText": "68c9c37cc6c9982d680fbcef successMessageText",
+    "failMessageText": "68c9c37cc6c9982d680fbcef failMessageText",
+    "acceptPlayerMessage": "68c9c37cc6c9982d680fbcef acceptPlayerMessage",
+    "declinePlayerMessage": "68c9c37cc6c9982d680fbcef declinePlayerMessage",
+    "completePlayerMessage": "68c9c37cc6c9982d680fbcef completePlayerMessage",
+    "changeQuestMessageText": "68c9c37cc6c9982d680fbcef changeQuestMessageText",
+    "name": "68c9c37cc6c9982d680fbcef name",
+    "note": "68c9c37cc6c9982d680fbcef note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "68c9c1abf36ddcf3418a212a",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsInclusive": [],
+                "weaponModsExclusive": [],
+                "equipmentInclusive": [],
+                "equipmentExclusive": []
+              }
+            ],
+            "id": "68c9c37c6fa4688f84ed5a4e"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68c9c37cd3a9aa9cace1c36d",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68c9c37c810c3372aae13361",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68c96f542cc57139c960a872",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68c9c37cd2dd02df02ab7da1",
+          "index": 0,
+          "type": "Experience",
+          "value": "2500",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68c9c37ce9938b7e56b78c96",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.01",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68c9c37cc035b944162679a5",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68c9c37cc82b5de2e03448f5",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 15000
+              }
+            }
+          ],
+          "target": "68c9c37cc82b5de2e03448f5",
+          "type": "Item",
+          "value": "15000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68c9c37cb1a177a7d764ae4c",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68c9c37cc407cbb33dd010bf",
+              "_tpl": "590c678286f77426c9660122",
+              "upd": {
+                "StackObjectsCount": 2
+              }
+            }
+          ],
+          "target": "68c9c37cc407cbb33dd010bf",
+          "type": "Item",
+          "value": "2",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

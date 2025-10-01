@@ -1,0 +1,72 @@
+{
+    "68bebe5c62e0936b1b6c9a6d": {
+        "itemTplToClone": "5e2af29386f7746d4159f077",
+        "parentId": "57864ada245977548638de91",
+        "handbookParentId": "BARTER_VALUABLES",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": false,
+            "Prefab": {
+                "path": "dragonden/collectibles/plushies/plushie_lsd_bunny.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 0.38,
+            "Height": 2,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "RarityPvE": "Superrare",
+            "BackgroundColor": "violet"
+        },
+        "locales": {
+            "en": {
+                "name": "Plushie - LSD Bunny",
+                "shortName": "LSD Bunny",
+                "description": "This bunny has the thousand-yard stare of an acid trip and the fashion sense of a laundry rack. Cute, terrifying, and absolutely useless."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 55115,
+        "handbookPriceRoubles": 75115,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": true,
+        "addtoStaticLootContainers": true,
+        "StaticLootContainers": [
+            { "ContainerName": "LOOTCONTAINER_DEAD_SCAV", "Probability": 135 },
+            { "ContainerName": "LOOTCONTAINER_AIRDROP_COMMON_SUPPLY_CRATE", "Probability": 124 },
+            { "ContainerName": "LOOTCONTAINER_BURIED_BARREL_CACHE", "Probability": 170 },
+            { "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH", "Probability": 108 },
+            { "ContainerName": "LOOTCONTAINER_DRAWER", "Probability": 132 },
+            { "ContainerName": "LOOTCONTAINER_DUFFLE_BAG", "Probability": 106 },
+            { "ContainerName": "LOOTCONTAINER_DUFFLE_BAG_ADV", "Probability": 123 },
+            { "ContainerName": "LOOTCONTAINER_GROUND_CACHE", "Probability": 96 },
+            { "ContainerName": "LOOTCONTAINER_JACKET", "Probability": 137 },
+            { "ContainerName": "LOOTCONTAINER_SAFE", "Probability": 75 },
+            { "ContainerName": "LOOTCONTAINER_RATION_SUPPLY_CRATE", "Probability": 127 }
+        ],
+        "addtoLootLocation": true,
+        "LootLocation": [
+            { "LootName": "jew", "Probability": 2 },
+            { "LootName": "household_jew", "Probability": 2 },
+            { "LootName": "jewerly", "Probability": 2 },
+            { "LootName": "jewerly_all", "Probability": 2 },
+            { "LootName": "jewel_figures", "Probability": 2 },
+            { "LootName": "loot_jeverly_statue", "Probability": 2 },
+            { "LootName": "loot_jeverly_statue_cat", "Probability": 2 },
+            { "LootName": "loot_jeverly_statue_lion", "Probability": 2 }
+        ],
+        "addLooseLoot": true,
+        "addLooseLootProbability": 1000,
+        "addToHallOfFameBig": true,
+        "addtoStatuetteSlots": true
+    }
+}

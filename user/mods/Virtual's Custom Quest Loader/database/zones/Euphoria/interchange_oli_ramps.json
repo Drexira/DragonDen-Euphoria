@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "interchange_oli_ramps",
+    "ZoneName": "interchange_oli_ramps",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-143.9017",
+      "Y": "34.68345",
+      "Z": "133.6538",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.7073539",
+      "Z": "0",
+      "W": "0.7068595"
+    },
+    "Scale": {
+      "X": "89.82736",
+      "Y": "15.44618",
+      "Z": "29.35881",
+      "W": "0"
+    }
+  }
+]

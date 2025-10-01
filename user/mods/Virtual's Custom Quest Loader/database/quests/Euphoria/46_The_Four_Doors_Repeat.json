@@ -1,0 +1,234 @@
+{
+  "68d4bc9febad2d3e05889985": {
+    "QuestName": "The Four Doors Repeat",
+    "_id": "68d4bc9febad2d3e05889985",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Multi",
+    "location": "any",
+    "image": "/files/quest/icon/46_The_Four_Doors_Repeat.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68d4bc9febad2d3e05889985 description",
+    "startedMessageText": "68d4bc9febad2d3e05889985 startedMessageText",
+    "successMessageText": "68d4bc9febad2d3e05889985 successMessageText",
+    "failMessageText": "68d4bc9febad2d3e05889985 failMessageText",
+    "acceptPlayerMessage": "68d4bc9febad2d3e05889985 acceptPlayerMessage",
+    "declinePlayerMessage": "68d4bc9febad2d3e05889985 declinePlayerMessage",
+    "completePlayerMessage": "68d4bc9febad2d3e05889985 completePlayerMessage",
+    "changeQuestMessageText": "68d4bc9febad2d3e05889985 changeQuestMessageText",
+    "name": "68d4bc9febad2d3e05889985 name",
+    "note": "68d4bc9febad2d3e05889985 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d4bc9f396083442ae3e368",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68d4942bbdad148f7a9769ac"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "reserve_black_knight_workshop"
+        },
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d4bc9f52ecf72a0deec579",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68d4942bbdad148f7a9769ac"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "interchange_oli_logistics_office"
+        },
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d4bc9f2b39e1936f75f84d",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68d4942bbdad148f7a9769ac"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "streets_pinewood_reception"
+        },
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d4bc9f109c6df5c4dc396f",
+          "index": 3,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68d4942bbdad148f7a9769ac"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "shoreline_resort_admin_entrance"
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "68d4bc9f10dc9c581eabe0bd",
+                "status": [
+                  "Survived"
+                ]
+              }
+            ],
+            "id": "68d4bc9fda01d6b3be569d38"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d4b3c8ea71acdfdcc6fd1a",
+          "index": 4,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d4bc9fce59b835c1902046",
+              "target": "68d4bc9f396083442ae3e368"
+            },
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d4bc9f1c733b82c2f348c9",
+              "target": "68d4bc9f52ecf72a0deec579"
+            },
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d4bc9fbfc52a4b887fa427",
+              "target": "68d4bc9f2b39e1936f75f84d"
+            },
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d4bc9f405cdfd23f4a6377",
+              "target": "68d4bc9f109c6df5c4dc396f"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d4bc9f6ddb49964cbcb00a",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68d4785fc02989c7217abb1e",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68d4bc9ffe285fe41d5a76ee",
+          "index": 0,
+          "type": "Experience",
+          "value": "16000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68d4bc9f1e4b3170cacd8cf0",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.04",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d4bc9f2fbb980ebd0682ba",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68d4bc9f864f5c07ef6d1d4e",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 120000
+              }
+            }
+          ],
+          "target": "68d4bc9f864f5c07ef6d1d4e",
+          "type": "Item",
+          "value": "120000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d4bc9f871dcb75743d7311",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68d4bc9fb3633867420cc362",
+              "_tpl": "5c94bbff86f7747ee735c08f",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68d4bc9fb3633867420cc362",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

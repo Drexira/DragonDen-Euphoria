@@ -1,0 +1,73 @@
+{
+    "68d8a57cfa7d7354d214c8be": {
+        "itemTplToClone": "5cf78720d7f00c06595bc93e",
+        "parentId": "550aa4bf4bdc2dd6348b456b",
+        "handbookParentId": "MOD_MUZZLE",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": false,
+            "Prefab": {
+                "path": "dragonden/weaponparts/muzzles/dead_air_pyro_blast_cup.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 0.148,
+            "Height": 1,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "RarityPvE": "Superrare",
+            "BackgroundColor": "blue",
+            "ConflictingItems": [],
+            "DurabilityBurnModificator": 0.98,
+            "Ergonomics": -2,
+            "Recoil": -6,
+            "Loudness": -10,
+            "HeatFactor": 0.987,
+            "_BUG_COMMENT": "The cup does not glow when too hot."
+        },
+        "locales": {
+            "en": {
+                "name": "Dead Air Pyro Blast Cup",
+                "shortName": "Cup",
+                "description": "The Dead Air Pyro Blast Cup redirects muzzle blast and concussion forward, reducing side pressure for the shooter and people nearby. It mounts over compatible Dead Air muzzle devices via the Pyro system for a quick comfort upgrade without a full suppressor."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 14500,
+        "handbookPriceRoubles": 10350,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": true,
+        "addtoStaticLootContainers": false,
+        "StaticLootContainers": [
+            { "ContainerName": "LOOTCONTAINER_DEAD_SCAV", "Probability": 120 },
+            { "ContainerName": "LOOTCONTAINER_AIRDROP_COMMON_SUPPLY_CRATE", "Probability": 120 },
+            { "ContainerName": "LOOTCONTAINER_BURIED_BARREL_CACHE", "Probability": 170 },
+            { "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH", "Probability": 75 },
+            { "ContainerName": "LOOTCONTAINER_DUFFLE_BAG", "Probability": 106 },
+            { "ContainerName": "LOOTCONTAINER_DUFFLE_BAG_ADV", "Probability": 123 },
+            { "ContainerName": "LOOTCONTAINER_GROUND_CACHE", "Probability": 96 },
+            { "ContainerName": "LOOTCONTAINER_RATION_SUPPLY_CRATE", "Probability": 127 }
+        ],
+        "addtoLootLocation": false,
+        "LootLocation": [],
+        "addLooseLoot": true,
+        "addLooseLootProbability": 250,
+        "addToHallOfFameBig": false,
+        "addtoStatuetteSlots": false,
+        "slotPatch": {
+            "parentTpl": [
+                { "tpl": "628a66b41d5e41750e314f34", "proto": "55d30c4c4bdc2db4468b457e", "slotName": "mod_muzzle" }
+            ],
+            "createIfMissing": true
+        }
+    }
+}

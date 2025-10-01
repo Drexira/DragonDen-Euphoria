@@ -1,0 +1,173 @@
+{
+  "68cdc14a057f2c432ba58e26": {
+    "QuestName": "Mall of Tooth and Glass",
+    "_id": "68cdc14a057f2c432ba58e26",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Elimination",
+    "location": "5714dbc024597771384a510d",
+    "image": "/files/quest/icon/20_Mall_of_Tooth_and_Glass.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68cdc14a057f2c432ba58e26 description",
+    "startedMessageText": "68cdc14a057f2c432ba58e26 startedMessageText",
+    "successMessageText": "68cdc14a057f2c432ba58e26 successMessageText",
+    "failMessageText": "68cdc14a057f2c432ba58e26 failMessageText",
+    "acceptPlayerMessage": "68cdc14a057f2c432ba58e26 acceptPlayerMessage",
+    "declinePlayerMessage": "68cdc14a057f2c432ba58e26 declinePlayerMessage",
+    "completePlayerMessage": "68cdc14a057f2c432ba58e26 completePlayerMessage",
+    "changeQuestMessageText": "68cdc14a057f2c432ba58e26 changeQuestMessageText",
+    "name": "68cdc14a057f2c432ba58e26 name",
+    "note": "68cdc14a057f2c432ba58e26 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "68cdc0cda349c0d7b167bd14",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "AnyPmc",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsInclusive": [],
+                "weaponModsExclusive": [],
+                "equipmentInclusive": [],
+                "equipmentExclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68cdc14ab086053476da7bc2",
+                "target": [
+                  "Interchange"
+                ]
+              }
+            ],
+            "id": "68cdc14ad31e0d8a4d9fe667"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cdc14ad642ee44d1b004c6",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 6,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cdc14a07a45c15e3a1158b",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68cdb81d549d6d3c36fc32eb",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68cdc14a67ac2a602a918cd9",
+          "index": 0,
+          "type": "Experience",
+          "value": "9000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cdc14aa16c1282244ce6cb",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.03",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cdc14a4dbaf5a25fcd7beb",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68cdc14a973fcd1989522e1d",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 55000
+              }
+            }
+          ],
+          "target": "68cdc14a973fcd1989522e1d",
+          "type": "Item",
+          "value": "55000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cdc14a44283734e4eed064",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68cdc14a6393ceb6e60d5d36",
+              "_tpl": "65702681bfc87b3a3409325f",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68cdc14a6393ceb6e60d5d36",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

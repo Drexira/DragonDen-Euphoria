@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "woods_bunker_entrance",
+    "ZoneName": "woods_bunker_entrance",
+    "ZoneLocation": "Woods",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-278.8348",
+      "Y": "8.563354",
+      "Z": "-411.1382",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.7170279",
+      "Z": "0",
+      "W": "0.6970445"
+    },
+    "Scale": {
+      "X": "1.611962",
+      "Y": "2.681716",
+      "Z": "1.734415",
+      "W": "0"
+    }
+  }
+]

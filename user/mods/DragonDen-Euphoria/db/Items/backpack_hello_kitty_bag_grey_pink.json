@@ -1,0 +1,96 @@
+{
+    "68c40bdd7117da7ca1327a94": {
+        "itemTplToClone": "66b5f22b78bbc0200425f904",
+        "parentId": "5448e53e4bdc2d60728b4567",
+        "handbookParentId": "GEAR_BACKPACKS",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": false,
+            "Prefab": {
+                "path": "dragonden/clothing/backpack/hello_kitty_bag_grey_pink.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 3.3,
+            "Height": 7,
+            "Width": 5,
+            "StackMaxSize": 1,
+            "RarityPvE": "Rare",
+            "BackgroundColor": "blue",
+            "Grids": [
+                {
+                    "_id": "68c40be0789849043b29b776",
+                    "_name": "main",
+                    "_parent": "68c40bdd7117da7ca1327a94",
+                    "_props": {
+                    "cellsH": 5,
+                    "cellsV": 7,
+                    "filters": [
+                        {
+                        "ExcludedFilter": [
+                            "5448bf274bdc2dfc2f8b456a",
+                            "5c093db286f7740a1b2617e3",
+                            "5e2af55f86f7746d4159f07c",
+                            "5c0a840b86f7742ffa4f2482",
+                            "5b7c710788a4506dec015957",
+                            "5c127c4486f7745625356c13",
+                            "5aafbcd986f7745e590fff23",
+                            "59fb016586f7746d0d4b423a",
+                            "59fb042886f7746c5005a7b2",
+                            "59fb023c86f7746d0d4b423c",
+                            "5b6d9ce188a4501afc1b2b25",
+                            "60a2828e8689911a226117f9"
+                        ],
+                        "Filter": [
+                            "54009119af1c881c07000029"
+                        ]
+                        }
+                    ],
+                    "isSortingTable": false,
+                    "maxCount": 0,
+                    "maxWeight": 0,
+                    "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Hello Kitty Backpack (Grey-Pink)",
+                "shortName": "Hello Kitty",
+                "description": "A backpack featuring the iconic Hello Kitty design, fitted with reinforced stitching and multiple compartments. In Tarkov, its cute facade usually contrasts violently with the carnage it witnesses."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 48019,
+        "handbookPriceRoubles": 42346,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": true,
+        "addtoStaticLootContainers": true,
+        "StaticLootContainers": [
+            { "ContainerName": "LOOTCONTAINER_DEAD_SCAV", "Probability": 78 },
+            { "ContainerName": "LOOTCONTAINER_AIRDROP_COMMON_SUPPLY_CRATE", "Probability": 127 },
+            { "ContainerName": "LOOTCONTAINER_BURIED_BARREL_CACHE",  "Probability": 166 },
+            { "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH", "Probability": 172 },
+            { "ContainerName": "LOOTCONTAINER_GROUND_CACHE", "Probability": 163 }
+        ],
+        "addtoLootLocation": true,
+        "LootLocation": [
+            { "LootName": "loot_backpack", "Probability": 2 },
+            { "LootName": "loot_backpack_wild", "Probability": 2 }
+        ],
+        "addLooseLoot": true,
+        "addLooseLootProbability": 1000,
+        "addToHallOfFameSmall": false
+    }
+}

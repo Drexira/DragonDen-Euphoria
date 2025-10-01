@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "streets_lexos_garage",
+    "ZoneName": "streets_lexos_garage",
+    "ZoneLocation": "TarkovStreets",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "97.71867",
+      "Y": "3.730361",
+      "Z": "288.4439",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.7081839",
+      "Z": "0",
+      "W": "0.706028"
+    },
+    "Scale": {
+      "X": "5.424732",
+      "Y": "2.220952",
+      "Z": "6.896801",
+      "W": "0"
+    }
+  }
+]

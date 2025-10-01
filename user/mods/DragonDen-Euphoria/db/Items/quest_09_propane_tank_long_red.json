@@ -1,0 +1,109 @@
+{
+    "68c2b1408faef55c6cd0ab64": {
+        "itemTplToClone": "5939a00786f7742fe8132936",
+        "parentId": "57864e4c24597754843f8723",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "dragonden/quest/propane_tank_long_red.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "BackgroundColor": "violet",
+            "Weight": 0.2,
+            "Height": 8,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "RarityPvE": "Not_exist",
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Propane Tank Long Red (Quest)",
+                "shortName": "Propane Tank",
+                "description": ""
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "addtoLootLocation": false,
+        "QuestLocation": [
+            {
+                "Map": ["Interchange"],
+                "Position": {
+                    "x": 42.0265732,
+                    "y": 28.08441,
+                    "z": 178.982925
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 359.565582,
+                    "z": 0.0
+                }
+            },
+            {
+                "Map": ["Interchange"],
+                "Position": {
+                    "x": 18.1117344,
+                    "y": 28.1153584,
+                    "z": 190.2076
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 2.51604652,
+                    "z": 0.0
+                }
+            },
+            {
+                "Map": ["Interchange"],
+                "Position": {
+                    "x": -6.59575844,
+                    "y": 28.03807,
+                    "z": 164.444077
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 270.109741,
+                    "z": 0.0
+                }
+            },
+            {
+                "Map": ["Interchange"],
+                "Position": {
+                    "x": -35.95166,
+                    "y": 27.9735985,
+                    "z": 192.127548
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.97868365,
+                    "z": 0.0
+                }
+            },
+            {
+                "Map": ["Interchange"],
+                "Position": {
+                    "x": -86.8989258,
+                    "y": 27.9310684,
+                    "z": 173.155457
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 1.022482,
+                    "z": 0.0
+                }
+            }
+        ],
+        "addLooseLoot": false
+    }
+}

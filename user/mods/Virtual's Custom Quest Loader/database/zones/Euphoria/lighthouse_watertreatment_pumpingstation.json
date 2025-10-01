@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "lighthouse_watertreatment_pumpingstation",
+    "ZoneName": "lighthouse_watertreatment_pumpingstation",
+    "ZoneLocation": "Lighthouse",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-55.32407",
+      "Y": "2.787735",
+      "Z": "-582.0181",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.002806526",
+      "Z": "0",
+      "W": "0.9999962"
+    },
+    "Scale": {
+      "X": "4.649541",
+      "Y": "2.740404",
+      "Z": "2.998153",
+      "W": "0"
+    }
+  }
+]

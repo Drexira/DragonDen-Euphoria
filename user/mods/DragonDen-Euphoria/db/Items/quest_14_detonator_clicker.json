@@ -1,0 +1,54 @@
+{
+    "68cd92c8aed61ae8d4172145": {
+        "itemTplToClone": "5939a00786f7742fe8132936",
+        "parentId": "57864e4c24597754843f8723",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "dragonden/quest/detonator_clicker.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "BackgroundColor": "violet",
+            "Weight": 0.2,
+            "Height": 2,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "RarityPvE": "Not_exist",
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Detonator Clicker (Quest)",
+                "shortName": "Detonator",
+                "description": ""
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "addtoLootLocation": false,
+        "QuestLocation": [
+            {
+            "Map": ["RezervBase"],
+            "Position": {"x":12.6196547,"y":-3.785358,"z":-28.47298},
+            "Rotation": {"x":0.0,"y":317.001373,"z":0.0}
+            },
+            {
+            "Map": ["RezervBase"],
+            "Position": {"x":94.01375,"y":2.96238732,"z":-21.1955261},
+            "Rotation": {"x":0.0,"y":1.20449233,"z":0.0}
+            }
+        ],
+        "addLooseLoot": false
+    }
+}

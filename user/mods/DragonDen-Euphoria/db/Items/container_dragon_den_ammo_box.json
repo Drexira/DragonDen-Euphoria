@@ -1,0 +1,76 @@
+{
+    "68c31074a47f306e06b87152": {
+        "itemTplToClone": "5aafbde786f774389d0cbc0f",
+        "parentId": "5795f317245977243854e041",
+        "handbookParentId": "GEAR_CASES",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "dragonden/container/ammo_box_green.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 4,
+            "Height": 2,
+            "Width": 3,
+            "sizeHeight": 5,
+            "sizeWidth": 9,
+            "StackMaxSize": 1,
+            "isSecured": false,
+            "SearchSound": "techno_box_looting_01",
+            "DiscardingBlock": true,
+            "BackgroundColor": "blue",
+            "Grids": [
+                {
+                    "_name": "main1",
+                    "_id": "68c31072633d2d8e1bfb798d",
+                    "_parent": "68c31074a47f306e06b87152",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5485a8684bdc2da71d8b4567",
+                                    "543be5cb4bdc2deb348b4568"
+                                ],
+                                "ExcludedFilter": []
+                            }
+                        ],
+                        "cellsH": 9,
+                        "cellsV": 5,
+                        "minCount": 0,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "isSortingTable": false
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ],
+            "Slots": []
+        },
+        "locales": {
+            "en": {
+                "name": "Dragon Den Ammo Box",
+                "shortName": "Ammo Box",
+                "description": "A heavy-duty steel ammo box with reinforced hinges and a distinct Dragon Den finish. Keeps your rounds dry, sorted, and battle-ready even after the roughest raids."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 247449,
+        "handbookPriceRoubles": 192552,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "StaticLootContainers": [],
+        "addtoHallOfFame": false
+    }
+}

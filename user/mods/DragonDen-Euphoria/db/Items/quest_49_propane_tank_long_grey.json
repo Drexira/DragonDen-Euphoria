@@ -1,0 +1,54 @@
+{
+    "68d5ac6fafc7424ab3f92b4a": {
+        "itemTplToClone": "5939a00786f7742fe8132936",
+        "parentId": "57864e4c24597754843f8723",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "dragonden/quest/propane_tank_long_grey.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "BackgroundColor": "violet",
+            "Weight": 0.2,
+            "Height": 8,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "RarityPvE": "Not_exist",
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Propane Tank Long Grey (Quest)",
+                "shortName": "Propane Tank",
+                "description": ""
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "addtoLootLocation": false,
+        "QuestLocation": [
+            {
+                "Map": ["bigmap"],
+                "Position": {"x":563.369934,"y":2.194703,"z":-124.475266},
+                "Rotation": {"x":0.0,"y":178.451935,"z":0.0}
+            },
+            {
+                "Map": ["bigmap"],
+                "Position": {"x":559.7211,"y":2.25032878,"z":-115.99205},
+                "Rotation": {"x":0.0,"y":316.6393,"z":0.0}
+            }
+        ],
+        "addLooseLoot": false
+    }
+}

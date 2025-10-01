@@ -1,0 +1,52 @@
+[
+  {
+    "ZoneId": "ground_zero_nakatani_dumper",
+    "ZoneName": "ground_zero_nakatani_dumper",
+    "ZoneLocation": "Sandbox_high",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "44.41143",
+      "Y": "22.60582",
+      "Z": "302.4956",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.6680646",
+      "Z": "0",
+      "W": "0.7441033"
+    },
+    "Scale": {
+      "X": "1.874202",
+      "Y": "2.884682",
+      "Z": "2.743401",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "ground_zero_nakatani_dumper",
+    "ZoneName": "ground_zero_nakatani_dumper",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "44.41143",
+      "Y": "22.60582",
+      "Z": "302.4956",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.6680646",
+      "Z": "0",
+      "W": "0.7441033"
+    },
+    "Scale": {
+      "X": "1.874202",
+      "Y": "2.884682",
+      "Z": "2.743401",
+      "W": "0"
+    }
+  }
+]

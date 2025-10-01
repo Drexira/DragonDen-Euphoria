@@ -1,0 +1,13 @@
+{
+  "68cbfc58c1b5556625457481 name": "Supply of the Damned",
+  "68cbfc58c1b5556625457481 description": "Black door needs quiet power for night moves and bench tests. A healthy car battery gives me backbone for tool rigs, and spark plugs keep small engines honest when the grid lies.\nBring both together so I can stage backup power without begging the station. No speeches, no heroics. Just parts that work.",
+  "68cbfc58c1b5556625457481 startedMessageText": "We keep rooms obedient when the switch lies.\nBring a heavy heart and small bright teeth.",
+  "68cbfc58c1b5556625457481 successMessageText": "Posts took charge and the hum settled.\nThat is the sound I pay for.",
+  "68cbfc58c1b5556625457481 failMessageText": "Wrong parts, cracked cases, or late delivery.\nTry again and keep it clean.",
+  "68cbfc58c1b5556625457481 acceptPlayerMessage": "Deliver one working battery and matching plugs together.\nNo leaks, no bent pins.\nHand them over and keep moving.",
+  "68cbfc58c1b5556625457481 completePlayerMessage": "Power wakes when you knock correctly.\nYou remembered the rhythm.",
+  "68cbfb5a416dcec3448c98a8": "Find Car Battery in raid",
+  "68cbfb5eaa49c2c8266c7f77": "Hand over Car Battery",
+  "68cbfb664258ee2bad952196": "Find Spark Plug in raid",
+  "68cbfb66b1352c58338ca695": "Hand over Spark Plug"
+}

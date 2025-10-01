@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "reserve_black_knight_workshop",
+    "ZoneName": "reserve_black_knight_workshop",
+    "ZoneLocation": "RezervBase",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "8.525296",
+      "Y": "-2.594757",
+      "Z": "-4.376606",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.1184748",
+      "Z": "0",
+      "W": "0.9929571"
+    },
+    "Scale": {
+      "X": "5.330217",
+      "Y": "2.755459",
+      "Z": "6.709589",
+      "W": "0"
+    }
+  }
+]

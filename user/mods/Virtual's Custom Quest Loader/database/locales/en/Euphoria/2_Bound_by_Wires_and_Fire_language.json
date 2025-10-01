@@ -1,0 +1,13 @@
+{
+  "68c9cea9ac9b0e8c3aba6238 name": "Bound by Wires and Fire",
+  "68c9cea9ac9b0e8c3aba6238 description": "I need two quiet messages sent on Ground Zero: one that thinks and one that shouts. The detonator tells me who listens; the charge tells me who comes running. Plant them near Nakatani so I can time the response and judge the routes for tomorrow's crates. Do the lifts clean and the placements cleaner. Leave the scene boring.",
+  "68c9cea9ac9b0e8c3aba6238 startedMessageText": "Two pieces, two mouths. Lift from the bodies, plant by Nakatani, and don't teach the map your name.",
+  "68c9cea9ac9b0e8c3aba6238 successMessageText": "Wire and charge are holding hands where I asked. The bay hums the right note.",
+  "68c9cea9ac9b0e8c3aba6238 failMessageText": "Wrong parts, wrong spots, or too much story. Try again and keep it tidy.",
+  "68c9cea9ac9b0e8c3aba6238 acceptPlayerMessage": "Take the brain from Oasis and the block from Empire's shadow. Set the brain at the dumpers by Nakatani and the block at the blockade. Exit like a rumor.",
+  "68c9cea9ac9b0e8c3aba6238 completePlayerMessage": "Placements confirmed. Now I know how they move when we whisper and when we shout.",
+  "68c9d358fadad7f3b25e15c8": "Find C4 Detonator in Ground Zero Oasis",
+  "68c9c86caadab2223f01f991": "Plant C4 Detonator",
+  "68c9d34c6b81fb7f8d5becd3": "Find C4 Explosive near Empire Business Center",
+  "68c9c86ac8ee8ab215318e7e": "Plant C4 Explosive"
+}

@@ -1,0 +1,182 @@
+{
+  "68d16a141400b4bfc99edce6": {
+    "QuestName": "Vapor Substitute",
+    "_id": "68d16a141400b4bfc99edce6",
+    "traderId": "5a7c2eca46aef81a7ca2145d",
+    "type": "PickUp",
+    "location": "5714dbc024597771384a510d",
+    "image": "/files/quest/icon/temp.jpg",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68d16a141400b4bfc99edce6 description",
+    "startedMessageText": "68d16a141400b4bfc99edce6 startedMessageText",
+    "successMessageText": "68d16a141400b4bfc99edce6 successMessageText",
+    "failMessageText": "68d16a141400b4bfc99edce6 failMessageText",
+    "acceptPlayerMessage": "68d16a141400b4bfc99edce6 acceptPlayerMessage",
+    "declinePlayerMessage": "68d16a141400b4bfc99edce6 declinePlayerMessage",
+    "completePlayerMessage": "68d16a141400b4bfc99edce6 completePlayerMessage",
+    "changeQuestMessageText": "68d16a141400b4bfc99edce6 changeQuestMessageText",
+    "name": "68d16a141400b4bfc99edce6 name",
+    "note": "68d16a141400b4bfc99edce6 note",
+    "restartable": true,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d1698c9d99812f99261a05",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68c2b13e601977f2abb6d5e5"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d1698f77205b48dfde6857",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68c2b13e601977f2abb6d5e5"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d16a14e1971807c0dc5519",
+              "target": "68d1698c9d99812f99261a05"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d16a141186d507e35d2bf9",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "5ac3475486f7741d6224abd3",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68d16a143b1ade5f6fa68070",
+          "index": 0,
+          "type": "Experience",
+          "value": "4600",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68d16a14935008d89250343d",
+          "index": 1,
+          "target": "5a7c2eca46aef81a7ca2145d",
+          "type": "TraderStanding",
+          "value": "0.01",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d16a143d2a6a10badd764d",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68d16a141d511df91e234783",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 28000
+              }
+            }
+          ],
+          "target": "68d16a141d511df91e234783",
+          "type": "Item",
+          "value": "28000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d16a1408e96ee1cc33a50e",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68d16a14a60c4b72e1dd2797",
+              "_tpl": "573475fb24597737fb1379e1",
+              "upd": {
+                "StackObjectsCount": 5
+              }
+            }
+          ],
+          "target": "68d16a14a60c4b72e1dd2797",
+          "type": "Item",
+          "value": "5",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d16a14df1724528127a4e5",
+          "index": 4,
+          "items": [
+            {
+              "_id": "68d16a14da9479c33184d514",
+              "_tpl": "56742c2e4bdc2d95058b456d",
+              "upd": {
+                "StackObjectsCount": 3
+              }
+            }
+          ],
+          "target": "68d16a14da9479c33184d514",
+          "type": "Item",
+          "value": "3",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

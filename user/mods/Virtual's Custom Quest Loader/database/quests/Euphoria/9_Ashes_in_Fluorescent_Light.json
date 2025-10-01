@@ -1,0 +1,164 @@
+{
+  "68cc8fe2280380fdcce2fc5b": {
+    "QuestName": "Ashes in Fluorescent Light",
+    "_id": "68cc8fe2280380fdcce2fc5b",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Multi",
+    "location": "5714dbc024597771384a510d",
+    "image": "/files/quest/icon/9_Ashes_in_Fluorescent_Light.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68cc8fe2280380fdcce2fc5b description",
+    "startedMessageText": "68cc8fe2280380fdcce2fc5b startedMessageText",
+    "successMessageText": "68cc8fe2280380fdcce2fc5b successMessageText",
+    "failMessageText": "68cc8fe2280380fdcce2fc5b failMessageText",
+    "acceptPlayerMessage": "68cc8fe2280380fdcce2fc5b acceptPlayerMessage",
+    "declinePlayerMessage": "68cc8fe2280380fdcce2fc5b declinePlayerMessage",
+    "completePlayerMessage": "68cc8fe2280380fdcce2fc5b completePlayerMessage",
+    "changeQuestMessageText": "68cc8fe2280380fdcce2fc5b changeQuestMessageText",
+    "name": "68cc8fe2280380fdcce2fc5b name",
+    "note": "68cc8fe2280380fdcce2fc5b note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cc8f414d509be6ea58080c",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68c2b1408faef55c6cd0ab64"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "68cc8f416364112f9bb3bfa5",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 25,
+          "target": [
+            "68c2b1408faef55c6cd0ab64"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cc8fe24e523f28436fdeea",
+              "target": "68cc8f414d509be6ea58080c"
+            }
+          ],
+          "zoneId": "interchange_goshan_ramp_circuits",
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cc8fe2ccab4a92e780df59",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68cc7f4d7e7490d1192db2f3",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68cc8fe229bb9aa7f601a5e3",
+          "index": 0,
+          "type": "Experience",
+          "value": "6800",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cc8fe27a2399b463d042ca",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.02",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cc8fe2d6274de74a97f526",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68cc8fe2bbc36201cc5913a5",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 38000
+              }
+            }
+          ],
+          "target": "68cc8fe2bbc36201cc5913a5",
+          "type": "Item",
+          "value": "38000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cc8fe2f31c4723df296379",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68cc8fe206ddf5f9b6bcf77b",
+              "_tpl": "68bebe5c62e0936b1b6c9a6d",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68cc8fe206ddf5f9b6bcf77b",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

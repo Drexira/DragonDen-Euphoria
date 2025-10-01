@@ -1,0 +1,221 @@
+{
+  "68cda98e96cbf5a70a6136fa": {
+    "QuestName": "Teeth Beneath the Railway",
+    "_id": "68cda98e96cbf5a70a6136fa",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Multi",
+    "location": "5704e5fad2720bc05b8b4567",
+    "image": "/files/quest/icon/17_Teeth_Beneath_the_Railway.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68cda98e96cbf5a70a6136fa description",
+    "startedMessageText": "68cda98e96cbf5a70a6136fa startedMessageText",
+    "successMessageText": "68cda98e96cbf5a70a6136fa successMessageText",
+    "failMessageText": "68cda98e96cbf5a70a6136fa failMessageText",
+    "acceptPlayerMessage": "68cda98e96cbf5a70a6136fa acceptPlayerMessage",
+    "declinePlayerMessage": "68cda98e96cbf5a70a6136fa declinePlayerMessage",
+    "completePlayerMessage": "68cda98e96cbf5a70a6136fa completePlayerMessage",
+    "changeQuestMessageText": "68cda98e96cbf5a70a6136fa changeQuestMessageText",
+    "name": "68cda98e96cbf5a70a6136fa name",
+    "note": "68cda98e96cbf5a70a6136fa note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "compareMethod": "Skill",
+          "conditionType": "Skill",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cda659c01c12548897905c",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "parentId": "",
+          "target": "StressResistance",
+          "value": 5,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cda66e26a74a522cd3139e",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68c2b148a23a2fa9a103746d"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "68cda695366e06b03e3536a9",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68c2b148a23a2fa9a103746d"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cda98e548800fd6b6b60cf",
+              "target": "68cda66e26a74a522cd3139e"
+            }
+          ],
+          "zoneId": "reserve_train_track_entrance",
+          "dynamicLocale": false
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "68cda98e78b14453e5f38567",
+                "status": [
+                  "Survived"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68cda98ea6e44e968ed7c02e",
+                "target": [
+                  "RezervBase"
+                ]
+              }
+            ],
+            "id": "68cda98e39a71ecc1665004d"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cda696b7c97ea2bab214df",
+          "index": 3,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cda98e03162b044e2ffe60",
+              "target": "68cda695366e06b03e3536a9"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cda98e0f2c720b44bc46d4",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68cd9cc8ab9a667de34d24a1",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68cda98e0f34ef39aeceaa35",
+          "index": 0,
+          "type": "Experience",
+          "value": "8200",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cda98e9be0ada8ab760cf8",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.02",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cda98e6133d117276107c7",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68cda98e6a57e14548648743",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 48000
+              }
+            }
+          ],
+          "target": "68cda98e6a57e14548648743",
+          "type": "Item",
+          "value": "48000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cda98e12e4cbb9cb59ee4c",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68cda98e2f5cadbcc06fc63d",
+              "_tpl": "5d235b4d86f7742e017bc88a",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            }
+          ],
+          "target": "68cda98e2f5cadbcc06fc63d",
+          "type": "Item",
+          "value": "20",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

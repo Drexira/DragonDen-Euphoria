@@ -1,0 +1,59 @@
+{
+    "68bf166b8bc8f85d2c467753": {
+        "itemTplToClone": "65711b07a330b8c9060f7b01",
+        "parentId": "65649eb40bf0ed77b8044453",
+        "handbookParentId": "GEAR_HEADWEAR",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "BackgroundColor": "default",
+            "Weight": 0.7,
+            "Height": 1,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "BluntThroughput": 0.1726,
+            "CanSellOnRagfair": false,
+            "Durability": 30,
+            "MaxDurability": 30,
+            "Indestructibility": 0.9,
+            "armorClass": "5",
+            "RepairCost": 965,
+            "RepairSpeed": 15,
+            "RicochetParams": {
+                "x": 0.8,
+                "y": 0.3,
+                "z": 80
+            },
+            "ArmorMaterial": "Combined",
+            "ArmorType": "Heavy"
+        },
+        "locales": {
+            "en": {
+                "name": "Hybrid composite materials",
+                "shortName": "TOP",
+                "description": ""
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 0,
+        "handbookPriceRoubles": 0,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "StaticLootContainers": []
+    }
+}

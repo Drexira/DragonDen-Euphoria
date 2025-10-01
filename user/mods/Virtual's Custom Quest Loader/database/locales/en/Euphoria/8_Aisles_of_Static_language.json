@@ -1,0 +1,13 @@
+{
+  "68cc7f4d7e7490d1192db2f3 name": "Aisles of Static",
+  "68cc7f4d7e7490d1192db2f3 description": "I am charting where Interchange hums and where it stutters. Those dips tell me when shutters stall, when cameras blink, and when to move crates without buying attention.\nWalk the bright rows and the outside yards, feel the current with your feet, and note the choke points by being there.\nNo markers yet, just a clean pass and a clean exit. This is preparation for switches I will ask you to flip later.",
+  "68cc7f4d7e7490d1192db2f3 startedMessageText": "Interchange sings a tired hymn.\nTrace the verses so I know where the chorus breaks.",
+  "68cc7f4d7e7490d1192db2f3 successMessageText": "Your route drew the hum I needed.\nNow I can schedule moves between the stutters.",
+  "68cc7f4d7e7490d1192db2f3 acceptPlayerMessage": "Pass through Techlight, OLI's back, and the pylons outside.\nDo not linger, do not teach the glass your name.\nLeave breathing.",
+  "68cc7f4d7e7490d1192db2f3 completePlayerMessage": "You counted without counting.\nThat is how we read a machine.",
+  "68cc7e34e1e54a0c743ad6bd": "Visit OLI Ramps",
+  "68cc7e464c7c5a47b4f7635f": "Visit OLI Container Yard",
+  "68cc7e46e984223657eb33b8": "Visit Power Station Yard",
+  "68cc7e4679319b6f5919555c": "Visit Techlight Registers",
+  "68cc7f316615859736fccf50": "Survive and Extract"
+}

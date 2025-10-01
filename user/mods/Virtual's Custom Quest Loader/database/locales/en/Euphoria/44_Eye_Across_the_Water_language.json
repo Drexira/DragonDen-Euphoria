@@ -1,0 +1,11 @@
+{
+  "68d4785fc02989c7217abb1e name": "Eye Across the Water",
+  "68d4785fc02989c7217abb1e description": "Steal the seeing thing from white light and make it seasick. Last intel says the optics eye sits in Labs near the cargo lifts. Lift it clean. Then rock it to sleep at the pier boat shed shelves in Shoreline where boards creak like old prayers. Two maps, two clean exits. If you feel watched carrying it, you are. Keep walking.",
+  "68d4785fc02989c7217abb1e startedMessageText": "Take the eye without being seen.\nHide it by the water where wood forgets faces.",
+  "68d4785fc02989c7217abb1e successMessageText": "The eye is seasick and harmless.\nExactly as planned.",
+  "68d4785fc02989c7217abb1e acceptPlayerMessage": "Slip into Labs and lift the eye.\nStash it on the pier boat shed shelves.\nLeave both places unphotographed.",
+  "68d4785fc02989c7217abb1e completePlayerMessage": "Two maps, one steady pulse.\nYou travel well.",
+  "68d4773d5134f9e026e9e679": "Find the Optics Eye",
+  "68d4773e6aacfc101feb6c4c": "Hide the Optics Eye",
+  "68d477b37ca10d9121bb15b6": "Survive and Extract"
+}

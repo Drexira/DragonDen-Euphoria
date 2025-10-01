@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "shoreline_weatherstation_antenna1",
+    "ZoneName": "shoreline_weatherstation_antenna1",
+    "ZoneLocation": "Shoreline",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-491.8757",
+      "Y": "-23.98053",
+      "Z": "247.9378",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.004774987",
+      "Z": "0",
+      "W": "0.9999886"
+    },
+    "Scale": {
+      "X": "4.483299",
+      "Y": "3.553774",
+      "Z": "5.13841",
+      "W": "0"
+    }
+  }
+]

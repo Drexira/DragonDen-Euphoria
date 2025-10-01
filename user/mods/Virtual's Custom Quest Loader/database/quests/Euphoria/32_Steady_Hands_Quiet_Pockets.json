@@ -1,0 +1,130 @@
+{
+  "68d012fb947f860b12802076": {
+    "QuestName": "Steady Hands, Quiet Pockets",
+    "_id": "68d012fb947f860b12802076",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Skill",
+    "location": "any",
+    "image": "/files/quest/icon/32_Steady_Hands_Quiet_Pockets.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68d012fb947f860b12802076 description",
+    "startedMessageText": "68d012fb947f860b12802076 startedMessageText",
+    "successMessageText": "68d012fb947f860b12802076 successMessageText",
+    "failMessageText": "68d012fb947f860b12802076 failMessageText",
+    "acceptPlayerMessage": "68d012fb947f860b12802076 acceptPlayerMessage",
+    "declinePlayerMessage": "68d012fb947f860b12802076 declinePlayerMessage",
+    "completePlayerMessage": "68d012fb947f860b12802076 completePlayerMessage",
+    "changeQuestMessageText": "68d012fb947f860b12802076 changeQuestMessageText",
+    "name": "68d012fb947f860b12802076 name",
+    "note": "68d012fb947f860b12802076 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "compareMethod": "Skill",
+          "conditionType": "Skill",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d0123e26b3c997dc1f6c03",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "parentId": "",
+          "target": "Attention",
+          "value": 15,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d012fb900c92b7c436c630",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68d00f5330507768121896c0",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68d012fb71f5e867409950f2",
+          "index": 0,
+          "type": "Experience",
+          "value": "10000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68d012fbed4f06fdf8dbcbcd",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.01",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d012fbf2aed69d37e5faa2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68d012fb72ad8830ed1831fb",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 60000
+              }
+            }
+          ],
+          "target": "68d012fb72ad8830ed1831fb",
+          "type": "Item",
+          "value": "60000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d012fb8d74b467b5f2dd6c",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68d012fb107a52dc323bf37d",
+              "_tpl": "59fafd4b86f7745ca07e1232",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68d012fb107a52dc323bf37d",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

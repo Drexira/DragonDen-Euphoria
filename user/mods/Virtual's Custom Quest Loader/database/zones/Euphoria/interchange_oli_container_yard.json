@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "interchange_oli_container_yard",
+    "ZoneName": "interchange_oli_container_yard",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "134.3923",
+      "Y": "31.33893",
+      "Z": "269.3865",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.0008703546",
+      "Z": "0",
+      "W": "0.9999996"
+    },
+    "Scale": {
+      "X": "63.63799",
+      "Y": "20.43991",
+      "Z": "62.84233",
+      "W": "0"
+    }
+  }
+]

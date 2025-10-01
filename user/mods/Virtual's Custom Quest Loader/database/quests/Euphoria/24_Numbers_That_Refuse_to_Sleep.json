@@ -1,0 +1,210 @@
+{
+  "68cebead8776115326d67f72": {
+    "QuestName": "Numbers That Refuse to Sleep",
+    "_id": "68cebead8776115326d67f72",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "PickUp",
+    "location": "any",
+    "image": "/files/quest/icon/24_Numbers_That_Refuse_to_Sleep.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68cebead8776115326d67f72 description",
+    "startedMessageText": "68cebead8776115326d67f72 startedMessageText",
+    "successMessageText": "68cebead8776115326d67f72 successMessageText",
+    "failMessageText": "68cebead8776115326d67f72 failMessageText",
+    "acceptPlayerMessage": "68cebead8776115326d67f72 acceptPlayerMessage",
+    "declinePlayerMessage": "68cebead8776115326d67f72 declinePlayerMessage",
+    "completePlayerMessage": "68cebead8776115326d67f72 completePlayerMessage",
+    "changeQuestMessageText": "68cebead8776115326d67f72 changeQuestMessageText",
+    "name": "68cebead8776115326d67f72 name",
+    "note": "68cebead8776115326d67f72 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cebe334b51373a46b4fdb1",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "590a386e86f77429692b27ab"
+          ],
+          "value": 5,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cebe3423b42da8350a6071",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "590a386e86f77429692b27ab"
+          ],
+          "value": 5,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cebead1642b0bbe861c57a",
+              "target": "68cebe334b51373a46b4fdb1"
+            }
+          ]
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cebe35efde0d55c1d680c3",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "590c392f86f77444754deb29"
+          ],
+          "value": 3,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cebe357f01259c7cb4066d",
+          "index": 3,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "590c392f86f77444754deb29"
+          ],
+          "value": 3,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cebeadd91d2f367be6a5cd",
+              "target": "68cebe35efde0d55c1d680c3"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cebead32766022a4f3d2e7",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68cebd7f607b39e04dad1bbd",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68cebead202f022815bf23e1",
+          "index": 0,
+          "type": "Experience",
+          "value": "9000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cebead306db2f14fb969f1",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.01",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cebead987127674d9d23ae",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68cebeadc689c4b1b584bf1b",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 45000
+              }
+            }
+          ],
+          "target": "68cebeadc689c4b1b584bf1b",
+          "type": "Item",
+          "value": "45000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cebead736e8c1f127ab452",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68cebeada5c6d2ffa84322a9",
+              "_tpl": "68c561b55551eb7a6be4fc3b",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68cebeada5c6d2ffa84322a9",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

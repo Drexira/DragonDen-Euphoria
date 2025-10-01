@@ -1,0 +1,10 @@
+{
+  "68cc5f0fb08f28b70e138ac7 name": "Bones Etched in Concrete",
+  "68cc5f0fb08f28b70e138ac7 description": "Dorms carry sound through pipes and stairs. I need that boiler room pinned so I can listen later and plan clean handoffs.\nTag the heater room with a GPS Beacon so I can find it again in the static, then thin local scavs so stairwells stop bragging. Do the work like you are late and leave the place boring.",
+  "68cc5f0fb08f28b70e138ac7 startedMessageText": "Pin the boiler room with a GPS Beacon.\nTrim the chatter until the halls breathe normal.\nDo not teach the block your name.",
+  "68cc5f0fb08f28b70e138ac7 successMessageText": "The pin holds and the street quit bragging.\nThat is the tone I wanted.",
+  "68cc5f0fb08f28b70e138ac7 acceptPlayerMessage": "Mark the heater at Dorms.\nWork the halls and cut the loud ones on your way out.\nExtract plain.",
+  "68cc5f0fb08f28b70e138ac7 completePlayerMessage": "The block learned to whisper again.\nYour back was turned before it learned your face.",
+  "68cc5f0f6e488aabafdf5d7f": "Mark the boiler room",
+  "68cc5f0f637dcd9ec4c41dba": "Eliminate Scavs on Customs"
+}

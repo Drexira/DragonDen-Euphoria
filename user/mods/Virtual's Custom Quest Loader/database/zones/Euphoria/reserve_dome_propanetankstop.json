@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "reserve_dome_propanetankstop",
+    "ZoneName": "reserve_dome_propanetankstop",
+    "ZoneLocation": "RezervBase",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-10.92742",
+      "Y": "30.49377",
+      "Z": "176.5802",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.9280668",
+      "Z": "0",
+      "W": "-0.3724137"
+    },
+    "Scale": {
+      "X": "1.840267",
+      "Y": "2.011488",
+      "Z": "2.601745",
+      "W": "0"
+    }
+  }
+]

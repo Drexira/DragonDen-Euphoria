@@ -1,0 +1,11 @@
+{
+  "68d025bec6d3a483b102533a name": "Walk Between the Monitors",
+  "68d025bec6d3a483b102533a description": "Cameras do not blink for drama. I want proof you can work Labs without throwing dice. Pick targets you meant to pick, keep pins in your pockets, and leave with your outline still arguable.\nThis is for clients who pay for quiet corridors, not fireworks.",
+  "68d025bec6d3a483b102533a startedMessageText": "Work with intent.\nNo grenades, no accidents dressed as art.",
+  "68d025bec6d3a483b102533a successMessageText": "Monitors watched and learned nothing useful about you.\nThe right people fell anyway.",
+  "68d025bec6d3a483b102533a failMessageText": "Pins left your pockets or the cameras learned too much.\nTry again without fireworks.",
+  "68d025bec6d3a483b102533a acceptPlayerMessage": "Hunt on purpose inside Labs.\nDo not use grenades.\nExtract clean.",
+  "68d025bec6d3a483b102533a completePlayerMessage": "You solved problems without tossing metal.\nI prefer that math.",
+  "68d025be9f38b82c0761d320": "Eliminate PMCs on Labs (No grenades)",
+  "68d02540cae5b731e41c8aae": "Survive and Extract"
+}

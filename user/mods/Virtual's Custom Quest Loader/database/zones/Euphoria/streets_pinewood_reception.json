@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "streets_pinewood_reception",
+    "ZoneName": "streets_pinewood_reception",
+    "ZoneLocation": "TarkovStreets",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-118.4644",
+      "Y": "2.286499",
+      "Z": "67.32933",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.09535971",
+      "Z": "0",
+      "W": "0.9954429"
+    },
+    "Scale": {
+      "X": "3.359495",
+      "Y": "2.807272",
+      "Z": "1.931164",
+      "W": "0"
+    }
+  }
+]

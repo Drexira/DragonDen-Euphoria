@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "customs_construction_pump_pit",
+    "ZoneName": "customs_construction_pump_pit",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "117.3494",
+      "Y": "1.152962",
+      "Z": "-64.32188",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.09139818",
+      "Z": "0",
+      "W": "-0.9958147"
+    },
+    "Scale": {
+      "X": "8.141049",
+      "Y": "6.567793",
+      "Z": "6.194241",
+      "W": "0"
+    }
+  }
+]

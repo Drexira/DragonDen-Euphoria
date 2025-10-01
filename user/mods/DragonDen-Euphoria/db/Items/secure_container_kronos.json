@@ -1,0 +1,179 @@
+{
+    "68c2f0ea3f31636867138df0": {
+        "itemTplToClone": "665ee77ccf2d642e98220bca",
+        "parentId": "5448bf274bdc2dfc2f8b456a",
+        "handbookParentId": "GEAR_SECURED",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "dragonden/container/kronos_secure_container.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 1.48,
+            "Height": 3,
+            "Width": 3,
+            "sizeHeight": 3,
+            "sizeWidth": 5,
+            "StackMaxSize": 1,
+            "isSecured": true,
+            "SearchSound": "techno_box_looting_01",
+            "DiscardingBlock": true,
+            "BackgroundColor": "violet",
+            "Grids": [
+                {
+                    "_name": "main1",
+                    "_id": "68c2f140d82ee0bb1e2e5924",
+                    "_parent": "68c2f0ea3f31636867138df0",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5448eb774bdc2d0a728b4567",
+                                    "543be5f84bdc2dd4348b456a",
+                                    "5448fe124bdc2da5018b4567",
+                                    "60b0f6c058e0b0481a09ad11",
+                                    "619cbf9e0a7c3a1a2731940a",
+                                    "619cbf7d23893217ec30b689",
+                                    "59fafd4b86f7745ca07e1232",
+                                    "62a09d3bcf4a99369e262447",
+                                    "5d235bb686f77443f4331278",
+                                    "5c093e3486f77430cb02e593",
+                                    "590c60fc86f77412b13fddcf",
+                                    "5783c43d2459774bbe137486",
+                                    "543be6674bdc2df1348b4569",
+                                    "5448ecbe4bdc2d60728b4568",
+                                    "543be5e94bdc2df1348b4568",
+                                    "5447e1d04bdc2dff2f8b4567",
+                                    "567849dd4bdc2d150f8b456e",
+                                    "543be5664bdc2dd4348b4569",
+                                    "5447e0e74bdc2d3c308b4567",
+                                    "5661632d4bdc2d903d8b456b",
+                                    "54009119af1c881c07000029"
+                                ],
+                                "ExcludedFilter": []
+                            }
+                        ],
+                        "cellsH": 2,
+                        "cellsV": 2,
+                        "minCount": 0,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "isSortingTable": false
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_name": "main2",
+                    "_id": "68c2f1423a6d914dca7415bc",
+                    "_parent": "68c2f0ea3f31636867138df0",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5448eb774bdc2d0a728b4567",
+                                    "543be5f84bdc2dd4348b456a",
+                                    "5448fe124bdc2da5018b4567",
+                                    "60b0f6c058e0b0481a09ad11",
+                                    "619cbf9e0a7c3a1a2731940a",
+                                    "619cbf7d23893217ec30b689",
+                                    "59fafd4b86f7745ca07e1232",
+                                    "62a09d3bcf4a99369e262447",
+                                    "5d235bb686f77443f4331278",
+                                    "5c093e3486f77430cb02e593",
+                                    "590c60fc86f77412b13fddcf",
+                                    "5783c43d2459774bbe137486",
+                                    "543be6674bdc2df1348b4569",
+                                    "5448ecbe4bdc2d60728b4568",
+                                    "543be5e94bdc2df1348b4568",
+                                    "5447e1d04bdc2dff2f8b4567",
+                                    "567849dd4bdc2d150f8b456e",
+                                    "543be5664bdc2dd4348b4569",
+                                    "5447e0e74bdc2d3c308b4567",
+                                    "5661632d4bdc2d903d8b456b",
+                                    "54009119af1c881c07000029"
+                                ],
+                                "ExcludedFilter": []
+                            }
+                        ],
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "minCount": 0,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "isSortingTable": false
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_name": "main3",
+                    "_id": "68c2f144a62432cd7bb5a236",
+                    "_parent": "68c2f0ea3f31636867138df0",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5448eb774bdc2d0a728b4567",
+                                    "543be5f84bdc2dd4348b456a",
+                                    "5448fe124bdc2da5018b4567",
+                                    "60b0f6c058e0b0481a09ad11",
+                                    "619cbf9e0a7c3a1a2731940a",
+                                    "619cbf7d23893217ec30b689",
+                                    "59fafd4b86f7745ca07e1232",
+                                    "62a09d3bcf4a99369e262447",
+                                    "5d235bb686f77443f4331278",
+                                    "5c093e3486f77430cb02e593",
+                                    "590c60fc86f77412b13fddcf",
+                                    "5783c43d2459774bbe137486",
+                                    "543be6674bdc2df1348b4569",
+                                    "5448ecbe4bdc2d60728b4568",
+                                    "543be5e94bdc2df1348b4568",
+                                    "5447e1d04bdc2dff2f8b4567",
+                                    "567849dd4bdc2d150f8b456e",
+                                    "543be5664bdc2dd4348b4569",
+                                    "5447e0e74bdc2d3c308b4567",
+                                    "5661632d4bdc2d903d8b456b",
+                                    "54009119af1c881c07000029"
+                                ],
+                                "ExcludedFilter": []
+                            }
+                        ],
+                        "cellsH": 2,
+                        "cellsV": 2,
+                        "minCount": 0,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "isSortingTable": false
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ],
+            "Slots": []
+        },
+        "locales": {
+            "en": {
+                "name": "Secure Container Kronos",
+                "shortName": "Kronos",
+                "description": "A Dragon Den creation named after the primordial titan. Designed with reinforced shielding to safeguard anything placed inside against both time and battle."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 2618423,
+        "handbookPriceRoubles": 1267500,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "StaticLootContainers": [],
+        "addtoHallOfFame": false
+    }
+}

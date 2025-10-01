@@ -1,0 +1,13 @@
+{
+  "68cc0876a9bff210fbcb1208 name": "Clicks Beneath Broken Stone",
+  "68cc0876a9bff210fbcb1208 description": "Dorms turn simple handoffs into noise. I want the halls predictable before we route runners through there.\nPlant a quiet test in each building: a clicker in 2-story office and a stick in 3-story stairwell. The first tells me who listens; the second tells me who panics.\nTrim local scavs on your way so tomorrow's passes cost less breath. Leave the place boring when you are done.",
+  "68cc0876a9bff210fbcb1208 startedMessageText": "Two plants, one lesson.\nLay them in the office and the stairs.\nKeep the halls honest.",
+  "68cc0876a9bff210fbcb1208 successMessageText": "Both teeth are seated and the block sounds smaller.\nGood prep.",
+  "68cc0876a9bff210fbcb1208 acceptPlayerMessage": "Lift a clicker from construction and a stick from Big Red.\nPlant the clicker in 2-story office and the stick in 3-story stairs.\nTrim the locals.\nExit plain.",
+  "68cc0876a9bff210fbcb1208 completePlayerMessage": "Good manners under bad floors.\nNow I can move people through there without a sermon.",
+  "68cc03ce04a037bbebebd672": "Find Detonator Clicker in Customs Construction",
+  "68cc03e8c220ec2608d843e8": "Hide Detonator Clicker in Dorms 2-story Office",
+  "68cc03e9b0d65ca81e4b4146": "Find Dynamite in Customs Big Red Office",
+  "68cc03ea640f81831a1149de": "Hide Dynamite in Dorms 3-story Stairwell",
+  "68cc0876cbfffa188372b342": "Eliminate Scavs on Customs"
+}

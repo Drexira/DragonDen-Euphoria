@@ -1,0 +1,52 @@
+[
+  {
+    "ZoneId": "ground_zero_lavage_entrance",
+    "ZoneName": "ground_zero_lavage_entrance",
+    "ZoneLocation": "Sandbox_high",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "125.0267",
+      "Y": "28.71819",
+      "Z": "201.8181",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "1",
+      "Z": "0",
+      "W": "0.0003003393"
+    },
+    "Scale": {
+      "X": "4.106467",
+      "Y": "2.175554",
+      "Z": "1.2",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "ground_zero_lavage_entrance",
+    "ZoneName": "ground_zero_lavage_entrance",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "125.0267",
+      "Y": "28.71819",
+      "Z": "201.8181",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "1",
+      "Z": "0",
+      "W": "0.0003003393"
+    },
+    "Scale": {
+      "X": "4.106467",
+      "Y": "2.175554",
+      "Z": "1.2",
+      "W": "0"
+    }
+  }
+]

@@ -1,0 +1,242 @@
+{
+  "68d04403d51c027edc485e4b": {
+    "QuestName": "The Map Draws Itself in Smoke",
+    "_id": "68d04403d51c027edc485e4b",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Multi",
+    "location": "5714dc692459777137212e12",
+    "image": "/files/quest/icon/37_The_Map_Draws_Itself_in_Smoke.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68d04403d51c027edc485e4b description",
+    "startedMessageText": "68d04403d51c027edc485e4b startedMessageText",
+    "successMessageText": "68d04403d51c027edc485e4b successMessageText",
+    "failMessageText": "68d04403d51c027edc485e4b failMessageText",
+    "acceptPlayerMessage": "68d04403d51c027edc485e4b acceptPlayerMessage",
+    "declinePlayerMessage": "68d04403d51c027edc485e4b declinePlayerMessage",
+    "completePlayerMessage": "68d04403d51c027edc485e4b completePlayerMessage",
+    "changeQuestMessageText": "68d04403d51c027edc485e4b changeQuestMessageText",
+    "name": "68d04403d51c027edc485e4b name",
+    "note": "68d04403d51c027edc485e4b note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d044036f5975a0f272aa76",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68d4942bbdad148f7a9769ac"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "streets_cinema_park"
+        },
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d0440342c3763822cacd4c",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68d4942bbdad148f7a9769ac"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "streets_concordia_ball_court"
+        },
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d0440308895ff1f349652a",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68d4942bbdad148f7a9769ac"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "streets_pinewood_garage_ramp"
+        },
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d0440307fb07a7b945f34e",
+          "index": 3,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68d4942bbdad148f7a9769ac"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "streets_terragroup_park"
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "68d04403f46dd9ee77ac1a67",
+                "status": [
+                  "Survived"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68d04403384da11f1e5e23c7",
+                "target": [
+                  "TarkovStreets"
+                ]
+              }
+            ],
+            "id": "68d044038b49183c4b9b75d1"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d03fd564eb685bc80b1de3",
+          "index": 4,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d04e954b43896e8cffd9da",
+              "target": "68d044036f5975a0f272aa76"
+            },
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d04e944cfc13841eb77869",
+              "target": "68d0440342c3763822cacd4c"
+            },
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d04e94fb81161575267d9b",
+              "target": "68d0440308895ff1f349652a"
+            },
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d04e93a2af8fb8d8ef29e3",
+              "target": "68d0440307fb07a7b945f34e"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d04403cb972e0afbdd4501",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68d03f2e8d0b4f2dcf5afe5f",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68d0440386bf1e21d6877a44",
+          "index": 0,
+          "type": "Experience",
+          "value": "5000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68d04403ca1e2c243b59407b",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.03",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d044038b07f9c9cd8473d5",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68d04403343aeef8fa127d89",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 90000
+              }
+            }
+          ],
+          "target": "68d04403343aeef8fa127d89",
+          "type": "Item",
+          "value": "90000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d04403dc86a6d95631e0dd",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68d04403f603dd7c9a14fde0",
+              "_tpl": "67600929bd0a0549d70993f6",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68d04403f603dd7c9a14fde0",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

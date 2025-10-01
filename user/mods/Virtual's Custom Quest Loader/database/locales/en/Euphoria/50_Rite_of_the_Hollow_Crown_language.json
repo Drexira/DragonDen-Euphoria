@@ -1,0 +1,23 @@
+{
+  "68d5f28b5251fe6725ab97f2 name": "Rite of the Hollow Crown",
+  "68d5f28b5251fe6725ab97f2 description": "Four raids in one breath.\nNo Armor, No Excuses, buck up because this will be a long one.\nCustoms: use a GPS Beacon on the 3-story Dorms locked entrance, then pull the taped dynamite from Big Red admin office and keep your hands steady.\nInterchange: tuck the dynamite into the Power Station transformers and prove you can choose your fights without turning glass into gossip.\nReserve below: there is a C4 block cached inside Black Bishop Workshop. Lift it and keep your route boring.\nLabs in white light: the Detonator Electrical waits in the Weapon Testing Area. Wire it, then seat the C4 in the Test Room and pick your PMCs.\nEach piece is found and placed inside its own raid. Extract alive after every step. Die once and the crown shatters.",
+  "68d5f28b5251fe6725ab97f2 startedMessageText": "Four raids, one breath.\nNo Armor. No Excuses. No deaths between.",
+  "68d5f28b5251fe6725ab97f2 successMessageText": "All four doors opened and none bit you.\nYour breath never broke and the crown stayed whole.",
+  "68d5f28b5251fe6725ab97f2 failMessageText": "One death anywhere and the circle returns to zero.\nStart again with the same breath and a steadier heart.",
+  "68d5f28b5251fe6725ab97f2 acceptPlayerMessage": "Night Customs, day Interchange, under Reserve, white Labs.\nMark, plant, cut, and leave.",
+  "68d5f28b5251fe6725ab97f2 completePlayerMessage": "You carried nerve instead of metal and it was heavier.\nTake your box. The river will not open this one.",
+  "68d5bc7289a182b91feaf49b": "Mark 3-story Dorms locked entrance",
+  "68d5bc842008878bf3a4af0a": "Find Dynamite in Big Red admin office",
+  "68d5bc856e3e2259868b889e": "Eliminate Scavs on Customs",
+  "68d5bc85c39ebab75c3a6227": "Survive and Extract Customs",
+  "68d5bd059901d6b10e023ebf": "Hide Dynamite at Power Station transformers",
+  "68d5bd065532a53793f445c3": "Eliminate PMCs on Interchange",
+  "68d5bd0762ffacbd8ecb7239": "Survive and Extract Interchange",
+  "68d5bd091da9a8bd5352ec8c": "Find C4 Bomb in Black Bishop Workshop",
+  "68d5bd09db394e8a62e5d10a": "Eliminate Raiders",
+  "68d5bd0a417351675b7df4cc": "Survive and Extract Reserve",
+  "68d5bd0b82e83b592a51d455": "Find Detonator Electrical in Weapon Testing Area",
+  "68d5bd0c81ebb91ab6e3319f": "Hide C4 Bomb in Test Room",
+  "68d5bd0d651f1e43b7f3c049": "Eliminate PMCs on Labs",
+  "68d5bd0ec84c8dbead7a755f": "Survive and Extract Labs"
+}

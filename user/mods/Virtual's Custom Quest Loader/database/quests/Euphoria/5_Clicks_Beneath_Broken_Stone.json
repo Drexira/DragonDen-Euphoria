@@ -1,0 +1,269 @@
+{
+  "68cc0876a9bff210fbcb1208": {
+    "QuestName": "Clicks Beneath Broken Stone",
+    "_id": "68cc0876a9bff210fbcb1208",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Multi",
+    "location": "56f40101d2720b2a4d8b45d6",
+    "image": "/files/quest/icon/5_Clicks_Beneath_Broken_Stone.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68cc0876a9bff210fbcb1208 description",
+    "startedMessageText": "68cc0876a9bff210fbcb1208 startedMessageText",
+    "successMessageText": "68cc0876a9bff210fbcb1208 successMessageText",
+    "failMessageText": "68cc0876a9bff210fbcb1208 failMessageText",
+    "acceptPlayerMessage": "68cc0876a9bff210fbcb1208 acceptPlayerMessage",
+    "declinePlayerMessage": "68cc0876a9bff210fbcb1208 declinePlayerMessage",
+    "completePlayerMessage": "68cc0876a9bff210fbcb1208 completePlayerMessage",
+    "changeQuestMessageText": "68cc0876a9bff210fbcb1208 changeQuestMessageText",
+    "name": "68cc0876a9bff210fbcb1208 name",
+    "note": "68cc0876a9bff210fbcb1208 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cc03ce04a037bbebebd672",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68c2b1603e3c40cfbbdb4564"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "68cc03e8c220ec2608d843e8",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 10,
+          "target": [
+            "68c2b1603e3c40cfbbdb4564"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cc08760cda0be5baebf821",
+              "target": "68cc03ce04a037bbebebd672"
+            }
+          ],
+          "zoneId": "customs_2storydorms_office",
+          "dynamicLocale": false
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cc03e9b0d65ca81e4b4146",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68c2b15a68535525c696821a"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "68cc03ea640f81831a1149de",
+          "index": 3,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 20,
+          "target": [
+            "68c2b15a68535525c696821a"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cc0876ab736775e1569dcb",
+              "target": "68cc03e9b0d65ca81e4b4146"
+            }
+          ],
+          "zoneId": "customs_3storydorms_stairwell",
+          "dynamicLocale": false
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "68cc03ea2a708b779f811cb5",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsInclusive": [],
+                "weaponModsExclusive": [],
+                "equipmentInclusive": [],
+                "equipmentExclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68cc08766e9b2a8638961bde",
+                "target": [
+                  "bigmap"
+                ]
+              }
+            ],
+            "id": "68cc0876e95cbba8e9e20250"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cc0876cbfffa188372b342",
+          "index": 4,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 5,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cc08763a161bd20df9d49f",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68cbf83b0f74bdfa918376ed",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68cc087652c3af8cbc3d5276",
+          "index": 0,
+          "type": "Experience",
+          "value": "5200",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cc0876a54d93f90a678235",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.02",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cc08767cd8c49bacd419f4",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68cc08762db5ec1d60df354b",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 28000
+              }
+            }
+          ],
+          "target": "68cc08762db5ec1d60df354b",
+          "type": "Item",
+          "value": "28000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cc08765f2c44a5d4b9d7d4",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68cc08768876e219c9f9c047",
+              "_tpl": "628e4e576d783146b124c64d",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68cc08768876e219c9f9c047",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

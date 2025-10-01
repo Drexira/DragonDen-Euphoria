@@ -1,0 +1,412 @@
+{
+  "68d047151e4aa55f6add4533": {
+    "QuestName": "Quiet Crown of the Machine",
+    "_id": "68d047151e4aa55f6add4533",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Elimination",
+    "location": "5714dc692459777137212e12",
+    "image": "/files/quest/icon/38_Quiet_Crown_of_the_Machine.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68d047151e4aa55f6add4533 description",
+    "startedMessageText": "68d047151e4aa55f6add4533 startedMessageText",
+    "successMessageText": "68d047151e4aa55f6add4533 successMessageText",
+    "failMessageText": "68d047151e4aa55f6add4533 failMessageText",
+    "acceptPlayerMessage": "68d047151e4aa55f6add4533 acceptPlayerMessage",
+    "declinePlayerMessage": "68d047151e4aa55f6add4533 declinePlayerMessage",
+    "completePlayerMessage": "68d047151e4aa55f6add4533 completePlayerMessage",
+    "changeQuestMessageText": "68d047151e4aa55f6add4533 changeQuestMessageText",
+    "name": "68d047151e4aa55f6add4533 name",
+    "note": "68d047151e4aa55f6add4533 note",
+    "restartable": true,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 22,
+                  "to": 6
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "68d05a0a87a1e227d2307234",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "AnyPmc",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "IncludeNotEquippedItems": false,
+                "conditionType": "Equipment",
+                "dynamicLocale": false,
+                "equipmentExclusive": [
+                  [
+                    "545cdb794bdc2d3a198b456a"
+                  ],
+                  [
+                    "5ab8e79e86f7742d8b372e78"
+                  ],
+                  [
+                    "5ab8e4ed86f7742d8e50c7fa"
+                  ],
+                  [
+                    "5c0e53c886f7747fa54205c7"
+                  ],
+                  [
+                    "5c0e51be86f774598e797894"
+                  ],
+                  [
+                    "5c0e541586f7747fa54205c9"
+                  ],
+                  [
+                    "5c0e5bab86f77461f55ed1f3"
+                  ],
+                  [
+                    "5c0e57ba86f7747fa141986d"
+                  ],
+                  [
+                    "5b44cd8b86f774503d30cba2"
+                  ],
+                  [
+                    "5b44cf1486f77431723e3d05"
+                  ],
+                  [
+                    "5b44d0de86f774503d30cba8"
+                  ],
+                  [
+                    "5b44d22286f774172b0c9de8"
+                  ],
+                  [
+                    "5ca2151486f774244a3b8d30"
+                  ],
+                  [
+                    "5ca21c6986f77479963115a7"
+                  ],
+                  [
+                    "5c0e655586f774045612eeb2"
+                  ],
+                  [
+                    "5c0e5edb86f77461f55ed1f7"
+                  ],
+                  [
+                    "5c0e625a86f7742d77340f62"
+                  ],
+                  [
+                    "59e7635f86f7742cbf2c1095"
+                  ],
+                  [
+                    "5648a7494bdc2d9d488b4583"
+                  ],
+                  [
+                    "5ab8dced86f774646209ec87"
+                  ],
+                  [
+                    "5c0e446786f7742013381639"
+                  ],
+                  [
+                    "5c0e3eb886f7742015526062"
+                  ],
+                  [
+                    "5b44cad286f77402a54ae7e5"
+                  ],
+                  [
+                    "5c0e746986f7741453628fe5"
+                  ],
+                  [
+                    "544a5caa4bdc2d1a388b4568"
+                  ],
+                  [
+                    "5d5d646386f7742797261fd9"
+                  ],
+                  [
+                    "5e9dacf986f774054d6b89f4"
+                  ],
+                  [
+                    "5e4ac41886f77406a511c9a8"
+                  ],
+                  [
+                    "5e4abb5086f77406975c9342"
+                  ],
+                  [
+                    "5fd4c474dd870108a754b241"
+                  ],
+                  [
+                    "5f5f41476bdad616ad46d631"
+                  ],
+                  [
+                    "5df8a2ca86f7740bfe6df777"
+                  ],
+                  [
+                    "5c0e722886f7740458316a57"
+                  ],
+                  [
+                    "6038b4ca92ec1c3103795a0d"
+                  ],
+                  [
+                    "6038b4b292ec1c3103795a0b"
+                  ],
+                  [
+                    "60a3c70cde5f453f634816a3"
+                  ],
+                  [
+                    "60a3c68c37ea821725773ef5"
+                  ],
+                  [
+                    "60a283193cb70855c43a381d"
+                  ],
+                  [
+                    "609e860ebd219504d8507525"
+                  ],
+                  [
+                    "609e8540d5c319764c2bc2e9"
+                  ],
+                  [
+                    "61bc85697113f767765c7fe7"
+                  ],
+                  [
+                    "61bcc89aef0f505f0c6cd0fc"
+                  ],
+                  [
+                    "62a09d79de7ac81993580530"
+                  ],
+                  [
+                    "628b9784bcf6e2659e09b8a2"
+                  ],
+                  [
+                    "628b9c7d45122232a872358f"
+                  ],
+                  [
+                    "628cd624459354321c4b7fa2"
+                  ],
+                  [
+                    "628d0618d1ba6e4fa07ce5a4"
+                  ],
+                  [
+                    "628dc750b910320f4c27a732"
+                  ],
+                  [
+                    "5d5d87f786f77427997cfaef"
+                  ],
+                  [
+                    "639343fce101f4caa40a4ef3"
+                  ],
+                  [
+                    "63737f448b28897f2802b874"
+                  ],
+                  [
+                    "64be79c487d1510151095552"
+                  ],
+                  [
+                    "64be79e2bf8412471d0d9bcc"
+                  ],
+                  [
+                    "64abd93857958b4249003418"
+                  ],
+                  [
+                    "64a5366719bab53bd203bf33"
+                  ],
+                  [
+                    "64a536392d2c4e6e970f4121"
+                  ],
+                  [
+                    "66b6296d7994640992013b17"
+                  ],
+                  [
+                    "66b6295a8ca68c6461709efa"
+                  ],
+                  [
+                    "66b6295178bbc0200425f995"
+                  ],
+                  [
+                    "674d91ce6e862d5a95059ed6"
+                  ]
+                ],
+                "equipmentInclusive": [],
+                "id": "68d05a0c3356e41fe2e58b82"
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68d05a0f404001bdc54011c3",
+                "target": [
+                  "TarkovStreets"
+                ]
+              }
+            ],
+            "id": "68d0471558204d25b8e1cc85"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d04715f0b4c6355be70b0b",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 15,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "68d04715bf0a01c48b8dd88d",
+                "status": [
+                  "Survived"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68d0471519061166bb4dfe81",
+                "target": [
+                  "TarkovStreets"
+                ]
+              }
+            ],
+            "id": "68d0471540113e5e007af30a"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d04692e8389d2fe18a9e8a",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d047154d45aedbde1063d8",
+              "target": "68d04715f0b4c6355be70b0b"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d047155487f8338e1370df",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68d04403d51c027edc485e4b",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68d04715cc5d4bd637814556",
+          "index": 0,
+          "type": "Experience",
+          "value": "20000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68d04715cd4f5a661728e8fd",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.05",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d0471563887a6f39137433",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68d04715a1e37b002728889d",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 150000
+              }
+            }
+          ],
+          "target": "68d04715a1e37b002728889d",
+          "type": "Item",
+          "value": "150000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d04715225e81c587d8ba8e",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68d04715eca83920de004b45",
+              "_tpl": "55d482194bdc2d1d4e8b456b",
+              "upd": {
+                "StackObjectsCount": 3
+              }
+            }
+          ],
+          "target": "68d04715eca83920de004b45",
+          "type": "Item",
+          "value": "3",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68d04715bbd3d8cd387a8e8b",
+          "index": 4,
+          "target": "CovertMovement",
+          "type": "Skill",
+          "unknown": true,
+          "value": "200"
+        }
+      ]
+    }
+  }
+}

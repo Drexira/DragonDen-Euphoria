@@ -1,0 +1,281 @@
+{
+    "68c555f57a80183ebcb28639": {
+        "itemTplToClone": "5b4329f05acfc47a86086aa1",
+        "parentId": "5a341c4086f77401f2541505",
+        "handbookParentId": "GEAR_HEADWEAR",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": false,
+            "Prefab": {
+                "path": "dragonden/clothing/headwear/dragon_den_helmet_x37.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "BackgroundColor": "default",
+            "Weight": 1.6,
+            "Height": 2,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "RarityPvE": "Superrare",
+            "BlindnessProtection": 2,
+            "RagFairCommissionModifier": 1,
+            "BlocksEarpiece": true,
+            "BlocksEyewear": true,
+            "BlocksFaceCover": true,
+            "BlocksHeadwear": false,
+            "BluntThroughput": 0.1726,
+            "CanSellOnRagfair": false,
+            "MaterialType": "Helmet",
+            "ItemSound": "gear_helmet",
+            "Durability": 20,
+            "MaxDurability": 20,
+            "Indestructibility": 0.9,
+            "armorClass": "3",
+            "RepairCost": 65,
+            "RepairSpeed": 15,
+            "MetascoreGroup": "Defence",
+            "DeafStrength": "High",
+            "RicochetParams": {
+                "x": 0,
+                "y": 0,
+                "z": 75
+            },
+            "mousePenalty": -4,
+            "speedPenaltyPercent": -5,
+            "weaponErgonomicPenalty": -9,
+            "ArmorMaterial": "Combined",
+            "ArmorType": "Heavy",
+            "ConflictingItems": [
+                "66b5f65ca7f72d197e70bcd6",
+                "66b5f666cad6f002ab7214c2",
+                "66b5f661af44ca0014063c05",
+                "5e00c1ad86f774747333222c",
+                "5e01ef6886f77445f643baa4"
+            ],
+            "armorColliders": [
+                "HeadCommon",
+                "BackHead",
+                "Eyes",
+                "Ears",
+                "Jaw"
+            ],
+            "Slots": [
+            {
+                "_id": "68c55618512159bf71c1d200",
+                "_mergeSlotWithChildren": true,
+                "_name": "Helmet_top",
+                "_parent": "68c555f57a80183ebcb28639",
+                "_props": {
+                    "filters": [
+                        {
+                            "Filter": [
+                                "66bdc2ea8cbd597c9c2f9360"
+                            ],
+                            "Plate": "66bdc2ea8cbd597c9c2f9360",
+                            "armorColliders": [
+                                "ParietalHead"
+                            ],
+                            "armorPlateColliders": [],
+                            "bluntDamageReduceFromSoftArmor": false,
+                            "locked": true
+                        }
+                    ]
+                },
+                "_proto": "64479fdf9731c8fadc0642c1",
+                "_required": true
+            },
+            {
+                "_id": "68c5561b0b153d65230c5e57",
+                "_mergeSlotWithChildren": true,
+                "_name": "Helmet_back",
+                "_parent": "68c555f57a80183ebcb28639",
+                "_props": {
+                    "filters": [
+                        {
+                            "Filter": [
+                                "66bdc2e25f17154509115d1e"
+                            ],
+                            "Plate": "66bdc2e25f17154509115d1e",
+                            "armorColliders": [
+                                "BackHead"
+                            ],
+                            "armorPlateColliders": [],
+                            "bluntDamageReduceFromSoftArmor": false,
+                            "locked": true
+                        }
+                    ]
+                },
+                "_proto": "64479fdf9731c8fadc0642c1",
+                "_required": true
+            },
+            {
+                "_id": "68c5561d2f0e539337f75947",
+                "_mergeSlotWithChildren": true,
+                "_name": "helmet_eyes",
+                "_parent": "68c555f57a80183ebcb28639",
+                "_props": {
+                    "filters": [
+                        {
+                            "Filter": [
+                                "66bdc2d051aa8c345646d03f"
+                            ],
+                            "Plate": "66bdc2d051aa8c345646d03f",
+                            "armorColliders": [
+                                "Eyes"
+                            ],
+                            "armorPlateColliders": [],
+                            "bluntDamageReduceFromSoftArmor": false,
+                            "locked": true
+                        }
+                    ]
+                },
+                "_proto": "64479fdf9731c8fadc0642c1",
+                "_required": true
+            },
+            {
+                "_id": "68c5561edec3d2ddc8f72c52",
+                "_mergeSlotWithChildren": true,
+                "_name": "helmet_jaw",
+                "_parent": "68c555f57a80183ebcb28639",
+                "_props": {
+                    "filters": [
+                        {
+                            "Filter": [
+                                "66bdc2d9408f1e66eb4fd957"
+                            ],
+                            "Plate": "66bdc2d9408f1e66eb4fd957",
+                            "armorColliders": [
+                                "Jaw",
+                                "HeadCommon"
+                            ],
+                            "armorPlateColliders": [],
+                            "bluntDamageReduceFromSoftArmor": false,
+                            "locked": true
+                        }
+                    ]
+                },
+                "_proto": "64479fdf9731c8fadc0642c1",
+                "_required": true
+            },
+            {
+                "_id": "68c55620f2bc9dcc51d6a6d3",
+                "_mergeSlotWithChildren": true,
+                "_name": "Helmet_ears",
+                "_parent": "68c555f57a80183ebcb28639",
+                "_props": {
+                    "filters": [
+                        {
+                            "Filter": [
+                                "66bdc2c90b603c26902b2018"
+                            ],
+                            "Plate": "66bdc2c90b603c26902b2018",
+                            "armorColliders": [
+                                "Ears"
+                            ],
+                            "armorPlateColliders": [],
+                            "bluntDamageReduceFromSoftArmor": false,
+                            "locked": true
+                        }
+                    ]
+                },
+                "_proto": "64479fdf9731c8fadc0642c1",
+                "_required": true
+            }
+        ]
+        },
+        "locales": {
+            "en": {
+                "name": "Dragon Den Helmet x37",
+                "shortName": "DD x37",
+                "description": "A reinforced biker style helmet modified with sharp fennec ears. Provides solid protection while making its wearer look like a predator that crawled out of a nightmare cartoon."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 31075,
+        "handbookPriceRoubles": 27955,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": false,
+        "addtoStaticLootContainers": true,
+        "StaticLootContainers": [
+            { "ContainerName": "LOOTCONTAINER_AIRDROP_COMMON_SUPPLY_CRATE", "Probability": 127 },
+            { "ContainerName": "LOOTCONTAINER_BURIED_BARREL_CACHE", "Probability": 166 },
+            { "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH", "Probability": 172 }
+        ],
+        "addtoLootLocation": true,
+        "LootLocation": [
+            { "LootName": "loot_armor", "Probability": 3 },
+            { "LootName": "armor_all", "Probability": 2 },
+            { "LootName": "loot_stash_armor", "Probability": 2 },
+            { "LootName": "ashor_armor_helm", "Probability": 2 },
+            { "LootName": "loot_usec_armor", "Probability": 2 },
+            { "LootName": "armor", "Probability": 2 },
+            { "LootName": "helmet", "Probability": 2 }
+        ],
+        "addLooseLoot": true,
+        "addLooseLootProbability": 1000,
+        "addToHallOfFameBig": true,
+        "addtoStatuetteSlots": true,
+        "addweaponpreset": true,
+        "weaponpresets": [
+            {
+                "_changeWeaponName": false,
+                "_encyclopedia": "68c555f57a80183ebcb28639",
+                "_id": "68bf317f0707d9885f9dd7ef",
+                "_items": [
+                    {
+                        "_id": "68c5570b55f97443d2beff73",
+                        "_tpl": "68c555f57a80183ebcb28639",
+                        "upd": {
+                            "Repairable": {
+                                "MaxDurability": 20,
+                                "Durability": 20
+                            }
+                        }
+                    },
+                    {
+                        "_id": "68c55710a1f02d9e5b434a64",
+                        "_tpl": "66bdc2ea8cbd597c9c2f9360",
+                        "slotId": "Helmet_top",
+                        "parentId": "68c5570b55f97443d2beff73"
+                    },
+                    {
+                        "_id": "68c55711301de25976d6d31d",
+                        "_tpl": "66bdc2e25f17154509115d1e",
+                        "slotId": "Helmet_back",
+                        "parentId": "68c5570b55f97443d2beff73"
+                    },
+                    {
+                        "_id": "68c557136d8826023e429697",
+                        "_tpl": "66bdc2d051aa8c345646d03f",
+                        "slotId": "helmet_eyes",
+                        "parentId": "68c5570b55f97443d2beff73"
+                    },
+                    {
+                        "_id": "68c557131e1aa069525c430e",
+                        "_tpl": "66bdc2d9408f1e66eb4fd957",
+                        "slotId": "helmet_jaw",
+                        "parentId": "68c5570b55f97443d2beff73"
+                    },
+                    {
+                        "_id": "68c55714c70ef46c4a22cf10",
+                        "_tpl": "66bdc2c90b603c26902b2018",
+                        "slotId": "Helmet_ears",
+                        "parentId": "68c5570b55f97443d2beff73"
+                    }
+                ],
+                "_name": "Dragon Den Helmet x37 - Stock Preset",
+                "_parent": "68c5570b55f97443d2beff73",
+                "_type": "Preset"
+            }
+        ]
+    }
+}

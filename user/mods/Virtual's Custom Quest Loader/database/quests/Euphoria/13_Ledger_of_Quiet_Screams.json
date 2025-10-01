@@ -1,0 +1,196 @@
+{
+  "68cd8d43623ef40b2d1c273f": {
+    "QuestName": "Ledger of Quiet Screams",
+    "_id": "68cd8d43623ef40b2d1c273f",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Multi",
+    "location": "5714dc692459777137212e12",
+    "image": "/files/quest/icon/13_Ledger_of_Quiet_Screams.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68cd8d43623ef40b2d1c273f description",
+    "startedMessageText": "68cd8d43623ef40b2d1c273f startedMessageText",
+    "successMessageText": "68cd8d43623ef40b2d1c273f successMessageText",
+    "failMessageText": "68cd8d43623ef40b2d1c273f failMessageText",
+    "acceptPlayerMessage": "68cd8d43623ef40b2d1c273f acceptPlayerMessage",
+    "declinePlayerMessage": "68cd8d43623ef40b2d1c273f declinePlayerMessage",
+    "completePlayerMessage": "68cd8d43623ef40b2d1c273f completePlayerMessage",
+    "changeQuestMessageText": "68cd8d43623ef40b2d1c273f changeQuestMessageText",
+    "name": "68cd8d43623ef40b2d1c273f name",
+    "note": "68cd8d43623ef40b2d1c273f note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cd8d44c20c58bdbc35f265",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "parentId": "",
+          "plantTime": 60,
+          "target": [
+            "68d4942bbdad148f7a9769ac"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "streets_terragroup_elevator"
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "68cd8ce0401e3c5a41a3d1e8",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsInclusive": [],
+                "weaponModsExclusive": [],
+                "equipmentInclusive": [],
+                "equipmentExclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68cd8d449d655607c74b688f",
+                "target": [
+                  "TarkovStreets"
+                ]
+              }
+            ],
+            "id": "68cd8d446ebfb08c4e71e5c2"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cd8d448605cdff04bf5dd4",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 8,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cd8d9bab03f68f1b9ad76f",
+              "target": "68cd8d44c20c58bdbc35f265"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cd8d43865d42176793ca09",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68cd70908db2d8aef1fdadce",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68cd8d44f43c87a575e05da5",
+          "index": 0,
+          "type": "Experience",
+          "value": "8000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cd8d44e1d218c3cd608985",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.02",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cd8d4406fcca0eb3025b25",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68cd8d44a95d371574777ca3",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 46000
+              }
+            }
+          ],
+          "target": "68cd8d44a95d371574777ca3",
+          "type": "Item",
+          "value": "46000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cd8d44ce7de6fe46fa583e",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68cd8d448285298b28ff5333",
+              "_tpl": "64acea16c4eda9354b0226b0",
+              "upd": {
+                "StackObjectsCount": 5
+              }
+            }
+          ],
+          "target": "68cd8d448285298b28ff5333",
+          "type": "Item",
+          "value": "5",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

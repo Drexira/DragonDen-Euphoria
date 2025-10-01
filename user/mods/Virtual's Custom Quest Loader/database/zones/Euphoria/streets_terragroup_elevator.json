@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "streets_terragroup_elevator",
+    "ZoneName": "streets_terragroup_elevator",
+    "ZoneLocation": "TarkovStreets",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "64.58338",
+      "Y": "2.068251",
+      "Z": "-30.3239",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.710269",
+      "Z": "0",
+      "W": "0.7039304"
+    },
+    "Scale": {
+      "X": "4.716742",
+      "Y": "3.845139",
+      "Z": "5.39273",
+      "W": "0"
+    }
+  }
+]

@@ -1,0 +1,70 @@
+{
+    "68c55e45b9fbea59c41d779d": {
+        "itemTplToClone": "573478bc24597738002c6175",
+        "parentId": "57864a3d24597754843f8721",
+        "handbookParentId": "BARTER_VALUABLES",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": false,
+            "Prefab": {
+                "path": "dragonden/collectibles/bronze_dragon.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 9.27,
+            "Height": 2,
+            "Width": 3,
+            "StackMaxSize": 1,
+            "RarityPvE": "Superrare",
+            "BackgroundColor": "blue"
+        },
+        "locales": {
+            "en": {
+                "name": "Bronze Dragon Figurine",
+                "shortName": "Dragon",
+                "description": "A solid bronze figure of a dragon gripping an orb, forged more as a trophy than decoration. Revered by some as a symbol of dominance, stolen by others as currency soaked in blood."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 270233,
+        "handbookPriceRoubles": 240338,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": false,
+        "addtoStaticLootContainers": true,
+        "StaticLootContainers": [
+            { "ContainerName": "LOOTCONTAINER_DEAD_SCAV", "Probability": 120 },
+            { "ContainerName": "LOOTCONTAINER_AIRDROP_COMMON_SUPPLY_CRATE", "Probability": 120 },
+            { "ContainerName": "LOOTCONTAINER_BURIED_BARREL_CACHE", "Probability": 170 },
+            { "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH", "Probability": 75 },
+            { "ContainerName": "LOOTCONTAINER_DUFFLE_BAG", "Probability": 106 },
+            { "ContainerName": "LOOTCONTAINER_DUFFLE_BAG_ADV", "Probability": 123 },
+            { "ContainerName": "LOOTCONTAINER_GROUND_CACHE", "Probability": 96 },
+            { "ContainerName": "LOOTCONTAINER_SAFE", "Probability": 75 },
+            { "ContainerName": "LOOTCONTAINER_RATION_SUPPLY_CRATE", "Probability": 127 }
+        ],
+        "addtoLootLocation": true,
+        "LootLocation": [
+            { "LootName": "jew", "Probability": 2 },
+            { "LootName": "household_jew", "Probability": 2 },
+            { "LootName": "jewerly", "Probability": 2 },
+            { "LootName": "jewerly_all", "Probability": 2 },
+            { "LootName": "jewel_figures", "Probability": 2 },
+            { "LootName": "loot_jeverly_statue", "Probability": 2 },
+            { "LootName": "loot_jeverly_statue_cat", "Probability": 2 },
+            { "LootName": "loot_jeverly_statue_lion", "Probability": 2 }
+        ],
+        "addLooseLoot": true,
+        "addLooseLootProbability": 250,
+        "addToHallOfFameBig": true,
+        "addtoStatuetteSlots": true
+    }
+}

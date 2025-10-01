@@ -1,0 +1,183 @@
+{
+  "68cece61aa6d1fe5bf2a0ca7": {
+    "QuestName": "Blue Tongue for the Pumps",
+    "_id": "68cece61aa6d1fe5bf2a0ca7",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Multi",
+    "location": "5704e4dad2720bb55b8b4567",
+    "image": "/files/quest/icon/27_Blue_Tongue_for_the_Pumps.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68cece61aa6d1fe5bf2a0ca7 description",
+    "startedMessageText": "68cece61aa6d1fe5bf2a0ca7 startedMessageText",
+    "successMessageText": "68cece61aa6d1fe5bf2a0ca7 successMessageText",
+    "failMessageText": "68cece61aa6d1fe5bf2a0ca7 failMessageText",
+    "acceptPlayerMessage": "68cece61aa6d1fe5bf2a0ca7 acceptPlayerMessage",
+    "declinePlayerMessage": "68cece61aa6d1fe5bf2a0ca7 declinePlayerMessage",
+    "completePlayerMessage": "68cece61aa6d1fe5bf2a0ca7 completePlayerMessage",
+    "changeQuestMessageText": "68cece61aa6d1fe5bf2a0ca7 changeQuestMessageText",
+    "name": "68cece61aa6d1fe5bf2a0ca7 name",
+    "note": "68cece61aa6d1fe5bf2a0ca7 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cece2863dbae694913bd13",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68c2b144e116e16d10f66afd"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "68cece285e56fb39a0cebae1",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68c2b144e116e16d10f66afd"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68cece61d4eb606856cb3368",
+              "target": "68cece2863dbae694913bd13"
+            }
+          ],
+          "zoneId": "lighthouse_watertreatment_pumpingstation",
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68cece61e3ae1d2ac213e406",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68cecd2a6edb7e8fd1447214",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68cece61864c07f63124a5e4",
+          "index": 0,
+          "type": "Experience",
+          "value": "14500",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68cece615654a12c9065d079",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.02",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cece6137fad7fc530e7305",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68cece61a52f83826cf71e8c",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 65000
+              }
+            }
+          ],
+          "target": "68cece61a52f83826cf71e8c",
+          "type": "Item",
+          "value": "65000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cece611627ef3678e3e4db",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68cece61e72c43e99f926f05",
+              "_tpl": "5b43575a86f77424f443fe62",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68cece61e72c43e99f926f05",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68cece61c288548c78d140df",
+          "index": 4,
+          "items": [
+            {
+              "_id": "68cece61b1941cfab3e91335",
+              "_tpl": "57372ac324597767001bc261",
+              "upd": {
+                "StackObjectsCount": 3
+              }
+            }
+          ],
+          "target": "68cece61b1941cfab3e91335",
+          "type": "Item",
+          "value": "3",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

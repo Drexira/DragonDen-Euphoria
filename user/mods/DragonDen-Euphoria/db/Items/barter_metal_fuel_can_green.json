@@ -1,0 +1,77 @@
+{
+    "68c3e28bef7dd20af800e211": {
+        "itemTplToClone": "5d1b36a186f7742523398433",
+        "parentId": "5d650c3e815116009f6201d2",
+        "handbookParentId": "BARTER_VALUABLES",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": false,
+            "Prefab": {
+                "path": "dragonden/barter/metal_fuel_can_green.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 11.45,
+            "Height": 3,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "RarityPvE": "Superrare",
+            "BackgroundColor": "yellow",
+            "MaxResource": 175,
+            "Resource": 175
+        },
+        "locales": {
+            "en": {
+                "name": "Metal Fuel Can (Green)",
+                "shortName": "Fuel Can",
+                "description": "Sturdy can packed with liquid fire that keeps your hideout humming. Smells like cancer, tastes worse, and will probably explode if you drop it. Still better than running out mid raid."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 334519,
+        "handbookPriceRoubles": 292650,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": true,
+        "addtoStaticLootContainers": true,
+        "StaticLootContainers": [
+            { "ContainerName": "LOOTCONTAINER_DEAD_SCAV", "Probability": 100 },
+            { "ContainerName": "LOOTCONTAINER_AIRDROP_COMMON_SUPPLY_CRATE", "Probability": 100 },
+            { "ContainerName": "LOOTCONTAINER_BURIED_BARREL_CACHE", "Probability": 120 },
+            { "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH", "Probability": 75 },
+            { "ContainerName": "LOOTCONTAINER_DUFFLE_BAG", "Probability": 86 },
+            { "ContainerName": "LOOTCONTAINER_DUFFLE_BAG_ADV", "Probability": 103 },
+            { "ContainerName": "LOOTCONTAINER_GROUND_CACHE", "Probability": 86 },
+            { "ContainerName": "LOOTCONTAINER_RATION_SUPPLY_CRATE", "Probability": 107 }
+        ],
+        "addtoLootLocation": true,
+        "LootLocation": [
+            { "LootName": "jew", "Probability": 2 },
+            { "LootName": "household_jew", "Probability": 2 },
+            { "LootName": "jewerly", "Probability": 2 },
+            { "LootName": "jewerly_all", "Probability": 2 },
+            { "LootName": "jewel_figures", "Probability": 2 },
+            { "LootName": "loot_jeverly_statue", "Probability": 2 },
+            { "LootName": "loot_jeverly_statue_cat", "Probability": 2 },
+            { "LootName": "loot_jeverly_statue_lion", "Probability": 2 }
+        ],
+        "addLooseLoot": true,
+        "addLooseLootProbability": 1000,
+        "addToHallOfFameSmall": true,
+        "addtoStatuetteSlots": true,
+        "addtoGenerator": true,
+        "compatibleGeneratorStages": [
+            1,
+            2,
+            3
+        ]
+    }
+}

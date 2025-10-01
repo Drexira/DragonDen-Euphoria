@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "lighthouse_southern_beach",
+    "ZoneName": "lighthouse_southern_beach",
+    "ZoneLocation": "Lighthouse",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "74.63043",
+      "Y": "8.907735",
+      "Z": "445.2094",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.09151217",
+      "Z": "0",
+      "W": "-0.995804"
+    },
+    "Scale": {
+      "X": "75.43729",
+      "Y": "26.27302",
+      "Z": "92.41217",
+      "W": "0"
+    }
+  }
+]

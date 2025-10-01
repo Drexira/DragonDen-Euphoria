@@ -1,0 +1,20 @@
+{
+  "68d421ab6b28b66e20a9e902 name": "Painted Keys, Quiet Pockets",
+  "68d421ab6b28b66e20a9e902 description": "Colored secrets nest where locks have reputations and glass pretends to be brave.\nI want the five bright eggs people brag about and a handful of gold to prove you listened.\nFind them without turning the city into a tour guide and bring them home breathing.",
+  "68d421ab6b28b66e20a9e902 startedMessageText": "The city hid answers in painted shells.\nFind the colors where keys matter and glass talks too loud.\nBring a little gold so I know you paid attention.",
+  "68d421ab6b28b66e20a9e902 successMessageText": "Pink, purple, yellow, green, blue, and a shine that buys silence.\nYou searched with your feet, not your mouth.",
+  "68d421ab6b28b66e20a9e902 acceptPlayerMessage": "Pick the five colors from the usual boasts.\nGather gold along the way.\nHand everything to me and keep the path quiet.",
+  "68d421ab6b28b66e20a9e902 completePlayerMessage": "You did not just loot. You understood.\nThese will fund the next question.",
+  "68d4203f4467c0fd60cbb39a": "Find Pink Egg in Dorms Marked Room",
+  "68d42042d389821d5f3ca9e3": "Hand over Pink Egg",
+  "68d4207d66335e3f105f535f": "Find Purple Egg in Train Marked Room",
+  "68d4207e12b0e9a8af52874f": "Hand over Purple Egg",
+  "68d4207f99e4f489f4864c03": "Find Yellow Egg in Pawn Marked Room",
+  "68d4207fae8bb987fd884326": "Hand over Yellow Egg",
+  "68d420801b45e8a8b98ee312": "Find Green Egg in Cinema Marked Room",
+  "68d42080dc45c315c2fa8982": "Hand over Green Egg",
+  "68d420819ab70ba41e487df8": "Find Blue Egg in Kiba Arms",
+  "68d42081f1f0699027c550b8": "Hand over Blue Egg",
+  "68d42082438f69ba559cf04f": "Find Golden Egg in raid",
+  "68d42082064d0c59269e11d2": "Hand over Golden Egg"
+}

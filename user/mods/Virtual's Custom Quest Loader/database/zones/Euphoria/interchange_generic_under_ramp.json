@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "interchange_generic_under_ramp",
+    "ZoneName": "interchange_generic_under_ramp",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "0.6866888",
+      "Y": "22.59948",
+      "Z": "12.96776",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.005685147",
+      "Z": "0",
+      "W": "0.9999838"
+    },
+    "Scale": {
+      "X": "4.888978",
+      "Y": "2.532963",
+      "Z": "6.15721",
+      "W": "0"
+    }
+  }
+]

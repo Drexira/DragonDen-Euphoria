@@ -1,0 +1,95 @@
+{
+    "68c2f420a385f83c0c7511fb": {
+        "itemTplToClone": "665ee77ccf2d642e98220bca",
+        "parentId": "5448bf274bdc2dfc2f8b456a",
+        "handbookParentId": "GEAR_SECURED",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "dragonden/container/cerberus_secure_container.dragonden",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 3,
+            "Height": 4,
+            "Width": 4,
+            "sizeHeight": 4,
+            "sizeWidth": 4,
+            "StackMaxSize": 1,
+            "isSecured": true,
+            "SearchSound": "techno_box_looting_01",
+            "DiscardingBlock": true,
+            "BackgroundColor": "violet",
+            "Grids": [
+                {
+                    "_name": "main1",
+                    "_id": "68c2f4372b78eca181e0daeb",
+                    "_parent": "68c2f420a385f83c0c7511fb",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5448eb774bdc2d0a728b4567",
+                                    "543be5f84bdc2dd4348b456a",
+                                    "5448fe124bdc2da5018b4567",
+                                    "60b0f6c058e0b0481a09ad11",
+                                    "619cbf9e0a7c3a1a2731940a",
+                                    "619cbf7d23893217ec30b689",
+                                    "59fafd4b86f7745ca07e1232",
+                                    "62a09d3bcf4a99369e262447",
+                                    "5d235bb686f77443f4331278",
+                                    "5c093e3486f77430cb02e593",
+                                    "590c60fc86f77412b13fddcf",
+                                    "5783c43d2459774bbe137486",
+                                    "543be6674bdc2df1348b4569",
+                                    "5448ecbe4bdc2d60728b4568",
+                                    "543be5e94bdc2df1348b4568",
+                                    "5447e1d04bdc2dff2f8b4567",
+                                    "567849dd4bdc2d150f8b456e",
+                                    "543be5664bdc2dd4348b4569",
+                                    "5447e0e74bdc2d3c308b4567",
+                                    "5661632d4bdc2d903d8b456b",
+                                    "54009119af1c881c07000029"
+                                ],
+                                "ExcludedFilter": []
+                            }
+                        ],
+                        "cellsH": 4,
+                        "cellsV": 4,
+                        "minCount": 0,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "isSortingTable": false
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ],
+            "Slots": []
+        },
+        "locales": {
+            "en": {
+                "name": "Secure Container Cerberus",
+                "shortName": "Cerberus",
+                "description": "A Dragon Den creation named after the guardian of the underworld. Engineered to ensure nothing entrusted to it ever slips beyond its protection."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 26108423,
+        "handbookPriceRoubles": 12067500,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "StaticLootContainers": [],
+        "addtoHallOfFame": false
+    }
+}

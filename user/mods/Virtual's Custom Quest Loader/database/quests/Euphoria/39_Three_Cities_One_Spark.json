@@ -1,0 +1,261 @@
+{
+  "68d353aa57fef7eb0c29af16": {
+    "QuestName": "Three Cities, One Spark",
+    "_id": "68d353aa57fef7eb0c29af16",
+    "traderId": "68b96623ca01bc95211d3de9",
+    "type": "Multi",
+    "location": "any",
+    "image": "/files/quest/icon/39_Three_Cities_One_Spark.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "68d353aa57fef7eb0c29af16 description",
+    "startedMessageText": "68d353aa57fef7eb0c29af16 startedMessageText",
+    "successMessageText": "68d353aa57fef7eb0c29af16 successMessageText",
+    "failMessageText": "68d353aa57fef7eb0c29af16 failMessageText",
+    "acceptPlayerMessage": "68d353aa57fef7eb0c29af16 acceptPlayerMessage",
+    "declinePlayerMessage": "68d353aa57fef7eb0c29af16 declinePlayerMessage",
+    "completePlayerMessage": "68d353aa57fef7eb0c29af16 completePlayerMessage",
+    "changeQuestMessageText": "68d353aa57fef7eb0c29af16 changeQuestMessageText",
+    "name": "68d353aa57fef7eb0c29af16 name",
+    "note": "68d353aa57fef7eb0c29af16 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d34ac2a7093aca81425772",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68d33a8dfa6ffc404b8e9f12"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "68d34ac3c4eebdd2e8ed56e5",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68d33a8dfa6ffc404b8e9f12"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d353aad3da5eed3c16fb82",
+              "target": "68d34ac2a7093aca81425772"
+            }
+          ],
+          "zoneId": "factory_pumping_station_table",
+          "dynamicLocale": false
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d34ac54c8f099d8d90429e",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "68d33aa538e5f91a72416b0c"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "68d34ac596987636be8e5b1b",
+          "index": 3,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "68d33aa538e5f91a72416b0c"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d353aa4bb21198bcef62e2",
+              "target": "68d34ac54c8f099d8d90429e"
+            }
+          ],
+          "zoneId": "factory_medical_basement_corner",
+          "dynamicLocale": false
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "68d353aa5791e69ac88fa4c4",
+                "status": [
+                  "Survived"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68d353aa1f6153e5004c4ace",
+                "target": [
+                  "factory4_day",
+                  "factory4_night"
+                ]
+              }
+            ],
+            "id": "68d353aa992504df90e690b7"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d34ac592fdca5d39a23fd2",
+          "index": 4,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d353d785ec44b1907005cb",
+              "target": "68d34ac3c4eebdd2e8ed56e5"
+            },
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68d353d8007b785c739d3de8",
+              "target": "68d34ac596987636be8e5b1b"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68d353aa12fd77a0eb66309f",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68d047151e4aa55f6add4533",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "68d353aa7dfe37226ef1bff2",
+          "index": 0,
+          "type": "Experience",
+          "value": "16000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "68d353aad1df751a9f1fbd6a",
+          "index": 1,
+          "target": "68b96623ca01bc95211d3de9",
+          "type": "TraderStanding",
+          "value": "0.04",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d353aaed59a6e16ca0e3ee",
+          "index": 2,
+          "items": [
+            {
+              "_id": "68d353aa4aca3700449b4b03",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 95000
+              }
+            }
+          ],
+          "target": "68d353aa4aca3700449b4b03",
+          "type": "Item",
+          "value": "95000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "68d353aa8f301f46d945521b",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68d353aa8b0e6df7147c3240",
+              "_tpl": "6489c99f7c07471efa3e03c0",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68d353aa8b0e6df7147c3240",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}
