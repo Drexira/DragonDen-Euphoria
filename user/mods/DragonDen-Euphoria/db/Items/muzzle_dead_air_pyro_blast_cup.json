@@ -48,14 +48,38 @@
         "addtoBots": true,
         "addtoStaticLootContainers": false,
         "StaticLootContainers": [
-            { "ContainerName": "LOOTCONTAINER_DEAD_SCAV", "Probability": 120 },
-            { "ContainerName": "LOOTCONTAINER_AIRDROP_COMMON_SUPPLY_CRATE", "Probability": 120 },
-            { "ContainerName": "LOOTCONTAINER_BURIED_BARREL_CACHE", "Probability": 170 },
-            { "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH", "Probability": 75 },
-            { "ContainerName": "LOOTCONTAINER_DUFFLE_BAG", "Probability": 106 },
-            { "ContainerName": "LOOTCONTAINER_DUFFLE_BAG_ADV", "Probability": 123 },
-            { "ContainerName": "LOOTCONTAINER_GROUND_CACHE", "Probability": 96 },
-            { "ContainerName": "LOOTCONTAINER_RATION_SUPPLY_CRATE", "Probability": 127 }
+            {
+                "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+                "Probability": 48
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_COMMON_SUPPLY_CRATE",
+                "Probability": 48
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_BURIED_BARREL_CACHE",
+                "Probability": 68
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+                "Probability": 30
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DUFFLE_BAG",
+                "Probability": 42
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DUFFLE_BAG_ADV",
+                "Probability": 49
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_GROUND_CACHE",
+                "Probability": 38
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_RATION_SUPPLY_CRATE",
+                "Probability": 51
+            }
         ],
         "addtoLootLocation": false,
         "LootLocation": [],
@@ -65,7 +89,11 @@
         "addtoStatuetteSlots": false,
         "slotPatch": {
             "parentTpl": [
-                { "tpl": "628a66b41d5e41750e314f34", "proto": "55d30c4c4bdc2db4468b457e", "slotName": "mod_muzzle" }
+                {
+                    "tpl": "628a66b41d5e41750e314f34",
+                    "proto": "55d30c4c4bdc2db4468b457e",
+                    "slotName": "mod_muzzle"
+                }
             ],
             "createIfMissing": true
         }

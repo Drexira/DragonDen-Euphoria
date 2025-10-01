@@ -206,11 +206,7 @@
         "loyallevelitems": 1,
         "addtoBots": false,
         "addtoStaticLootContainers": true,
-        "StaticLootContainers": [
-            { "ContainerName": "LOOTCONTAINER_AIRDROP_COMMON_SUPPLY_CRATE", "Probability": 127 },
-            { "ContainerName": "LOOTCONTAINER_BURIED_BARREL_CACHE", "Probability": 166 },
-            { "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH", "Probability": 172 }
-        ],
+        "StaticLootContainers": [],
         "addtoLootLocation": true,
         "LootLocation": [
             { "LootName": "loot_armor", "Probability": 3 },

@@ -5,12 +5,12 @@
   "68c96f542cc57139c960a872 successMessageText": "Marks verified and your exit was confirmed and tidy, good job.",
   "68c96f542cc57139c960a872 failMessageText": "You seem to have failed, how about you try this again.",
   "68c96f542cc57139c960a872 acceptPlayerMessage": "Route is simple.\nTouch Lavage entrance, the Empire Safe, the Tarbank Elevator, and the Credit Bank Truck.\nHand over the Tablet after marked.\nExtraction must be clean, so make sure you do this in one go.",
-  "68c96f542cc57139c960a872 completePlayerMessage": "Good. I will open the line to Euphoria.\nShe values proof more than introductions, and you brought enough proof.",
+  "68c96f542cc57139c960a872 completePlayerMessage": "Good. I will open the line to Euphoria.\nShe values proof   more than introductions, and you brought enough proof.",
   "68c92efdc65d5643919c1526": "Find the Weeb Tablet",
   "68c96f54a61d710b1d8e1006": "Mark the Lavage entrance",
   "68c96f5433816ac29eabbc37": "Mark the Empire Safe",
   "68c96f54b4e9c1d9c97976f9": "Mark the Tarbank Elevator",
-  "68c96f54e82fd71fb8b03fa1": "Mark Credit Bank Truck",
+  "68c96f54e82fd71fb8b03fa1": "Mark the Truck by Credit Bank",
   "68c99b2abc05c537feb35247": "Survive and extract",
   "68c99b3a7fecd3b9a6a5c56b": "Hand over the Weeb Tablet"
 }

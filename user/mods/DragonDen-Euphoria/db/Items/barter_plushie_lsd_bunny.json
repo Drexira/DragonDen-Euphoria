@@ -41,28 +41,85 @@
         "addtoBots": true,
         "addtoStaticLootContainers": true,
         "StaticLootContainers": [
-            { "ContainerName": "LOOTCONTAINER_DEAD_SCAV", "Probability": 135 },
-            { "ContainerName": "LOOTCONTAINER_AIRDROP_COMMON_SUPPLY_CRATE", "Probability": 124 },
-            { "ContainerName": "LOOTCONTAINER_BURIED_BARREL_CACHE", "Probability": 170 },
-            { "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH", "Probability": 108 },
-            { "ContainerName": "LOOTCONTAINER_DRAWER", "Probability": 132 },
-            { "ContainerName": "LOOTCONTAINER_DUFFLE_BAG", "Probability": 106 },
-            { "ContainerName": "LOOTCONTAINER_DUFFLE_BAG_ADV", "Probability": 123 },
-            { "ContainerName": "LOOTCONTAINER_GROUND_CACHE", "Probability": 96 },
-            { "ContainerName": "LOOTCONTAINER_JACKET", "Probability": 137 },
-            { "ContainerName": "LOOTCONTAINER_SAFE", "Probability": 75 },
-            { "ContainerName": "LOOTCONTAINER_RATION_SUPPLY_CRATE", "Probability": 127 }
+            {
+                "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+                "Probability": 54
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_COMMON_SUPPLY_CRATE",
+                "Probability": 50
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_BURIED_BARREL_CACHE",
+                "Probability": 68
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+                "Probability": 43
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DRAWER",
+                "Probability": 53
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DUFFLE_BAG",
+                "Probability": 42
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DUFFLE_BAG_ADV",
+                "Probability": 49
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_GROUND_CACHE",
+                "Probability": 38
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_JACKET",
+                "Probability": 55
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_SAFE",
+                "Probability": 30
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_RATION_SUPPLY_CRATE",
+                "Probability": 51
+            }
         ],
         "addtoLootLocation": true,
         "LootLocation": [
-            { "LootName": "jew", "Probability": 2 },
-            { "LootName": "household_jew", "Probability": 2 },
-            { "LootName": "jewerly", "Probability": 2 },
-            { "LootName": "jewerly_all", "Probability": 2 },
-            { "LootName": "jewel_figures", "Probability": 2 },
-            { "LootName": "loot_jeverly_statue", "Probability": 2 },
-            { "LootName": "loot_jeverly_statue_cat", "Probability": 2 },
-            { "LootName": "loot_jeverly_statue_lion", "Probability": 2 }
+            {
+                "LootName": "jew",
+                "Probability": 2
+            },
+            {
+                "LootName": "household_jew",
+                "Probability": 2
+            },
+            {
+                "LootName": "jewerly",
+                "Probability": 2
+            },
+            {
+                "LootName": "jewerly_all",
+                "Probability": 2
+            },
+            {
+                "LootName": "jewel_figures",
+                "Probability": 2
+            },
+            {
+                "LootName": "loot_jeverly_statue",
+                "Probability": 2
+            },
+            {
+                "LootName": "loot_jeverly_statue_cat",
+                "Probability": 2
+            },
+            {
+                "LootName": "loot_jeverly_statue_lion",
+                "Probability": 2
+            }
         ],
         "addLooseLoot": true,
         "addLooseLootProbability": 1000,

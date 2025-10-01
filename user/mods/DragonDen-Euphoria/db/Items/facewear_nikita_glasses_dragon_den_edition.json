@@ -92,44 +92,7 @@
         "loyallevelitems": 1,
         "addtoBots": false,
         "addtoStaticLootContainers": true,
-        "StaticLootContainers": [
-            {
-                "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
-                "Probability": 78
-            },
-            {
-                "ContainerName": "LOOTCONTAINER_AIRDROP_COMMON_SUPPLY_CRATE",
-                "Probability": 127
-            },
-            {
-                "ContainerName": "LOOTCONTAINER_BURIED_BARREL_CACHE",
-                "Probability": 166
-            },
-            {
-                "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH",
-                "Probability": 172
-            },
-            {
-                "ContainerName": "LOOTCONTAINER_DUFFLE_BAG",
-                "Probability": 98
-            },
-            {
-                "ContainerName": "LOOTCONTAINER_DUFFLE_BAG_ADV",
-                "Probability": 95
-            },
-            {
-                "ContainerName": "LOOTCONTAINER_GROUND_CACHE",
-                "Probability": 163
-            },
-            {
-                "ContainerName": "LOOTCONTAINER_JACKET",
-                "Probability": 143
-            },
-            {
-                "ContainerName": "LOOTCONTAINER_RATION_SUPPLY_CRATE",
-                "Probability": 79
-            }
-        ],
+        "StaticLootContainers": [],
         "addtoLootLocation": true,
         "LootLocation": [
             { "LootName": "lootpoint", "Probability": 10 },
