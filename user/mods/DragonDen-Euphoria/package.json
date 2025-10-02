@@ -1,6 +1,6 @@
 {
     "name": "DragonDen-Euphoria",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "license": "MIT",
     "author": "Drexira",
     "main": "src/mod.js",
