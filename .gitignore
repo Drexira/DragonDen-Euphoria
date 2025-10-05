@@ -1,17 +1,13 @@
-/CheckMissingBundles.py
-/Copy Mod To Dev Server.py
+/*.py
+/*.txt
+/Images
+/Releases
+/ToDoList.md
 /Euphoria Backstory.md
 /Euphoria Quest Ideas.md
 /Euphoria Reputation Progression.md
-/GenerateBundleJson.py
-/GenerateItemIDs.py
-/GenerateTraderAssortFromIDsForTrader.py
-/Images
-/InsertNewToAssort.py
+/Weapon Attachment Guide.md
 /InsertToAssort.json
 /Item IDs for Trader.json
 /Item IDs.json
-/ToDoList.md
 /Trader Assort.json
-/Weapon Attachment Guide.md
-Releases/

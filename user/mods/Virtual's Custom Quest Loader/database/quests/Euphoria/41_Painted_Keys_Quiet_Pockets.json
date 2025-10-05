@@ -5,7 +5,7 @@
     "traderId": "68b96623ca01bc95211d3de9",
     "type": "PickUp",
     "location": "any",
-    "image": "/files/quest/icon/0_Painted_Keys_Quiet_Pockets.png",
+    "image": "/files/quest/icon/41_Painted_Keys_Quiet_Pockets.png",
     "acceptanceAndFinishingSource": "eft",
     "arenaLocations": [],
     "instantComplete": false,

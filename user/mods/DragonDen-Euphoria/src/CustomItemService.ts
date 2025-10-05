@@ -103,10 +103,7 @@ export class CustomItemService {
    * @param {string} itemId - The ID of the item.
    * @return {{ exampleCloneItem: NewItemFromCloneDetails, finalItemTplToClone: string }} The created example clone item and the final item template to clone.
    */
-    private createExampleCloneItem(
-        itemConfig: ConfigItem[string],
-        itemId: string
-    ): {
+    private createExampleCloneItem(itemConfig: ConfigItem[string], itemId: string ): {
         exampleCloneItem: NewItemFromCloneDetails;
         finalItemTplToClone: string;
     } {
@@ -933,7 +930,6 @@ export class CustomItemService {
         const i = s.indexOf("[");
         return i > -1 ? s.slice(0, i).trim() : s.trim();
     }
-
 
     private addQuestItemsToMaps(itemConfig: ConfigItem[string], itemId: string)
     {
