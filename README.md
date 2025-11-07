@@ -6,7 +6,7 @@ Euphoria opens the Dragon Den with 120+ items and a 52 quest run. Jobs range fro
 ---
 
 ## Requirements
-- VCQL: [Virtual’s Custom Quest Loader](https://hub.sp-tarkov.com/files/file/885-virtual-s-custom-quest-loader/)
+- WTT-CommonLib: [WTT-CommonLib](https://forge.sp-tarkov.com/mod/2310/wtt-commonlib)
 
 ## What you get
 - Download on [SPT Forge](https://forge.sp-tarkov.com/mod/2330/dragon-den-euphoria)

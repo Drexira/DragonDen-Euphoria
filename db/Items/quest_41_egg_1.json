@@ -1,0 +1,31 @@
+{
+  "68c2b15846fea0e6ea1e20fa": {
+    "itemTplToClone": "5939a00786f7742fe8132936",
+    "parentId": "57864e4c24597754843f8723",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "dragonden/quest/egg_1.dragonden",
+        "rcid": ""
+      },
+      "Foldable": false,
+      "BackgroundColor": "violet",
+      "Weight": 0.2,
+      "Height": 1,
+      "Width": 1,
+      "StackMaxSize": 1,
+      "RarityPvE": "Not_exist",
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "Egg (Quest)",
+        "shortName": "Egg",
+        "description": ""
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  }
+}

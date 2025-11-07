@@ -1,0 +1,31 @@
+{
+  "68d5ac6fafc7424ab3f92b4a": {
+    "itemTplToClone": "5939a00786f7742fe8132936",
+    "parentId": "57864e4c24597754843f8723",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "dragonden/quest/propane_tank_long_grey.dragonden",
+        "rcid": ""
+      },
+      "Foldable": false,
+      "BackgroundColor": "violet",
+      "Weight": 0.2,
+      "Height": 8,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "RarityPvE": "Not_exist",
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "Propane Tank Long Grey (Quest)",
+        "shortName": "Propane Tank",
+        "description": ""
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  }
+}

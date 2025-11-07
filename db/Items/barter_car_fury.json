@@ -1,0 +1,77 @@
+{
+    "68bb31ed616746f816eb0418": {
+      "itemTplToClone": "573478bc24597738002c6175",
+      "parentId": "57864a3d24597754843f8721",
+      "handbookParentId": "BARTER_VALUABLES",
+      "overrideProperties": {
+          "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+          "ExaminedByDefault": false,
+          "Prefab": {
+              "path": "dragonden/collectibles/cars/car_fury.dragonden",
+              "rcid": ""
+          },
+          "Foldable": false,
+          "Weight": 1.31,
+          "Height": 2,
+          "Width": 3,
+          "StackMaxSize": 1,
+          "RarityPvE": "Superrare",
+          "BackgroundColor": "blue"
+      },
+      "locales": {
+            "en": {
+                "name": "Car Toy - Fury",
+                "shortName": "Fury",
+                "description": "The Furiously Fast - Collection of Toy Cars from the popular cinematic movies."
+            }
+        },
+      "addtoInventorySlots": [],
+      "addtoModSlots": false,
+      "modSlot": [],
+      "fleaPriceRoubles": 19233,
+      "handbookPriceRoubles": 18338,
+      "addtoBots": false,
+      "addtoStaticLootContainers": true,
+      "StaticLootContainers": [
+        {
+          "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+          "Probability": 31
+        },
+        {
+          "ContainerName": "LOOTCONTAINER_AIRDROP_COMMON_SUPPLY_CRATE",
+          "Probability": 51
+        },
+        {
+          "ContainerName": "LOOTCONTAINER_BURIED_BARREL_CACHE",
+          "Probability": 66
+        },
+        {
+          "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+          "Probability": 69
+        },
+        {
+          "ContainerName": "LOOTCONTAINER_DUFFLE_BAG",
+          "Probability": 39
+        },
+        {
+          "ContainerName": "LOOTCONTAINER_DUFFLE_BAG_ADV",
+          "Probability": 38
+        },
+        {
+          "ContainerName": "LOOTCONTAINER_GROUND_CACHE",
+          "Probability": 65
+        },
+        {
+          "ContainerName": "LOOTCONTAINER_RATION_SUPPLY_CRATE",
+          "Probability": 32
+        }
+      ],
+      "addLooseLoot": true,
+      "addLooseLootProbability": 250,
+      "addtoHallOfFame": true,
+      "hallOfFameSlots": [
+        "bigTrophies"
+      ],
+      "addtoStatuetteSlots": true
+    }
+}

@@ -1,0 +1,45 @@
+{
+  "woods": [
+    {
+      "locationId": "(82.8276, 14.3806, 181.004)",
+      "probability": 0.30,
+      "template": {
+        "Id": "ag43_spawn",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 82.8276,
+          "y": 14.3806,
+          "z": 181.004
+        },
+        "Rotation": {
+          "x": 2.8415,
+          "y": 212.2408,
+          "z": 91.2423
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "68cf6c56cb996a3530052b52",
+        "Items": [
+          {
+            "_id": "68748762bdc2e875d3940b4f",
+            "_tpl": "687464af51ed3be7e4f6f525",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "-69420"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    }
+  ]
+}

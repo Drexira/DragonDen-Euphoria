@@ -1,0 +1,436 @@
+{
+  "interchange": [
+    {
+      "locationId": "(95.7246 36.7538 66.4561)",
+      "probability": 1.0,
+      "template": {
+        "Id": "Vape (Quest) [c677ea51-d8a2-4d8f-9a5f-76a58db2ca71]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 95.72457,
+          "y": 36.7537956,
+          "z": 66.45607
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 350.60965,
+          "z": 0.0
+        },
+        "IsGroupPosition": true,
+        "GroupPositions": [
+          {
+            "Name": "groupPoint[0]",
+            "Weight": 1,
+            "Position": {
+              "x": 95.72457,
+              "y": 36.7537956,
+              "z": 66.45607
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 350.60965,
+              "z": 0.0
+            }
+          },
+          {
+            "Name": "groupPoint[1]",
+            "Weight": 1,
+            "Position": {
+              "x": 98.6419449,
+              "y": 36.77071,
+              "z": 51.0479774
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 262.8854,
+              "z": 0.0
+            }
+          }
+        ],
+        "IsAlwaysSpawn": true,
+        "Root": "225c9ed0066cbad0aa6d1c40",
+        "Items": [
+          {
+            "_id": "3eb28eb7d7fe1685af048f94",
+            "_tpl": "68c2b13e601977f2abb6d5e5",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68c2b13e601977f2abb6d5e5"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(42.0266 28.0844 178.9829)",
+      "probability": 1.0,
+      "template": {
+        "Id": "Propane Tank Long Red (Quest) [daab930b-5e71-4780-96d9-51afaa0866cb]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 42.0265732,
+          "y": 28.08441,
+          "z": 178.982925
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 359.565582,
+          "z": 0.0
+        },
+        "IsGroupPosition": true,
+        "GroupPositions": [
+          {
+            "Name": "groupPoint[0]",
+            "Weight": 1,
+            "Position": {
+              "x": 42.0265732,
+              "y": 28.08441,
+              "z": 178.982925
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 359.565582,
+              "z": 0.0
+            }
+          },
+          {
+            "Name": "groupPoint[1]",
+            "Weight": 1,
+            "Position": {
+              "x": 18.1117344,
+              "y": 28.1153584,
+              "z": 190.2076
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 2.51604652,
+              "z": 0.0
+            }
+          },
+          {
+            "Name": "groupPoint[2]",
+            "Weight": 1,
+            "Position": {
+              "x": -6.59575844,
+              "y": 28.03807,
+              "z": 164.444077
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 270.109741,
+              "z": 0.0
+            }
+          },
+          {
+            "Name": "groupPoint[3]",
+            "Weight": 1,
+            "Position": {
+              "x": -35.95166,
+              "y": 27.9735985,
+              "z": 192.127548
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 0.97868365,
+              "z": 0.0
+            }
+          },
+          {
+            "Name": "groupPoint[4]",
+            "Weight": 1,
+            "Position": {
+              "x": -86.8989258,
+              "y": 27.9310684,
+              "z": 173.155457
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 1.022482,
+              "z": 0.0
+            }
+          }
+        ],
+        "IsAlwaysSpawn": true,
+        "Root": "8b5ddb2472e2c6d4682ebf80",
+        "Items": [
+          {
+            "_id": "43fe97c46075b031b4161773",
+            "_tpl": "68c2b1408faef55c6cd0ab64",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68c2b1408faef55c6cd0ab64"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-78.3076 27.7661 192.3773)",
+      "probability": 1.0,
+      "template": {
+        "Id": "Fuel Barrel Green (Quest) [055b887b-8a09-46d7-82aa-1937011e7097]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -78.30756,
+          "y": 27.7660923,
+          "z": 192.377319
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 358.808746,
+          "z": 0.0
+        },
+        "IsGroupPosition": true,
+        "GroupPositions": [
+          {
+            "Name": "groupPoint[0]",
+            "Weight": 1,
+            "Position": {
+              "x": -78.30756,
+              "y": 27.7660923,
+              "z": 192.377319
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 358.808746,
+              "z": 0.0
+            }
+          },
+          {
+            "Name": "groupPoint[1]",
+            "Weight": 1,
+            "Position": {
+              "x": -96.52712,
+              "y": 27.7811985,
+              "z": 192.481049
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 319.7401,
+              "z": 0.0
+            }
+          },
+          {
+            "Name": "groupPoint[2]",
+            "Weight": 1,
+            "Position": {
+              "x": -108.903015,
+              "y": 27.7739811,
+              "z": 174.131821
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 162.545151,
+              "z": 0.0
+            }
+          },
+          {
+            "Name": "groupPoint[3]",
+            "Weight": 1,
+            "Position": {
+              "x": -119.582443,
+              "y": 27.6852779,
+              "z": 164.668808
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 219.814285,
+              "z": 0.0
+            }
+          },
+          {
+            "Name": "groupPoint[4]",
+            "Weight": 1,
+            "Position": {
+              "x": -109.084465,
+              "y": 27.6876678,
+              "z": 164.906082
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 112.801231,
+              "z": 0.0
+            }
+          },
+          {
+            "Name": "groupPoint[5]",
+            "Weight": 1,
+            "Position": {
+              "x": -109.008636,
+              "y": 27.7945042,
+              "z": 149.85759
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 161.975677,
+              "z": 0.0
+            }
+          },
+          {
+            "Name": "groupPoint[6]",
+            "Weight": 1,
+            "Position": {
+              "x": -109.689209,
+              "y": 27.7773743,
+              "z": 121.683022
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 180.238846,
+              "z": 0.0
+            }
+          },
+          {
+            "Name": "groupPoint[7]",
+            "Weight": 1,
+            "Position": {
+              "x": -113.716606,
+              "y": 27.512989,
+              "z": 103.772324
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 231.557465,
+              "z": 0.0
+            }
+          },
+          {
+            "Name": "groupPoint[8]",
+            "Weight": 1,
+            "Position": {
+              "x": -129.312729,
+              "y": 27.6760845,
+              "z": 93.16101
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 294.601074,
+              "z": 0.0
+            }
+          }
+        ],
+        "IsAlwaysSpawn": true,
+        "Root": "25b7a1792aa5ad10aab9e563",
+        "Items": [
+          {
+            "_id": "71edfb5d866933c78c9987b5",
+            "_tpl": "68c2b14d1c6375cad2e97a2c",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68c2b14d1c6375cad2e97a2c"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-20.4645 27.8057 -26.8510)",
+      "probability": 1.0,
+      "template": {
+        "Id": "Egg (Quest) [da96a099-c4f3-455a-825c-807320858b2e]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -20.4644966,
+          "y": 27.8057137,
+          "z": -26.851
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 80.03924,
+          "z": 0.0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": true,
+        "Root": "c321b6492e96fcc68c2bbaf3",
+        "Items": [
+          {
+            "_id": "23befee446337287ff3dd979",
+            "_tpl": "68c2b1512a8a14ebf60826f9",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68c2b1512a8a14ebf60826f9"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(18.1165 27.6808 190.0712)",
+      "probability": 1.0,
+      "template": {
+        "Id": "Fuel Barrel Green (Quest) [05d1c817-cba5-4d2a-9629-b9f414e3bff0]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 18.1164627,
+          "y": 27.68078,
+          "z": 190.071228
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 15.7885685,
+          "z": 0.0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": true,
+        "Root": "d1939d21e3b8375f2e24a08c",
+        "Items": [
+          {
+            "_id": "5b4e11198e20deabf060033b",
+            "_tpl": "68d447093d64217f3ec4c318",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68d447093d64217f3ec4c318"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "woods": [
+    {
+      "locationId": "(298.0992 23.7685 -507.0294)",
+      "probability": 1.0,
+      "template": {
+        "Id": "Propane Tank Long Blue (Quest) [745a2e91-ab85-472f-aed4-4689ecaf73c7]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 298.0992,
+          "y": 23.7684937,
+          "z": -507.029358
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 358.98703,
+          "z": 0.0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": true,
+        "Root": "ecc63dd072eff7dc93ed8e96",
+        "Items": [
+          {
+            "_id": "29baf7d50e5d643d7ca55def",
+            "_tpl": "68d5ae7e54005f3273b47808",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68d5ae7e54005f3273b47808"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "lighthouse": [
+    {
+      "locationId": "(57.2121 12.7412 -873.9466)",
+      "probability": 1.0,
+      "template": {
+        "Id": "Propane Tank Long Blue (Quest) [8e56e1fc-7f3c-40c2-aa5d-dc16221082f6]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 57.2121048,
+          "y": 12.7412071,
+          "z": -873.9466
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 350.3358,
+          "z": 0.0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": true,
+        "Root": "1644cd277df35e4e52c55601",
+        "Items": [
+          {
+            "_id": "a0e5552734531524670a8c01",
+            "_tpl": "68c2b144e116e16d10f66afd",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68c2b144e116e16d10f66afd"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    }
+  ]
+}

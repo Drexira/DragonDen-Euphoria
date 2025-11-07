@@ -1,0 +1,266 @@
+{
+  "tarkovstreets": [
+    {
+      "locationId": "(207.4266 7.2730 306.2283)",
+      "probability": 1.0,
+      "template": {
+        "Id": "Fuel Barrel Blue (Quest) [a2421365-6f15-4365-902e-522f3b14be93]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 207.426575,
+          "y": 7.27301073,
+          "z": 306.228333
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 48.024086,
+          "z": 0.0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": true,
+        "Root": "e8718de4600e67b0d34c665f",
+        "Items": [
+          {
+            "_id": "36273d4ce172714e032ef843",
+            "_tpl": "68c2b14fad9fae912d1df8da",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68c2b14fad9fae912d1df8da"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-70.3428 2.2118 99.7432)",
+      "probability": 1.0,
+      "template": {
+        "Id": "Fuel Barrel Green (Quest) [8957458b-8bd5-4459-8871-bfe6a4f96e76]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -70.3427658,
+          "y": 2.21179914,
+          "z": 99.74317
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 74.31816,
+          "z": 0.0
+        },
+        "IsGroupPosition": true,
+        "GroupPositions": [
+          {
+            "Name": "groupPoint[0]",
+            "Weight": 1,
+            "Position": {
+              "x": -70.3427658,
+              "y": 2.21179914,
+              "z": 99.74317
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 74.31816,
+              "z": 0.0
+            }
+          },
+          {
+            "Name": "groupPoint[1]",
+            "Weight": 1,
+            "Position": {
+              "x": -77.16755,
+              "y": 1.843684,
+              "z": 109.631279
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 7.948924,
+              "z": 0.0
+            }
+          },
+          {
+            "Name": "groupPoint[2]",
+            "Weight": 1,
+            "Position": {
+              "x": -86.5695648,
+              "y": 1.35530221,
+              "z": 89.81748
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 196.948,
+              "z": 0.0
+            }
+          },
+          {
+            "Name": "groupPoint[3]",
+            "Weight": 1,
+            "Position": {
+              "x": -42.5566254,
+              "y": 1.35034823,
+              "z": 133.929047
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 33.5867348,
+              "z": 0.0
+            }
+          }
+        ],
+        "IsAlwaysSpawn": true,
+        "Root": "e5d573b41f0d44793bb31de8",
+        "Items": [
+          {
+            "_id": "02ce6a7d7d6a6ddea29464b0",
+            "_tpl": "68d03e45dfd67f59d44ad721",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68d03e45dfd67f59d44ad721"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-117.5465 5.3643 245.7199)",
+      "probability": 1.0,
+      "template": {
+        "Id": "C4 Bomb (Quest) [a5865577-a540-4100-9676-d4738c09788b]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -117.5465,
+          "y": 5.364292,
+          "z": 245.7199
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 244.82283,
+          "z": 0.0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": true,
+        "Root": "f591108ec0e373badaa3614a",
+        "Items": [
+          {
+            "_id": "571fe214e057058d57b0b09c",
+            "_tpl": "68d33aa538e5f91a72416b0c",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68d33aa538e5f91a72416b0c"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-132.7042 9.7966 266.6255)",
+      "probability": 1.0,
+      "template": {
+        "Id": "Egg (Quest) [e4111ef3-7512-4e4d-a9e5-27cb69bf0bfa]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -132.704163,
+          "y": 9.796634,
+          "z": 266.6255
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 208.702408,
+          "z": 0.0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": true,
+        "Root": "a92439be7d4f8203a93204c3",
+        "Items": [
+          {
+            "_id": "f757c72b75fafdc968c0e9ad",
+            "_tpl": "68c2b153fd8bce0ac3f36b60",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68c2b153fd8bce0ac3f36b60"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-142.1580 3.0705 295.9395)",
+      "probability": 1.0,
+      "template": {
+        "Id": "Fuel Barrel Blue (Quest) [85ca80f8-64d6-4602-8947-e7e27dfab3ca]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -142.15799,
+          "y": 3.07049274,
+          "z": 295.939453
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 13.4249153,
+          "z": 0.0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": true,
+        "Root": "1200c143a34028275c89709d",
+        "Items": [
+          {
+            "_id": "a887c94e6666fd10c864f955",
+            "_tpl": "68d446d4dd7faf7db56a67af",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68d446d4dd7faf7db56a67af"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    }
+  ]
+}

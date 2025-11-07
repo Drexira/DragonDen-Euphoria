@@ -1,0 +1,404 @@
+{
+  "rezervbase": [
+    {
+      "locationId": "(12.6197 -3.7854 -28.4730)",
+      "probability": 1.0,
+      "template": {
+        "Id": "Detonator Clicker (Quest) [491536b2-3e5c-444b-aab9-bc7a83d0c93c]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 12.6196547,
+          "y": -3.785358,
+          "z": -28.47298
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 317.001373,
+          "z": 0.0
+        },
+        "IsGroupPosition": true,
+        "GroupPositions": [
+          {
+            "Name": "groupPoint[0]",
+            "Weight": 1,
+            "Position": {
+              "x": 12.6196547,
+              "y": -3.785358,
+              "z": -28.47298
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 317.001373,
+              "z": 0.0
+            }
+          },
+          {
+            "Name": "groupPoint[1]",
+            "Weight": 1,
+            "Position": {
+              "x": 94.01375,
+              "y": 2.96238732,
+              "z": -21.1955261
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 1.20449233,
+              "z": 0.0
+            }
+          }
+        ],
+        "IsAlwaysSpawn": true,
+        "Root": "685a181a9f6ef51598d65f57",
+        "Items": [
+          {
+            "_id": "e94202cffcf20fc6760b8716",
+            "_tpl": "68cd92c8aed61ae8d4172145",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68cd92c8aed61ae8d4172145"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-115.4254 -14.0068 22.8411)",
+      "probability": 1.0,
+      "template": {
+        "Id": "C4 Bomb (Quest) [9bd7d434-0b97-475b-a948-b197ecd74b71]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -115.425438,
+          "y": -14.0068483,
+          "z": 22.8410568
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 197.123428,
+          "z": 0.0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": true,
+        "Root": "585a4ce38a8d2331e66e14ce",
+        "Items": [
+          {
+            "_id": "65c79d33ba41e26577d3d4eb",
+            "_tpl": "68cd9a7a7f3394bfb37527ce",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68cd9a7a7f3394bfb37527ce"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-167.2094 -8.3864 32.9726)",
+      "probability": 1.0,
+      "template": {
+        "Id": "Landmine (Quest) [796ffb56-beef-49f2-af47-78c55c5fd603]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -167.209412,
+          "y": -8.386387,
+          "z": 32.9726448
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 297.819855,
+          "z": 0.0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": true,
+        "Root": "e92e950a9055b168d42290f0",
+        "Items": [
+          {
+            "_id": "84965d43223baf1b6748c587",
+            "_tpl": "68c2b148a23a2fa9a103746d",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68c2b148a23a2fa9a103746d"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-81.1501 -13.5396 22.9353)",
+      "probability": 1.0,
+      "template": {
+        "Id": "Propane Tank Long Grey (Quest) [6024004c-e379-4d59-8680-acf1be4cb77b]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -81.1500549,
+          "y": -13.5396194,
+          "z": 22.9353237
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 323.1793,
+          "z": 0.0
+        },
+        "IsGroupPosition": true,
+        "GroupPositions": [
+          {
+            "Name": "groupPoint[0]",
+            "Weight": 1,
+            "Position": {
+              "x": -81.1500549,
+              "y": -13.5396194,
+              "z": 22.9353237
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 323.1793,
+              "z": 0.0
+            }
+          },
+          {
+            "Name": "groupPoint[1]",
+            "Weight": 1,
+            "Position": {
+              "x": -84.80907,
+              "y": -13.56355,
+              "z": 23.2423763
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 64.10426,
+              "z": 0.0
+            }
+          },
+          {
+            "Name": "groupPoint[2]",
+            "Weight": 1,
+            "Position": {
+              "x": -81.10016,
+              "y": -13.5466185,
+              "z": 29.7428284
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 217.1153,
+              "z": 0.0
+            }
+          }
+        ],
+        "IsAlwaysSpawn": true,
+        "Root": "a00bec912c2e208d4b81fa25",
+        "Items": [
+          {
+            "_id": "9f10c0e884154f43d561136e",
+            "_tpl": "68c2b1427c6c6c626b21448e",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68c2b1427c6c6c626b21448e"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-55.4377 0.1919 37.8611)",
+      "probability": 1.0,
+      "template": {
+        "Id": "Detonator Electrical (Quest) [50ede0c2-cfc1-4650-bb99-c8dab00e9ce1]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -55.4377441,
+          "y": 0.19191511,
+          "z": 37.8610954
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 174.2022,
+          "z": 0.0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": true,
+        "Root": "01cef6b0bfed6ff3e9cc7d70",
+        "Items": [
+          {
+            "_id": "6895506ed8b0e3241538f051",
+            "_tpl": "68d33a8dfa6ffc404b8e9f12",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68d33a8dfa6ffc404b8e9f12"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(193.4910 -5.8708 -226.5427)",
+      "probability": 1.0,
+      "template": {
+        "Id": "Egg (Quest) [d1124698-b37e-4745-9504-06f04b8ebda7]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 193.490967,
+          "y": -5.870773,
+          "z": -226.5427
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 116.635849,
+          "z": 0.0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": true,
+        "Root": "66d48b682a98309e4f6cb9a5",
+        "Items": [
+          {
+            "_id": "2cb79d3b3fc2eb3847490888",
+            "_tpl": "68c2b15611bf64f302262a51",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68c2b15611bf64f302262a51"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-155.3113 -7.8120 77.0182)",
+      "probability": 1.0,
+      "template": {
+        "Id": "Egg (Quest) [3a0ba7f7-7e7d-460e-8d4e-30ee58f1a4b6]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -155.311264,
+          "y": -7.81201649,
+          "z": 77.01823
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 18.2859764,
+          "z": 0.0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": true,
+        "Root": "76e270f51a64e1d8deda74ea",
+        "Items": [
+          {
+            "_id": "0a27129ce27a1e0bd49043fb",
+            "_tpl": "68c2b1555bf555d3eb88883b",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68c2b1555bf555d3eb88883b"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-129.2132 -5.6047 -18.0781)",
+      "probability": 1.0,
+      "template": {
+        "Id": "C4 Bomb (Quest) [6eb14b8e-f97b-4414-b629-96bf7c3ae190]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -129.213165,
+          "y": -5.60468435,
+          "z": -18.07806
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 181.890808,
+          "z": 0.0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": true,
+        "Root": "7f0bf634db9a2729b5504568",
+        "Items": [
+          {
+            "_id": "26e4e33164e5c211c8f62519",
+            "_tpl": "68d5be133dbd7bd65915f3e7",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68d5be133dbd7bd65915f3e7"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "sandbox": [
+    {
+      "locationId": "(-12.9488 30.5628 67.5285)",
+      "probability": 1.0,
+      "template": {
+        "Id": "Weeb Tablet (Quest) [2dfe46ec-0b0a-4875-89f1-a83e85060fce]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -12.9487543,
+          "y": 30.5627975,
+          "z": 67.5284958
+        },
+        "Rotation": {
+          "x": 180.0,
+          "y": 269.52594,
+          "z": 0.0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": true,
+        "Root": "678ddaa5974e700b948dfcfc",
+        "Items": [
+          {
+            "_id": "68e466ec5828248d3a5b1087",
+            "_tpl": "68c2b13c0a8ceb59831e2d58",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68c2b13c0a8ceb59831e2d58"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(21.0215 23.4826 251.7488)",
+      "probability": 1.0,
+      "template": {
+        "Id": "C4 Bomb (Quest) [549e3b05-64b4-41ea-8e8f-0b6b54bc8c72]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 21.0214977,
+          "y": 23.4826279,
+          "z": 251.7488
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 224.740936,
+          "z": 0.0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": true,
+        "Root": "dfb463e773b336b54e25a694",
+        "Items": [
+          {
+            "_id": "48beff4ce374b8fcbe69df5f",
+            "_tpl": "68c2b139fe184873e60dd5c1",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68c2b139fe184873e60dd5c1"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(107.5045 24.9142 111.1975)",
+      "probability": 1.0,
+      "template": {
+        "Id": "Detonator Electrical (Quest) [5ccddb88-11b8-4c4a-ab9e-160fc4b716bd]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 107.504547,
+          "y": 24.9142189,
+          "z": 111.197548
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 269.435181,
+          "z": 0.0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": true,
+        "Root": "a0c373367ecab8db956e1e5f",
+        "Items": [
+          {
+            "_id": "6a02ab8841e909a216bd0708",
+            "_tpl": "68c2b15ec777b5fb1c5530fa",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68c2b15ec777b5fb1c5530fa"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    }
+  ]
+}

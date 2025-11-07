@@ -1,0 +1,252 @@
+{
+  "laboratory": [
+    {
+      "locationId": "(-161.4716 4.8269 -349.1239)",
+      "probability": 1.0,
+      "template": {
+        "Id": "Dragon Den Optics Eye (Quest) [9e0ef681-7a46-4394-b2fc-484b28fd43fe]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -161.471634,
+          "y": 4.826889,
+          "z": -349.123871
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 277.8927,
+          "z": 0.0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": true,
+        "Root": "526a08909044c2614b58a378",
+        "Items": [
+          {
+            "_id": "30b4867eebce388de6a04da1",
+            "_tpl": "68c2b15c6241709fbab89f88",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68c2b15c6241709fbab89f88"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-91.0624 0.0794 -443.1563)",
+      "probability": 1.0,
+      "template": {
+        "Id": "C4 Bomb (Quest) [8c524113-f61a-4d82-b671-d1e911cbf102]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -91.062355,
+          "y": 0.0794279054,
+          "z": -443.156342
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 170.427811,
+          "z": 0.0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": true,
+        "Root": "61f3891e81bef512b60f12df",
+        "Items": [
+          {
+            "_id": "b9ac0c847c6e5c6951712f81",
+            "_tpl": "68d023539a69336803f294e4",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68d023539a69336803f294e4"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-268.9683 4.9667 -322.3104)",
+      "probability": 1.0,
+      "template": {
+        "Id": "Detonator Electrical (Quest) [884390f0-c362-4069-a254-210f6efd8f66]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -268.968262,
+          "y": 4.966727,
+          "z": -322.3104
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 66.4543,
+          "z": 0.0
+        },
+        "IsGroupPosition": true,
+        "GroupPositions": [
+          {
+            "Name": "groupPoint[0]",
+            "Weight": 1,
+            "Position": {
+              "x": -268.968262,
+              "y": 4.966727,
+              "z": -322.3104
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 66.4543,
+              "z": 0.0
+            }
+          },
+          {
+            "Name": "groupPoint[1]",
+            "Weight": 1,
+            "Position": {
+              "x": -269.015472,
+              "y": 4.966727,
+              "z": -320.916962
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 66.4543,
+              "z": 0.0
+            }
+          },
+          {
+            "Name": "groupPoint[2]",
+            "Weight": 1,
+            "Position": {
+              "x": -266.474762,
+              "y": 4.966727,
+              "z": -316.492645
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 196.47287,
+              "z": 0.0
+            }
+          }
+        ],
+        "IsAlwaysSpawn": true,
+        "Root": "aad815f6b40e2690b69350d1",
+        "Items": [
+          {
+            "_id": "cf411ad5f369cf0b9df4299f",
+            "_tpl": "68d0234219c60b78a1c3d4b5",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68d0234219c60b78a1c3d4b5"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-114.3623 4.6447 -402.7675)",
+      "probability": 1.0,
+      "template": {
+        "Id": "Dragon Den Optics Eye (Quest) [11ad03aa-3157-47ed-a0a8-859cc216c3bc]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -114.362267,
+          "y": 4.644707,
+          "z": -402.767517
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 245.21283,
+          "z": 0.0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": true,
+        "Root": "d2da069f92f2bfc482a83032",
+        "Items": [
+          {
+            "_id": "2ce1c020807afda5d5acc0d5",
+            "_tpl": "68d47747eaccbe89b8384e0c",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68d47747eaccbe89b8384e0c"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-180.4086 0.4467 -317.1254)",
+      "probability": 1.0,
+      "template": {
+        "Id": "Detonator Electrical (Quest) [d689c5b2-f522-41c5-8fea-8fc375811c6f]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -180.408646,
+          "y": 0.446662217,
+          "z": -317.125427
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 269.621216,
+          "z": 0.0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": true,
+        "Root": "9415a49e369235b5de7ee8c9",
+        "Items": [
+          {
+            "_id": "9dff9c0a21cfe0b78c64a015",
+            "_tpl": "68d5be65c27e9814f4b4fd1b",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "68d5be65c27e9814f4b4fd1b"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    }
+  ]
+}
