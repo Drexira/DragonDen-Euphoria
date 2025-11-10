@@ -6,7 +6,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <OutputType>Library</OutputType>
-        <Version>2.0.0</Version>
+        <Version>2.0.1</Version>
         <OutputPath>bin\$(Configuration)\$(ProjectName)\$(AssemblyName)\</OutputPath>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
         <Title>DragonDen-Euphoria</Title>
@@ -26,9 +26,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="SPTarkov.Common" Version="4.0.2-pre.202510202154" />
-        <PackageReference Include="SPTarkov.DI" Version="4.0.2-pre.202510202154" />
-        <PackageReference Include="SPTarkov.Server.Core" Version="4.0.2-pre.202510202154" />
+        <PackageReference Include="SPTarkov.Common" Version="4.0.4" />
+        <PackageReference Include="SPTarkov.DI" Version="4.0.4" />
+        <PackageReference Include="SPTarkov.Server.Core" Version="4.0.4" />
 
         <Reference Include="WTTServerCommonLib">
             <HintPath>C:\SPT\SPT 4.0\SPT\user\mods\WTT-ServerCommonLib\WTT-ServerCommonLib.dll</HintPath>
